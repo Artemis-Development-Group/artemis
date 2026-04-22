@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+__pycache__
+
+build/
+artemis_service_activity.egg-info
+artemis_service_activity/*_thrift

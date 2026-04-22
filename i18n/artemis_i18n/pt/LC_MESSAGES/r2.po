@@ -1,0 +1,7854 @@
+# Translations template for r2.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the r2 project.
+# 
+# Translators:
+# alice_wanderley <wanderley.alice@gmail.com>, 2013
+# TheHorseSizedDuck <alvaromorais@live.com>, 2013
+# André Lorena <unsilentrevolution@gmail.com>, 2012
+# LordLeet <diogo_@live.com.pt>, 2013
+# dodjocata <dodjocata@yahoo.com.br>, 2012
+# dodjocata <dodjocata@yahoo.com.br>, 2012
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# Gabriel Huwe <>, 2012
+# hilam <hildeberto@gmail.com>, 2013
+# hilam <hildeberto@gmail.com>, 2013
+# greypo, 2013
+# María Rolón <luxlloth@gmail.com>, 2012
+# María Rolón <luxlloth@gmail.com>, 2012
+# mattheus <mattheus.henrique@gmail.com>, 2013
+# mattheus <mattheus.henrique@gmail.com>, 2013
+# mfigueiredo <mfigueiredo@gmail.com>, 2012
+# mfigueiredo <mfigueiredo@gmail.com>, 2012
+# NICEcookie <rafaelmartinsrm@gmail.com>, 2012
+# NICEcookie <rafaelmartinsrm@gmail.com>, 2012
+# ltedt <rafaelrodolfoso@gmail.com>, 2013
+# TheHorseSizedDuck <alvaromorais@live.com>, 2013
+# André Lorena <unsilentrevolution@gmail.com>, 2012
+# vitorgatti <vitorgatti@yahoo.com.br>, 2012
+# vitorgatti <vitorgatti@yahoo.com.br>, 2012
+# wandeko <thewandeko@gmail.com>, 2012
+# wandeko <thewandeko@gmail.com>, 2012
+# alice_wanderley <wanderley.alice@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Artemis\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-02-28 18:50-0700\n"
+"PO-Revision-Date: 2014-03-01 01:52+0000\n"
+"Last-Translator: Deimorz <deimorz@Artemis.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/Artemis/language/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Display-Name: português\n"
+"Display-Name-en: Portuguese\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:51
+msgid "we power awesome communities."
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:52
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:14
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:20
+msgid "about Artemis"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:65
+msgid "we spend our days building Artemis."
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:66
+msgid "about the Artemis team"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:75
+#, python-format
+msgid "you've sent us over %s postcards."
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:76
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:22
+msgid "postcards"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:84
+msgid "I also do birthday parties."
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:85
+msgid "the alien"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:92
+msgid "new to Artemis? welcome."
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/about.py:93
+msgid "guide"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:21 r2/lib/menus.py:93
+msgid "team"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:23
+msgid "alien"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/pages.py:52 r2/lib/menus.py:449
+msgid "sorted by"
+msgstr "exibir primeiro"
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:43
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:69
+#: r2/controllers/listingcontroller.py:557
+#, python-format
+msgid "submitted by %(user)s"
+msgstr "enviado por %(user)s"
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:80
+msgid "how Artemis works"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:88
+msgid "stats at a glance"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:90
+#, python-format
+msgid "as of %(value)s"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:94
+#, python-format
+msgid "**last month**, Artemis had %(value)s unique visitors"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:95
+#, python-format
+msgid "hailing from over %(value)s different countries"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:96
+#, python-format
+msgid "viewing a total of %(value)s pages"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:99
+#, python-format
+msgid "**yesterday**, Artemis powered %(value)s active communities"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:99
+msgid "communities with at least 5 posts or comments yesterday"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:100
+#, python-format
+msgid "consisting of over %(value)s logged in Artemisors"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:100
+msgid "logged-in Artemisors yesterday"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:101
+#, python-format
+msgid "casting over %(value)s votes"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/about.html:105
+#: r2/lib/pages/wiki.py:107
+msgid "history"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/alienmedia.html:4
+msgid "logo assets"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/alienmedia.html:23
+msgid "logo usage guidelines"
+msgstr ""
+
+#: ../../Artemis-plugin-about/Artemis_about/templates/alienmedia.html:36
+msgid "color guide"
+msgstr ""
+
+#: r2/controllers/api.py:177 r2/controllers/api.py:3085
+#: r2/controllers/api.py:3146 r2/controllers/listingcontroller.py:478
+msgid "API"
+msgstr "API"
+
+#: r2/controllers/api.py:227
+msgid "thanks for your message! you should hear back from us shortly."
+msgstr "obrigado pela sua mensagem! você receberá uma resposta em breve."
+
+#: r2/controllers/api.py:257
+msgid "your message has been delivered"
+msgstr "sua mensagem foi entregue"
+
+#: r2/controllers/api.py:507
+msgid "no title found"
+msgstr "sem título"
+
+#: r2/controllers/api.py:920 r2/controllers/api.py:937
+#: r2/controllers/api.py:1710 r2/controllers/api.py:1917
+#: r2/controllers/api.py:2164 r2/controllers/api.py:2880
+#: r2/controllers/api.py:2920 r2/controllers/api.py:2995
+#: r2/controllers/api.py:3207 r2/controllers/api.py:3212
+#: r2/controllers/api.py:3398 r2/controllers/promotecontroller.py:790
+#: r2/lib/pages/pages.py:4172 r2/templates/frametoolbar.html:195
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/controllers.py:210
+msgid "saved"
+msgstr "salvos"
+
+#: r2/controllers/api.py:985
+msgid "all other sessions have been logged out"
+msgstr ""
+
+#: r2/controllers/api.py:1039
+msgid "you should be getting a verification email shortly."
+msgstr "você deverá receber um e-mail de verificação daqui a pouco"
+
+#: r2/controllers/api.py:1041 r2/controllers/api.py:1052
+msgid "your email has been updated"
+msgstr "seu e-mail foi atualizado"
+
+#: r2/controllers/api.py:1063
+msgid "your email and password have been updated"
+msgstr "seu e-mail e senha foram atualizados"
+
+#: r2/controllers/api.py:1066
+msgid "your password has been updated"
+msgstr "sua senha foi atualizada"
+
+#: r2/controllers/api.py:1490
+msgid "replied"
+msgstr "respondido"
+
+#: r2/controllers/api.py:1542
+msgid "shared"
+msgstr "compartilhado"
+
+#: r2/controllers/api.py:1545
+msgid "your link has been shared."
+msgstr "seu link foi compartilhado."
+
+#: r2/controllers/api.py:1694
+msgid "validation errors"
+msgstr "erros de validação"
+
+#: r2/controllers/api.py:1719
+msgid "conflict error"
+msgstr ""
+
+#: r2/controllers/api.py:1720
+msgid "There was a conflict while editing the stylesheet"
+msgstr ""
+
+#: r2/controllers/api.py:1827 r2/lib/menus.py:161
+#: r2/templates/printablebuttons.html:33
+#: r2/templates/branchestylesheet.html:236
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:73
+msgid "deleted"
+msgstr "excluído"
+
+#: r2/controllers/api.py:1886 r2/templates/branchestylesheet.html:202
+msgid "bad image name"
+msgstr "nome de imagem inválido"
+
+#: r2/controllers/api.py:1892
+#, python-format
+msgid "too many images (you only get %d)"
+msgstr "muitas imagens (você tem um limite de %d)"
+
+#: r2/controllers/api.py:1900
+msgid "Invalid image or general image error"
+msgstr ""
+
+#: r2/controllers/api.py:2052
+msgid "Sidebar was not saved"
+msgstr ""
+
+#: r2/controllers/api.py:2061
+msgid "Submission text was not saved"
+msgstr ""
+
+#: r2/controllers/api.py:2070
+msgid "Description was not saved"
+msgstr ""
+
+#: r2/controllers/api.py:2773
+msgid "an email will be sent to that account's address shortly"
+msgstr "um e-mail será enviado para o endereço dessa conta em instantes"
+
+#: r2/controllers/api.py:2775
+msgid "try again tomorrow"
+msgstr ""
+
+#: r2/controllers/api.py:2818
+msgid "password updated"
+msgstr ""
+
+#: r2/controllers/api.py:2948 r2/controllers/api.py:3167
+msgid "invalid css class"
+msgstr ""
+
+#: r2/controllers/api.py:2951 r2/controllers/api.py:3170
+msgid "too many css classes"
+msgstr ""
+
+#: r2/controllers/api.py:3187
+msgid "max flair templates reached"
+msgstr ""
+
+#: r2/controllers/api.py:3631 r2/lib/errors.py:105
+msgid "invalid client id"
+msgstr ""
+
+#: r2/controllers/api.py:3634
+msgid "cannot update deleted app"
+msgstr ""
+
+#: r2/controllers/api.py:3637
+msgid "app does not belong to you"
+msgstr ""
+
+#: r2/controllers/api.py:3645
+msgid "application updated"
+msgstr ""
+
+#: r2/controllers/api.py:3658
+msgid "application created"
+msgstr ""
+
+#: r2/controllers/api.py:3685
+msgid "developer added"
+msgstr ""
+
+#: r2/controllers/api_docs.py:40
+msgid "account"
+msgstr ""
+
+#: r2/controllers/api_docs.py:43 r2/lib/menus.py:99
+msgid "apps"
+msgstr ""
+
+#: r2/controllers/api_docs.py:46 r2/lib/permissions.py:83
+#: r2/templates/printablebuttons.html:67
+msgid "flair"
+msgstr ""
+
+#: r2/controllers/api_docs.py:49
+msgid "links & comments"
+msgstr ""
+
+#: r2/controllers/api_docs.py:52
+msgid "private messages"
+msgstr ""
+
+#: r2/controllers/api_docs.py:55
+msgid "moderation"
+msgstr ""
+
+#: r2/controllers/api_docs.py:58
+msgid "misc"
+msgstr ""
+
+#: r2/controllers/api_docs.py:61
+msgid "listings"
+msgstr ""
+
+#: r2/controllers/api_docs.py:64
+msgid "search"
+msgstr ""
+
+#: r2/controllers/api_docs.py:67 r2/controllers/listingcontroller.py:964
+#: r2/lib/menus.py:92 r2/templates/pagenamenav.html:59
+msgid "branches"
+msgstr "branches"
+
+#: r2/controllers/api_docs.py:70
+msgid "multis"
+msgstr ""
+
+#: r2/controllers/api_docs.py:73
+msgid "users"
+msgstr ""
+
+#: r2/controllers/api_docs.py:76 r2/lib/menus.py:79 r2/lib/permissions.py:96
+#: r2/templates/createbranch.html:198
+msgid "wiki"
+msgstr ""
+
+#: r2/controllers/api_docs.py:79
+msgid "captcha"
+msgstr ""
+
+#: r2/controllers/api_docs.py:221
+msgid "api documentation"
+msgstr ""
+
+#: r2/controllers/buttons.py:107
+msgid "Artemis buttons"
+msgstr "botões do Artemis"
+
+#: r2/controllers/buttons.py:112
+msgid "Artemis widget"
+msgstr "widget do Artemis"
+
+#: r2/controllers/buttons.py:117
+msgid "bookmarklets"
+msgstr "bookmarklets"
+
+#: r2/controllers/embed.py:67 r2/lib/pages/pages.py:721
+#: r2/templates/frametoolbar.html:108
+msgid "help"
+msgstr "ajuda"
+
+#: r2/controllers/error.py:129
+#, python-format
+msgid "forbidden (%(domain)s)"
+msgstr "proibido (%(domain)s)"
+
+#: r2/controllers/error.py:130
+msgid "you are not allowed to do that"
+msgstr ""
+
+#: r2/controllers/error.py:137
+msgid "page not found"
+msgstr "página não encontrada"
+
+#: r2/controllers/error.py:138
+msgid "the page you requested does not exist"
+msgstr "a página solicitada não existe"
+
+#: r2/controllers/front.py:175 r2/lib/pages/pages.py:4165
+msgid "explore"
+msgstr ""
+
+#: r2/controllers/front.py:379
+msgid "no comments (yet)"
+msgstr ""
+
+#: r2/controllers/front.py:381
+#, python-format
+msgid "all %d comments"
+msgstr ""
+
+#: r2/controllers/front.py:383
+#, python-format
+msgid "top %d comments"
+msgstr ""
+
+#: r2/controllers/front.py:408
+#, python-format
+msgid "show all %d"
+msgstr ""
+
+#: r2/controllers/front.py:410
+#, python-format
+msgid "show %d"
+msgstr ""
+
+#: r2/controllers/front.py:426 r2/controllers/front.py:428
+msgid "create a branch"
+msgstr ""
+
+#: r2/controllers/front.py:556 r2/controllers/front.py:560
+#: r2/controllers/listingcontroller.py:536
+#: r2/controllers/listingcontroller.py:751
+#: r2/controllers/listingcontroller.py:765 r2/lib/menus.py:169
+#: r2/lib/menus.py:346 r2/lib/menus.py:507 r2/lib/pages/pages.py:3444
+#: r2/templates/createbranch.html:248 r2/templates/createbranch.html:259
+#: r2/templates/createbranch.html:270
+msgid "all"
+msgstr "tudo"
+
+#: r2/controllers/front.py:567
+msgid "filter by action"
+msgstr ""
+
+#: r2/controllers/front.py:569
+msgid "filter by moderator"
+msgstr ""
+
+#: r2/controllers/front.py:708
+msgid "links and comments"
+msgstr ""
+
+#: r2/controllers/front.py:709 r2/lib/pages/pages.py:3904
+#: r2/templates/createbranch.html:242
+msgid "links"
+msgstr ""
+
+#: r2/controllers/front.py:710 r2/controllers/listingcontroller.py:1102
+#: r2/lib/pages/pages.py:3909 r2/templates/createbranch.html:264
+msgid "comments"
+msgstr "comentários"
+
+#: r2/controllers/front.py:711
+msgid "show"
+msgstr ""
+
+#: r2/controllers/front.py:781 r2/lib/menus.py:147
+msgid "awards"
+msgstr "prêmios"
+
+#: r2/controllers/front.py:816 r2/lib/menus.py:114
+msgid "related"
+msgstr "relacionados"
+
+#: r2/controllers/front.py:836
+msgid "other discussions"
+msgstr "outras conversas"
+
+#: r2/controllers/front.py:858 r2/controllers/front.py:920
+msgid "search results"
+msgstr "pesquisar resultados"
+
+#: r2/controllers/front.py:988
+msgid "seen it"
+msgstr "visto em"
+
+#: r2/controllers/front.py:1004 r2/models/branch.py:1404
+#: r2/templates/multiinfobar.html:33
+#, python-format
+msgid "%s branches"
+msgstr ""
+
+#: r2/controllers/front.py:1023 r2/lib/menus.py:78
+#: r2/templates/newlink.html:150
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:34
+msgid "submit"
+msgstr "enviar"
+
+#: r2/controllers/front.py:1127 r2/lib/menus.py:84
+msgid "contact us"
+msgstr ""
+
+#: r2/controllers/front.py:1137
+msgid "rules of Artemis"
+msgstr ""
+
+#: r2/controllers/front.py:1149
+msgid "claimed! enjoy your Artemis gold membership."
+msgstr ""
+
+#: r2/controllers/front.py:1169 r2/controllers/front.py:1408
+msgid "thanks"
+msgstr ""
+
+#: r2/controllers/front.py:1184
+msgid "claim this award?"
+msgstr ""
+
+#: r2/controllers/front.py:1206
+msgid "award claim"
+msgstr ""
+
+#: r2/controllers/front.py:1213 r2/templates/login.html:93
+#: r2/templates/loginformwide.html:45
+#: r2/templates/passwordverificationform.html:38
+#: r2/templates/prefdelete.html:57 r2/templates/prefotp.html:38
+#: r2/templates/prefotp.html:57 r2/templates/register.html:93
+msgid "password"
+msgstr "senha"
+
+#: r2/controllers/front.py:1233 r2/controllers/front.py:1262
+msgid "verify email"
+msgstr "verificar e-mail"
+
+#: r2/controllers/front.py:1281 r2/templates/loginformwide.html:52
+msgid "reset password"
+msgstr "redefinir senha"
+
+#: r2/controllers/front.py:1378 r2/controllers/post.py:164
+msgid "opt out"
+msgstr "parar de receber"
+
+#: r2/controllers/front.py:1378 r2/controllers/post.py:174
+msgid "welcome back"
+msgstr "bem-vindo de volta"
+
+#: r2/controllers/front.py:1447 r2/controllers/front.py:1503
+#: r2/controllers/front.py:1523 r2/lib/menus.py:91 r2/templates/gold.html:109
+msgid "Artemis gold"
+msgstr ""
+
+#: r2/controllers/front.py:1535 r2/controllers/ipn.py:1035
+msgid "Artemis gold subscription"
+msgstr ""
+
+#: r2/controllers/ipn.py:241 r2/controllers/ipn.py:242
+msgid "An anonymous Artemisor"
+msgstr ""
+
+#: r2/controllers/ipn.py:252
+#, python-format
+msgid "Let there be gold! %s just sent you Artemis gold!"
+msgstr ""
+
+#: r2/controllers/ipn.py:258
+msgid "Your comment has been gilded!"
+msgstr ""
+
+#: r2/controllers/ipn.py:291
+msgid "Your gold gift code has been generated!"
+msgstr ""
+
+#: r2/controllers/ipn.py:312
+msgid "nice try."
+msgstr ""
+
+#: r2/controllers/ipn.py:344
+msgid "that user has deleted their account"
+msgstr ""
+
+#: r2/controllers/ipn.py:360
+msgid "the gold has been delivered!"
+msgstr ""
+
+#: r2/controllers/ipn.py:373
+msgid "the gift code has been messaged to you!"
+msgstr ""
+
+#: r2/controllers/ipn.py:497
+msgid "Eureka! Thank you for investing in Artemis gold!"
+msgstr ""
+
+#: r2/controllers/ipn.py:509
+msgid "Eureka! Thank you for investing in Artemis gold cbranches!"
+msgstr ""
+
+#: r2/controllers/ipn.py:518 r2/controllers/ipn.py:539
+msgid "Thank you again for your support, and have fun spreading gold!"
+msgstr ""
+
+#: r2/controllers/ipn.py:533
+msgid "Thanks for giving the gift of Artemis gold!"
+msgstr ""
+
+#: r2/controllers/ipn.py:652
+msgid "Artemis gold payment cancelled"
+msgstr ""
+
+#: r2/controllers/ipn.py:667
+msgid "Artemis gold payment failed"
+msgstr ""
+
+#: r2/controllers/ipn.py:672
+msgid "Artemis gold subscription payment failed"
+msgstr ""
+
+#: r2/controllers/ipn.py:683
+msgid "Artemis gold refund"
+msgstr ""
+
+#: r2/controllers/ipn.py:789
+#, python-format
+msgid "error: %(error)s"
+msgstr ""
+
+#: r2/controllers/ipn.py:791
+msgid "invalid request"
+msgstr ""
+
+#: r2/controllers/ipn.py:793
+msgid "api error"
+msgstr ""
+
+#: r2/controllers/ipn.py:795
+msgid "connection error"
+msgstr ""
+
+#: r2/controllers/ipn.py:797
+msgid "error"
+msgstr ""
+
+#: r2/controllers/ipn.py:927
+msgid "error: address verification failed"
+msgstr ""
+
+#: r2/controllers/ipn.py:931
+msgid "error: cvc check failed"
+msgstr ""
+
+#: r2/controllers/ipn.py:976
+msgid "your gold subscription has been cancelled"
+msgstr ""
+
+#: r2/controllers/ipn.py:977
+#, python-format
+msgid "if you have any questions please email %(email)s"
+msgstr ""
+
+#: r2/controllers/ipn.py:1004
+msgid "something bad happened, try again later"
+msgstr ""
+
+#: r2/controllers/ipn.py:1013
+msgid "your account already has a gold subscription"
+msgstr ""
+
+#: r2/controllers/ipn.py:1019
+msgid "stop trying to trick the form"
+msgstr ""
+
+#: r2/controllers/ipn.py:1034
+msgid "subscription created"
+msgstr ""
+
+#: r2/controllers/ipn.py:1043
+msgid "payment submitted"
+msgstr ""
+
+#: r2/controllers/ipn.py:1044
+msgid "Artemis gold payment"
+msgstr ""
+
+#: r2/controllers/ipn.py:1060
+msgid "your payment details have been updated"
+msgstr ""
+
+#: r2/controllers/ipn.py:1072
+msgid "your subscription has been cancelled"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:362
+msgid "newest submissions"
+msgstr "envios mais recentes"
+
+#: r2/controllers/listingcontroller.py:392
+msgid "rising submissions"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:441
+msgid "top scoring links"
+msgstr "links com maior pontuação"
+
+#: r2/controllers/listingcontroller.py:445
+msgid "most controversial links"
+msgstr "links mais controversos"
+
+#: r2/controllers/listingcontroller.py:458
+msgid "you're really bored now, eh?"
+msgstr "você está bem entediado, hein?"
+
+#: r2/controllers/listingcontroller.py:542
+msgid "filter by branch"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:548
+msgid "my posts"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:549
+msgid "posts gilded by me"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:555
+#, python-format
+msgid "overview for %(user)s"
+msgstr "visão geral de %(user)s"
+
+#: r2/controllers/listingcontroller.py:556
+#, python-format
+msgid "comments by %(user)s"
+msgstr "comentários de %(user)s"
+
+#: r2/controllers/listingcontroller.py:558
+#, python-format
+msgid "gilded comments by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:559
+#, python-format
+msgid "liked by %(user)s"
+msgstr "gostou: %(user)s"
+
+#: r2/controllers/listingcontroller.py:560
+#, python-format
+msgid "disliked by %(user)s"
+msgstr "não gostou: %(user)s"
+
+#: r2/controllers/listingcontroller.py:561
+#, python-format
+msgid "saved by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:562
+#, python-format
+msgid "hidden by %(user)s"
+msgstr "ocultado por %(user)s"
+
+#: r2/controllers/listingcontroller.py:563
+#, python-format
+msgid "promoted by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:565
+#, python-format
+msgid "comments gilded by %(user)s"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:567
+#, python-format
+msgid "profile for %(user)s"
+msgstr "perfil de %(user)s"
+
+#: r2/controllers/listingcontroller.py:752
+#: r2/controllers/listingcontroller.py:766
+#: r2/templates/printablebuttons.html:345
+msgid "unread"
+msgstr "não lidos"
+
+#: r2/controllers/listingcontroller.py:754
+msgid "comment replies"
+msgstr "respostas a comentários"
+
+#: r2/controllers/listingcontroller.py:755
+msgid "post replies"
+msgstr "respostas a postagens"
+
+#: r2/controllers/listingcontroller.py:758
+msgid "username mentions"
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:773 r2/templates/Artemisheader.html:96
+msgid "messages"
+msgstr "mensagens"
+
+#: r2/controllers/listingcontroller.py:1032
+msgid "branches: "
+msgstr ""
+
+#: r2/controllers/listingcontroller.py:1330
+msgid "gilded comments"
+msgstr ""
+
+#: r2/controllers/multi.py:251
+#, python-format
+msgid "copied from %(source)s"
+msgstr ""
+
+#: r2/controllers/policies.py:42 r2/lib/pages/pages.py:4247
+msgid "privacy policy"
+msgstr ""
+
+#: r2/controllers/policies.py:45 r2/lib/pages/pages.py:4248
+msgid "user agreement"
+msgstr ""
+
+#: r2/controllers/post.py:141
+msgid "over 18?"
+msgstr "maior de 18?"
+
+#: r2/controllers/promotecontroller.py:148
+msgid "promoted by you"
+msgstr "promovido por você"
+
+#: r2/controllers/promotecontroller.py:398
+msgid "refund succeeded"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:400
+msgid "refund not needed"
+msgstr ""
+
+#: r2/controllers/promotecontroller.py:739
+msgid "failed to authenticate card.  sorry."
+msgstr "falha ao autenticar o cartão. desculpe."
+
+#: r2/controllers/promotecontroller.py:784
+msgid "bad image"
+msgstr "imagem inválida"
+
+#: r2/controllers/Artemis_base.py:1409
+msgid "search failed"
+msgstr "falha na pesquisa"
+
+#: r2/controllers/wiki.py:85
+msgid "The contents of this page appear on the submit page"
+msgstr ""
+
+#: r2/controllers/wiki.py:86
+msgid "The contents of this page appear on the branch sidebar"
+msgstr ""
+
+#: r2/controllers/wiki.py:87
+msgid "The contents of this page appear in the public branch description"
+msgstr ""
+
+#: r2/controllers/wiki.py:147
+#, python-format
+msgid "viewing revision from %s"
+msgstr ""
+
+#: r2/controllers/wiki.py:151 r2/controllers/wiki.py:152
+#, python-format
+msgid "%s ago"
+msgstr ""
+
+#: r2/controllers/wiki.py:153
+#, python-format
+msgid "comparing revisions from %(date_1)s and %(date_2)s"
+msgstr ""
+
+#: r2/controllers/wiki.py:158
+#, python-format
+msgid "viewing revision from %s ago"
+msgstr ""
+
+#: r2/controllers/wiki.py:204
+#, python-format
+msgid "a max of %d separators \"/\" are allowed in a wiki page name."
+msgstr ""
+
+#: r2/controllers/wiki.py:205
+msgid "Wiki error"
+msgstr ""
+
+#: r2/controllers/wiki.py:359
+msgid "You are doing that too much, please try again later."
+msgstr ""
+
+#: r2/lib/cssfilter.py:280
+msgid "if you need backslashes, you're doing it wrong"
+msgstr "se precisa de barras invertidas, você está fazendo algo errado"
+
+#: r2/lib/errors.py:31
+msgid "please login to do that"
+msgstr "faça login para isso"
+
+#: r2/lib/errors.py:32
+msgid "this page must be accessed using https"
+msgstr ""
+
+#: r2/lib/errors.py:33
+msgid "you can't do that on this domain"
+msgstr ""
+
+#: r2/lib/errors.py:34
+msgid "you need to set a valid email address to do that."
+msgstr "você precisa configurar um e-mail válido para fazer isso"
+
+#: r2/lib/errors.py:35
+msgid "a url is required"
+msgstr "é necessária uma url"
+
+#: r2/lib/errors.py:36
+msgid "you should check that url"
+msgstr "verifique essa url"
+
+#: r2/lib/errors.py:37
+#, python-format
+msgid "URI scheme must be one of: %(schemes)s"
+msgstr ""
+
+#: r2/lib/errors.py:38
+msgid "care to try these again?"
+msgstr "quer tentar de novo?"
+
+#: r2/lib/errors.py:39
+msgid "invalid user name"
+msgstr "nome de usuário inválido"
+
+#: r2/lib/errors.py:40
+msgid "that username is already taken"
+msgstr "este nome de usuário já está sendo usado"
+
+#: r2/lib/errors.py:41
+msgid "that username is taken by a deleted account"
+msgstr ""
+
+#: r2/lib/errors.py:42
+msgid "you can't send to a user that you have blocked"
+msgstr ""
+
+#: r2/lib/errors.py:43
+msgid "id not specified"
+msgstr "identificação não especificada"
+
+#: r2/lib/errors.py:44
+msgid "you provided too many ids"
+msgstr ""
+
+#: r2/lib/errors.py:45
+msgid "you can't do that"
+msgstr "você não pode fazer isso"
+
+#: r2/lib/errors.py:46
+msgid "you are not logged in as that user"
+msgstr ""
+
+#: r2/lib/errors.py:47
+msgid "you are already logged in"
+msgstr ""
+
+#: r2/lib/errors.py:48
+msgid "the link you are commenting on has been deleted"
+msgstr "o link sobre o qual você está comentando foi excluído"
+
+#: r2/lib/errors.py:49
+msgid "that comment has been deleted"
+msgstr "este comentário foi excluído"
+
+#: r2/lib/errors.py:50
+msgid "that element has been deleted"
+msgstr "esse elemento foi excluído"
+
+#: r2/lib/errors.py:51
+msgid "that password is unacceptable"
+msgstr "essa senha é inadequada"
+
+#: r2/lib/errors.py:52
+msgid "invalid password"
+msgstr "senha inválida"
+
+#: r2/lib/errors.py:53
+msgid "passwords do not match"
+msgstr "as senhas não conferem"
+
+#: r2/lib/errors.py:54
+msgid "please enter a name"
+msgstr "digite um nome"
+
+#: r2/lib/errors.py:55
+msgid "please enter an email address"
+msgstr "digite um endereço de e-mail"
+
+#: r2/lib/errors.py:56
+msgid "no email address for that user"
+msgstr "nenhum endereço de e-mail para este usuário"
+
+#: r2/lib/errors.py:57
+msgid "no verified email address for that user"
+msgstr ""
+
+#: r2/lib/errors.py:58
+msgid "send it to whom?"
+msgstr "mandar para quem?"
+
+#: r2/lib/errors.py:59
+msgid "please enter a subject"
+msgstr "digite um assunto"
+
+#: r2/lib/errors.py:60 r2/templates/gold.html:161
+msgid "that user doesn't exist"
+msgstr "esse usuário não existe"
+
+#: r2/lib/errors.py:61
+msgid "please enter a username"
+msgstr "digite um nome de usuário"
+
+#: r2/lib/errors.py:63
+#, python-format
+msgid "that number isn't in the right range (%(range)s)"
+msgstr ""
+
+#: r2/lib/errors.py:64
+msgid "you used a character here that we can't handle"
+msgstr "você usou um caractere que não podemos aceitar"
+
+#: r2/lib/errors.py:65
+#, python-format
+msgid "your budget must be at least $%(min)d and no more than $%(max)d."
+msgstr ""
+
+#: r2/lib/errors.py:66
+msgid "that link has already been submitted"
+msgstr "esse link já foi enviado"
+
+#: r2/lib/errors.py:67
+msgid "that branch already exists"
+msgstr ""
+
+#: r2/lib/errors.py:68
+msgid "that branch doesn't exist"
+msgstr ""
+
+#: r2/lib/errors.py:69
+msgid "you aren't allowed to post there."
+msgstr "você não tem permissão para publicar aqui"
+
+#: r2/lib/errors.py:70
+msgid "you must specify a branch"
+msgstr ""
+
+#: r2/lib/errors.py:71 r2/lib/validator/validator.py:2492
+msgid "that name isn't going to work"
+msgstr "este nome não vai funcionar"
+
+#: r2/lib/errors.py:72
+#, python-format
+msgid "you are doing that too much. try again in %(time)s."
+msgstr ""
+
+#: r2/lib/errors.py:73 r2/lib/strings.py:135
+msgid "You've submitted too many links recently. Please try again in an hour."
+msgstr ""
+
+#: r2/lib/errors.py:74
+msgid "you are doing that too much. try again later."
+msgstr ""
+
+#: r2/lib/errors.py:75
+msgid "your session has expired"
+msgstr "sua sessão expirou"
+
+#: r2/lib/errors.py:76
+msgid "you must accept the terms first"
+msgstr "você deve aceitar os termos primeiro"
+
+#: r2/lib/errors.py:80
+msgid "that option is not valid"
+msgstr "esta opção não é válida"
+
+#: r2/lib/errors.py:81
+#, python-format
+msgid "the following emails are invalid: %(emails)s"
+msgstr "os seguinte e-mails são inválidos: %(emails)s"
+
+#: r2/lib/errors.py:82
+msgid "please enter at least one email address"
+msgstr "digite ao menos um endereço de e-mail"
+
+#: r2/lib/errors.py:83
+#, python-format
+msgid "please only share to %(num)s emails at a time."
+msgstr "compartilhe somente com %(num)s e-mails por vez."
+
+#: r2/lib/errors.py:86
+msgid "please provide a date of the form mm/dd/yyyy"
+msgstr "insira uma data no formato mm/dd/aaaa"
+
+#: r2/lib/errors.py:87
+msgid "the dates need to be in order and not identical"
+msgstr "as datas devem estar em ordem e ser diferentes"
+
+#: r2/lib/errors.py:88
+#, python-format
+msgid "you must choose a date range of less than %(days)s days"
+msgstr ""
+
+#: r2/lib/errors.py:89
+#, python-format
+msgid "please enter a date %(day)s or earlier"
+msgstr ""
+
+#: r2/lib/errors.py:90
+#, python-format
+msgid "please enter a date %(day)s or later"
+msgstr ""
+
+#: r2/lib/errors.py:91
+#, python-format
+msgid "address problem: %(message)s"
+msgstr "problema de endereço: %(message)s"
+
+#: r2/lib/errors.py:92
+#, python-format
+msgid "card problem: %(message)s"
+msgstr "problema de cartão: %(message)s"
+
+#: r2/lib/errors.py:93
+#, python-format
+msgid "this is too long (max: %(max_length)s)"
+msgstr "isso é muito longo (máximo:%(max_length)s)"
+
+#: r2/lib/errors.py:94
+msgid "we need something here"
+msgstr "precisamos de algo aqui"
+
+#: r2/lib/errors.py:95
+msgid "we've never seen that code before"
+msgstr ""
+
+#: r2/lib/errors.py:96
+msgid "that code has already been claimed -- perhaps by you?"
+msgstr ""
+
+#: r2/lib/errors.py:97
+msgid "that branch doesn't allow text posts"
+msgstr ""
+
+#: r2/lib/errors.py:98
+msgid "that branch only allows text posts"
+msgstr ""
+
+#: r2/lib/errors.py:99
+msgid "that's a piece of history now; it's too late to reply to it"
+msgstr ""
+
+#: r2/lib/errors.py:100
+msgid "invalid css name"
+msgstr ""
+
+#: r2/lib/errors.py:101
+msgid "invalid css"
+msgstr ""
+
+#: r2/lib/errors.py:102
+msgid "invalid revision ID"
+msgstr ""
+
+#: r2/lib/errors.py:103
+msgid "too many flair css classes"
+msgstr ""
+
+#: r2/lib/errors.py:104
+msgid "not a valid flair target"
+msgstr ""
+
+#: r2/lib/errors.py:106
+msgid "invalid redirect_uri parameter"
+msgstr ""
+
+#: r2/lib/errors.py:107
+msgid "invalid scope requested"
+msgstr ""
+
+#: r2/lib/errors.py:108
+msgid "invalid refresh token"
+msgstr ""
+
+#: r2/lib/errors.py:109
+msgid "access denied by the user"
+msgstr ""
+
+#: r2/lib/errors.py:110
+msgid "please confirm the form"
+msgstr ""
+
+#: r2/lib/errors.py:111
+msgid "conflict error while saving"
+msgstr ""
+
+#: r2/lib/errors.py:112
+msgid "cannot perform this action via the API"
+msgstr ""
+
+#: r2/lib/errors.py:113
+#, python-format
+msgid "%(domain)s is not allowed on Artemis: %(reason)s"
+msgstr ""
+
+#: r2/lib/errors.py:114
+msgid "you must enable two-factor authentication"
+msgstr ""
+
+#: r2/lib/errors.py:115
+msgid "image problem"
+msgstr ""
+
+#: r2/lib/errors.py:116
+msgid "already added"
+msgstr ""
+
+#: r2/lib/errors.py:117
+msgid "too many developers"
+msgstr ""
+
+#: r2/lib/errors.py:118
+msgid "i don't believe you."
+msgstr ""
+
+#: r2/lib/errors.py:119
+msgid "that user is already a moderator"
+msgstr ""
+
+#: r2/lib/errors.py:120
+msgid "there is no pending invite for that branch"
+msgstr ""
+
+#: r2/lib/errors.py:121
+msgid "you cannot edit the budget of a live ad"
+msgstr ""
+
+#: r2/lib/errors.py:122
+msgid "you have too many campaigns for that promotion"
+msgstr ""
+
+#: r2/lib/errors.py:123
+msgid "that jsonp callback contains invalid characters"
+msgstr ""
+
+#: r2/lib/errors.py:124
+msgid "permissions don't apply to that type of user"
+msgstr ""
+
+#: r2/lib/errors.py:125
+msgid "invalid permissions string"
+msgstr ""
+
+#: r2/lib/errors.py:126
+msgid "invalid multi path"
+msgstr ""
+
+#: r2/lib/errors.py:127
+#, python-format
+msgid "%(reason)s"
+msgstr ""
+
+#: r2/lib/errors.py:128
+msgid "that multiArtemis doesn't exist"
+msgstr ""
+
+#: r2/lib/errors.py:129
+msgid "that multiArtemis already exists"
+msgstr ""
+
+#: r2/lib/errors.py:130
+msgid "you can't change that multiArtemis"
+msgstr ""
+
+#: r2/lib/errors.py:131
+msgid "no more space for branches in that multiArtemis"
+msgstr ""
+
+#: r2/lib/errors.py:132
+#, python-format
+msgid "can't add special branch %(path)s"
+msgstr ""
+
+#: r2/lib/errors.py:133
+msgid "unable to parse JSON data"
+msgstr ""
+
+#: r2/lib/errors.py:134
+msgid "unexpected JSON structure"
+msgstr ""
+
+#: r2/lib/errors.py:135
+#, python-format
+msgid "JSON missing key: \"%(key)s\""
+msgstr ""
+
+#: r2/lib/errors.py:136
+msgid "can't change post type"
+msgstr ""
+
+#: r2/lib/errors.py:137
+msgid "invalid location"
+msgstr ""
+
+#: r2/lib/errors.py:138
+msgid "that user is banned from the branch"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:2
+msgid "Funny 500 page message 1"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:4
+msgid "Funny 500 page message 2"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:6
+msgid "Funny 500 page message 3"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:8
+msgid "Funny 500 page message 4"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:10
+msgid "Funny 500 page message 5"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:12
+msgid "Funny 500 page message 6"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:14
+msgid "Funny 500 page message 7"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:16
+msgid "Funny 500 page message 8"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:18
+msgid "Funny 500 page message 9"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:20
+msgid "Funny 500 page message 10"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:22
+msgid "Reason to create a Artemis 1"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:24
+msgid "Reason to create a Artemis 2"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:26
+msgid "Reason to create a Artemis 3"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:28
+msgid "Reason to create a Artemis 4"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:30
+msgid "Reason to create a Artemis 5"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:32
+msgid "Reason to create a Artemis 6"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:34
+msgid "Reason to create a Artemis 7"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:36
+msgid "Reason to create a Artemis 8"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:38
+msgid "Reason to create a Artemis 9"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:40
+msgid "Reason to create a Artemis 10"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:42
+msgid "Reason to create a Artemis 11"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:44
+msgid "Reason to create a Artemis 12"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:46
+msgid "Reason to create a Artemis 13"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:48
+msgid "Reason to create a Artemis 14"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:50
+msgid "Reason to create a Artemis 15"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:52
+msgid "Reason to create a Artemis 16"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:54
+msgid "Reason to create a Artemis 17"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:56
+msgid "Reason to create a Artemis 18"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:58
+msgid "Reason to create a Artemis 19"
+msgstr ""
+
+#. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
+#. phrase
+#. (see the English version for ideas)
+#: r2/lib/generated_strings.py:60
+msgid "Reason to create a Artemis 20"
+msgstr ""
+
+#: r2/lib/generated_strings.py:61
+msgid "uniques by hour"
+msgstr ""
+
+#: r2/lib/generated_strings.py:62
+msgid "pageviews by hour"
+msgstr ""
+
+#: r2/lib/generated_strings.py:63
+msgid "traffic by hour"
+msgstr ""
+
+#: r2/lib/generated_strings.py:64
+msgid "impressions by hour"
+msgstr ""
+
+#: r2/lib/generated_strings.py:65
+msgid "clicks by hour"
+msgstr ""
+
+#: r2/lib/generated_strings.py:66
+msgid "uniques by day"
+msgstr ""
+
+#: r2/lib/generated_strings.py:67
+msgid "pageviews by day"
+msgstr ""
+
+#: r2/lib/generated_strings.py:68
+msgid "traffic by day"
+msgstr ""
+
+#: r2/lib/generated_strings.py:69
+msgid "impressions by day"
+msgstr ""
+
+#: r2/lib/generated_strings.py:70
+msgid "clicks by day"
+msgstr ""
+
+#: r2/lib/generated_strings.py:71
+msgid "uniques by month"
+msgstr ""
+
+#: r2/lib/generated_strings.py:72
+msgid "pageviews by month"
+msgstr ""
+
+#: r2/lib/generated_strings.py:73
+msgid "traffic by month"
+msgstr ""
+
+#: r2/lib/generated_strings.py:74
+msgid "impressions by month"
+msgstr ""
+
+#: r2/lib/generated_strings.py:75
+msgid "clicks by month"
+msgstr ""
+
+#: r2/lib/jsontemplates.py:471 r2/templates/usertext.html:128
+msgid "[removed]"
+msgstr ""
+
+#: r2/lib/menus.py:47 r2/lib/recommender.py:51
+msgid "hot"
+msgstr "populares"
+
+#: r2/lib/menus.py:48
+msgid "new"
+msgstr "novos"
+
+#: r2/lib/menus.py:49
+msgid "old"
+msgstr "antigos"
+
+#: r2/lib/menus.py:50
+msgid "ups"
+msgstr "a favor"
+
+#: r2/lib/menus.py:51
+msgid "downs"
+msgstr "contra"
+
+#: r2/lib/menus.py:52 r2/templates/widgetdemopanel.html:174
+msgid "top"
+msgstr "no topo"
+
+#: r2/lib/menus.py:53
+msgid "more"
+msgstr "mais"
+
+#: r2/lib/menus.py:54
+msgid "relevance"
+msgstr "relevantes"
+
+#: r2/lib/menus.py:55
+msgid "controversial"
+msgstr "controversos"
+
+#: r2/lib/menus.py:56
+msgid "gilded"
+msgstr ""
+
+#: r2/lib/menus.py:57
+msgid "best"
+msgstr "melhores"
+
+#: r2/lib/menus.py:58 r2/lib/menus.py:347
+msgid "random"
+msgstr ""
+
+#: r2/lib/menus.py:59
+msgid "saved {toolbar}"
+msgstr "salvos"
+
+#: r2/lib/menus.py:60
+msgid "recommended"
+msgstr "recomendados"
+
+#: r2/lib/menus.py:61 r2/lib/recommender.py:49
+#: r2/templates/exploreitemlisting.html:44
+msgid "rising"
+msgstr "subindo"
+
+#: r2/lib/menus.py:62
+msgid "admin"
+msgstr "administrar"
+
+#: r2/lib/menus.py:65 r2/templates/widgetdemopanel.html:122
+msgid "this hour"
+msgstr "da última hora"
+
+#: r2/lib/menus.py:66 r2/templates/widgetdemopanel.html:123
+msgid "today"
+msgstr "de hoje"
+
+#: r2/lib/menus.py:67 r2/templates/widgetdemopanel.html:124
+msgid "this week"
+msgstr "desta semana"
+
+#: r2/lib/menus.py:68 r2/templates/widgetdemopanel.html:125
+msgid "this month"
+msgstr "deste mês"
+
+#: r2/lib/menus.py:69
+msgid "this year"
+msgstr "deste ano"
+
+#: r2/lib/menus.py:70
+msgid "all time"
+msgstr "de todos os tempos"
+
+#: r2/lib/menus.py:73 r2/templates/preffeeds.html:118
+#: r2/templates/printablebuttons.html:40
+#: r2/templates/printablebuttons.html:138
+msgid "spam"
+msgstr "spam"
+
+#: r2/lib/menus.py:74
+msgid "autobanned"
+msgstr "banido automaticamente"
+
+#: r2/lib/menus.py:77 r2/lib/pages/pages.py:870 r2/lib/pages/pages.py:892
+msgid "preferences"
+msgstr "preferências"
+
+#: r2/lib/menus.py:80
+msgid "blog"
+msgstr ""
+
+#: r2/lib/menus.py:81 r2/templates/utils.html:464
+msgid "logout"
+msgstr "sair"
+
+#: r2/lib/menus.py:85
+msgid "buttons"
+msgstr "botões"
+
+#: r2/lib/menus.py:86
+msgid "widget"
+msgstr "widget"
+
+#: r2/lib/menus.py:87
+msgid "source code"
+msgstr "código-fonte"
+
+#: r2/lib/menus.py:88
+msgid "mobile"
+msgstr "móvel"
+
+#: r2/lib/menus.py:89
+msgid "store"
+msgstr "loja"
+
+#: r2/lib/menus.py:90
+msgid "advertise"
+msgstr ""
+
+#: r2/lib/menus.py:94
+msgid "rules"
+msgstr ""
+
+#: r2/lib/menus.py:95
+msgid "jobs"
+msgstr ""
+
+#: r2/lib/menus.py:98 r2/templates/newlink.html:121
+#: r2/templates/promotelinkform.html:224
+msgid "options"
+msgstr "opções"
+
+#: r2/lib/menus.py:100
+msgid "RSS feeds"
+msgstr "feeds RSS"
+
+#: r2/lib/menus.py:101
+msgid "friends"
+msgstr "amigos"
+
+#: r2/lib/menus.py:102 r2/templates/printablebuttons.html:339
+msgid "blocked"
+msgstr ""
+
+#: r2/lib/menus.py:103
+msgid "password/email"
+msgstr "senha/e-mail"
+
+#: r2/lib/menus.py:104 r2/templates/multiinfobar.html:48
+#: r2/templates/printablebuttons.html:33
+#: r2/templates/renderablecampaign.html:130
+#: r2/templates/wikipagesettings.html:76
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:6
+msgid "delete"
+msgstr "excluir"
+
+#: r2/lib/menus.py:105 r2/templates/prefotp.html:31
+msgid "two-factor authentication"
+msgstr ""
+
+#: r2/lib/menus.py:108
+msgid "compose"
+msgstr "redigir"
+
+#: r2/lib/menus.py:109
+msgid "inbox"
+msgstr "caixa de entrada"
+
+#: r2/lib/menus.py:110
+msgid "sent"
+msgstr "enviados"
+
+#: r2/lib/menus.py:113
+msgid "comments {toolbar}"
+msgstr "comentários"
+
+#: r2/lib/menus.py:115 r2/templates/prefoptions.html:281
+#: r2/templates/prefoptions.html:290 r2/templates/prefoptions.html:299
+msgid "details"
+msgstr "detalhes"
+
+#: r2/lib/menus.py:116
+#, python-format
+msgid "other discussions (%(num)s)"
+msgstr "outras conversas (%(num)s)"
+
+#: r2/lib/menus.py:117 r2/lib/pages/trafficpages.py:60
+msgid "traffic stats"
+msgstr "estatísticas de tráfego"
+
+#: r2/lib/menus.py:118 r2/models/modaction.py:154
+#: r2/templates/branchestylesheet.html:42
+msgid "stylesheet"
+msgstr "folha de estilos"
+
+#: r2/lib/menus.py:121
+msgid "home"
+msgstr "página inicial"
+
+#: r2/lib/menus.py:122 r2/lib/pages/pages.py:710
+msgid "about"
+msgstr "sobre"
+
+#: r2/lib/menus.py:123
+msgid "edit subscriptions"
+msgstr ""
+
+#: r2/lib/menus.py:124 r2/lib/pages/pages.py:1505
+msgid "branch settings"
+msgstr ""
+
+#: r2/lib/menus.py:125
+msgid "edit moderators"
+msgstr "editar moderadores"
+
+#: r2/lib/menus.py:126
+msgid "moderator mail"
+msgstr "mensagem do moderador"
+
+#: r2/lib/menus.py:127
+msgid "edit approved submitters"
+msgstr ""
+
+#: r2/lib/menus.py:128 r2/lib/menus.py:129 r2/models/listing.py:174
+msgid "ban users"
+msgstr "banir usuários"
+
+#: r2/lib/menus.py:130 r2/models/modaction.py:78
+msgid "edit flair"
+msgstr ""
+
+#: r2/lib/menus.py:131 r2/templates/preffeeds.html:121
+msgid "moderation log"
+msgstr ""
+
+#: r2/lib/menus.py:132
+msgid "moderation queue"
+msgstr ""
+
+#: r2/lib/menus.py:133 r2/templates/preffeeds.html:124
+msgid "unmoderated links"
+msgstr ""
+
+#: r2/lib/menus.py:135
+msgid "ban wiki contributors"
+msgstr ""
+
+#: r2/lib/menus.py:136
+msgid "add wiki contributors"
+msgstr ""
+
+#: r2/lib/menus.py:138
+msgid "recent wiki revisions"
+msgstr ""
+
+#: r2/lib/menus.py:139
+msgid "wiki page list"
+msgstr ""
+
+#: r2/lib/menus.py:141
+msgid "popular"
+msgstr "populares"
+
+#: r2/lib/menus.py:142 r2/templates/createbranch.html:446
+#: r2/templates/listingchooser.html:62 r2/templates/promotelinkform.html:484
+msgid "create"
+msgstr "criar"
+
+#: r2/lib/menus.py:143 r2/lib/pages/pages.py:1972
+msgid "my branches"
+msgstr ""
+
+#: r2/lib/menus.py:145
+msgid "help translate"
+msgstr "ajude a traduzir"
+
+#: r2/lib/menus.py:146 r2/templates/branchestylesheet.html:81
+msgid "errors"
+msgstr "erros"
+
+#: r2/lib/menus.py:148
+msgid "ads"
+msgstr "anúncios"
+
+#: r2/lib/menus.py:149
+msgid "promoted"
+msgstr "promovido"
+
+#: r2/lib/menus.py:150
+msgid "reporters"
+msgstr "denunciantes"
+
+#: r2/lib/menus.py:151 r2/templates/preffeeds.html:115
+msgid "reports"
+msgstr ""
+
+#: r2/lib/menus.py:152
+msgid "reported authors"
+msgstr "autores denunciados"
+
+#: r2/lib/menus.py:153
+msgid "info"
+msgstr "informações"
+
+#: r2/lib/menus.py:154 r2/templates/multiinfobar.html:80
+#: r2/templates/printablebuttons.html:182 r2/templates/sharelink.html:118
+msgid "share"
+msgstr "compartilhar"
+
+#: r2/lib/menus.py:156
+msgid "overview"
+msgstr "visão geral"
+
+#: r2/lib/menus.py:157
+msgid "submitted"
+msgstr "enviados"
+
+#: r2/lib/menus.py:158
+msgid "liked"
+msgstr "gostou"
+
+#: r2/lib/menus.py:159
+msgid "disliked"
+msgstr "não gostou"
+
+#: r2/lib/menus.py:160
+msgid "hidden {toolbar}"
+msgstr "ocultados"
+
+#: r2/lib/menus.py:162 r2/templates/printablebuttons.html:56
+msgid "reported"
+msgstr "denunciado"
+
+#: r2/lib/menus.py:163
+msgid "voting"
+msgstr ""
+
+#: r2/lib/menus.py:165
+msgid "self-serve advertising"
+msgstr "anúncios self-service"
+
+#: r2/lib/menus.py:166
+msgid "create promotion"
+msgstr "criar promoção"
+
+#: r2/lib/menus.py:167
+msgid "my promoted links"
+msgstr "meus links promovidos"
+
+#: r2/lib/menus.py:168
+msgid "all promoted links"
+msgstr "todos os links promovidos"
+
+#: r2/lib/menus.py:170
+msgid "unseen"
+msgstr ""
+
+#: r2/lib/menus.py:171
+msgid "roadblock"
+msgstr ""
+
+#: r2/lib/menus.py:172
+msgid "inventory"
+msgstr ""
+
+#: r2/lib/menus.py:173
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateevent.html:14
+msgid "live"
+msgstr "em tempo real"
+
+#: r2/lib/menus.py:174
+msgid "unpaid"
+msgstr "não pagos"
+
+#: r2/lib/menus.py:175
+msgid "pending"
+msgstr "pendentes"
+
+#: r2/lib/menus.py:176
+msgid "rejected"
+msgstr "rejeitados"
+
+#: r2/lib/menus.py:178
+msgid "sitewide"
+msgstr ""
+
+#: r2/lib/menus.py:179
+msgid "languages"
+msgstr ""
+
+#: r2/lib/menus.py:180 r2/lib/pages/trafficpages.py:263
+msgid "adverts"
+msgstr ""
+
+#: r2/lib/menus.py:182
+msgid "whitelist"
+msgstr "lista branca"
+
+#. TRANSLATORS: This refers to /r/mod
+#: r2/lib/menus.py:343
+msgid "mod"
+msgstr ""
+
+#. TRANSLATORS: This refers to the user's front page
+#: r2/lib/menus.py:345
+msgid "front"
+msgstr ""
+
+#. TRANSLATORS: Gold feature, "myrandom", a random branch from your
+#. subscriptions
+#: r2/lib/menus.py:349
+msgid "myrandom"
+msgstr ""
+
+#: r2/lib/menus.py:502
+msgid "kind"
+msgstr "tipo"
+
+#: r2/lib/menus.py:517
+msgid "links from"
+msgstr "links"
+
+#: r2/lib/merge.py:34 r2/templates/wikieditpage.html:36
+msgid "current edit"
+msgstr ""
+
+#: r2/lib/merge.py:34 r2/templates/wikieditpage.html:32
+msgid "your edit"
+msgstr ""
+
+#: r2/lib/permissions.py:75
+msgid "access"
+msgstr ""
+
+#: r2/lib/permissions.py:76
+msgid "manage the lists of contributors and banned users"
+msgstr ""
+
+#: r2/lib/permissions.py:79
+msgid "config"
+msgstr ""
+
+#: r2/lib/permissions.py:80
+msgid "edit settings, sidebar, css, and images"
+msgstr ""
+
+#: r2/lib/permissions.py:84
+msgid "manage user flair, link flair, and flair templates"
+msgstr ""
+
+#: r2/lib/permissions.py:87
+msgid "mail"
+msgstr ""
+
+#: r2/lib/permissions.py:88
+msgid "read and reply to moderator mail"
+msgstr ""
+
+#: r2/lib/permissions.py:91
+msgid "posts"
+msgstr ""
+
+#: r2/lib/permissions.py:92
+msgid "use the approve, remove, spam, distinguish, and nsfw buttons"
+msgstr ""
+
+#: r2/lib/permissions.py:97
+msgid "manage the wiki and access to the wiki"
+msgstr ""
+
+#: r2/lib/recommender.py:50 r2/templates/exploreitemlisting.html:41
+msgid "discovery"
+msgstr ""
+
+#: r2/lib/recommender.py:52 r2/lib/strings.py:262 r2/lib/strings.py:267
+#: r2/lib/template_helpers.py:231 r2/models/modaction.py:339
+#: r2/templates/branchestylesheet.html:109
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:255
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "comentário"
+msgstr[1] "comentários"
+
+#: r2/lib/strings.py:51 r2/lib/template_helpers.py:155
+msgid "submitting..."
+msgstr "submetendo..."
+
+#: r2/lib/strings.py:54
+#, python-format
+msgid "%(num)d %(thing)s"
+msgstr "%(num)d   %(thing)s"
+
+#: r2/lib/strings.py:57
+#, python-format
+msgid "%(num)d %(point)s"
+msgstr "%(num)d   %(point)s"
+
+#: r2/lib/strings.py:60
+#, python-format
+msgid "%(num)d %(time)s"
+msgstr "%(num)d   %(time)s"
+
+#: r2/lib/strings.py:63
+#, python-format
+msgid "%(num)5.3f %(thing)s"
+msgstr "%(num)5.3f  %(thing)s"
+
+#: r2/lib/strings.py:72
+msgid "your account has been deleted, but we won't judge you for it."
+msgstr "sua conta foi excluída, mas não vamos julgá-lo por isso."
+
+#: r2/lib/strings.py:74 r2/templates/frametoolbar.html:144
+msgid "you'll need to login or register to do that"
+msgstr "você precisa fazer o login ou se registrar para fazer isso"
+
+#: r2/lib/strings.py:75
+msgid "(don't worry, it only takes a few seconds)"
+msgstr "(não se preocupe, leva apenas alguns segundos)"
+
+#: r2/lib/strings.py:77
+#, python-format
+msgid "Log in or register to connect your Artemis account with %(app)s."
+msgstr ""
+
+#: r2/lib/strings.py:84
+msgid "your branch has been created"
+msgstr ""
+
+#: r2/lib/strings.py:86
+#, python-format
+msgid "visit [%(link)s](%(link)s) for more information"
+msgstr "visite [%(link)s](%(link)s) para obter mais informações\t\t"
+
+#: r2/lib/strings.py:89
+msgid "you have not subscribed to any branches."
+msgstr ""
+
+#: r2/lib/strings.py:90
+msgid "below are the branches you have subscribed to"
+msgstr ""
+
+#: r2/lib/strings.py:91
+msgid "below are the branches that you are an approved submitter on."
+msgstr ""
+
+#: r2/lib/strings.py:92
+msgid "below are the branches that you have moderator access to."
+msgstr ""
+
+#: r2/lib/strings.py:101
+#, python-format
+msgid "\"%(brokenurl)s\" is not a valid URL"
+msgstr "\"%(brokenurl)s\" não é uma URL válido"
+
+#: r2/lib/strings.py:102
+#, python-format
+msgid "\"%(cssprop)s\" is not a valid CSS property"
+msgstr "\"%(cssprop)s\" não é uma propriedade válida de CSS"
+
+#: r2/lib/strings.py:103
+#, python-format
+msgid "\"%(cssvalue)s\" is not a valid value for CSS property \"%(cssprop)s\""
+msgstr "\"%(cssvalue)s\" não é um valor válido para a propriedade de CSS \"%(cssprop)s\""
+
+#: r2/lib/strings.py:104
+#, python-format
+msgid "too big. keep it under %(max_size)dkb"
+msgstr "muito grande. mantenha abaixo de %(max_size)d kb"
+
+#: r2/lib/strings.py:105
+#, python-format
+msgid "max size: %(max_size)dkB"
+msgstr ""
+
+#: r2/lib/strings.py:106
+#, python-format
+msgid "syntax error: \"%(syntaxerror)s\""
+msgstr "erro de sintaxe: \"%(syntaxerror)s\""
+
+#: r2/lib/strings.py:107
+msgid "@imports are not allowed"
+msgstr "@imports não são permitidos"
+
+#: r2/lib/strings.py:108
+#, python-format
+msgid "invalid CSS property list \"%(proplist)s\""
+msgstr "lista de propriedades CSS inválida \"%(proplist)s\""
+
+#: r2/lib/strings.py:110
+#, python-format
+msgid "unknown CSS rule type \"%(ruletype)s\""
+msgstr "tipo de regra CSS desconhecida \"%(ruletype)s\""
+
+#: r2/lib/strings.py:112
+#, python-format
+msgid "%(author)s comments on %(title)s"
+msgstr "comentários de %(author)s em %(title)s"
+
+#: r2/lib/strings.py:113
+#, python-format
+msgid "%(title)s : %(site)s"
+msgstr "%(title)s: %(site)s"
+
+#: r2/lib/strings.py:114
+msgid "this branch has been banned"
+msgstr ""
+
+#: r2/lib/strings.py:116
+msgid "this branch is private"
+msgstr ""
+
+#: r2/lib/strings.py:122
+msgid "Submit a new link"
+msgstr ""
+
+#: r2/lib/strings.py:123
+msgid "Submit a new text post"
+msgstr ""
+
+#: r2/lib/strings.py:125
+msgid "we're going to need to verify your email address for you to proceed."
+msgstr "nós vamos precisar de verificar seu endereço de e-mail para você prosseguir."
+
+#: r2/lib/strings.py:127
+msgid "your email address has been verified"
+msgstr ""
+
+#: r2/lib/strings.py:128
+msgid "Verification failed.  Please try that again"
+msgstr "A verificação não deu certo. Tente novamente."
+
+#: r2/lib/strings.py:132
+msgid "I couldn't understand your search query. Please try again."
+msgstr ""
+
+#: r2/lib/strings.py:139
+msgid "this page is temporarily in read-only mode due to heavy traffic."
+msgstr ""
+
+#: r2/lib/strings.py:144
+#, python-format
+msgid "Sorry, the maximum number of comments is %d."
+msgstr ""
+
+#: r2/lib/strings.py:145
+#, python-format
+msgid "%(sender)s just gifted you %(amount)s of Artemis gold!"
+msgstr ""
+
+#: r2/lib/strings.py:156
+msgid "sorry, this has been archived and can no longer be voted on"
+msgstr ""
+
+#: r2/lib/strings.py:158
+#, python-format
+msgid "You are currently accessing Artemis from this IP address: %(address)s."
+msgstr ""
+
+#: r2/lib/strings.py:168
+#, python-format
+msgid "Questions? Email self serve support: %(email)s"
+msgstr ""
+
+#: r2/lib/strings.py:180
+msgid "multiArtemis of your subscriptions"
+msgstr ""
+
+#: r2/lib/strings.py:181
+msgid "multiArtemis of branches you moderate"
+msgstr ""
+
+#: r2/lib/strings.py:263 r2/templates/comment.htmllite:58
+#: r2/templates/linkinfobar.html:47
+msgid "point"
+msgid_plural "points"
+msgstr[0] "ponto"
+msgstr[1] "pontos"
+
+#: r2/lib/strings.py:266 r2/models/modaction.py:324
+#: r2/templates/promotelinkform.html:148
+msgid "link"
+msgid_plural "links"
+msgstr[0] "link"
+msgstr[1] "links"
+
+#: r2/lib/strings.py:268 r2/lib/pages/pages.py:964
+#: r2/templates/messagecompose.html:74
+msgid "message"
+msgid_plural "messages"
+msgstr[0] "mensagem"
+msgstr[1] "mensagens"
+
+#: r2/lib/strings.py:269 r2/lib/pages/trafficpages.py:772
+#: r2/templates/sitewidetraffic.html:36
+#: r2/templates/branchtrafficreport.html:42
+msgid "branch"
+msgid_plural "branches"
+msgstr[0] "branch"
+msgstr[1] "branches"
+
+#: r2/lib/strings.py:270
+msgid "cArtemis"
+msgid_plural "cbranches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/lib/strings.py:273
+msgid "reader"
+msgid_plural "readers"
+msgstr[0] "leitor"
+msgstr[1] "leitores"
+
+#: r2/lib/strings.py:274
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] "assinante"
+msgstr[1] "assinantes"
+
+#: r2/lib/strings.py:275 r2/templates/branch.html:71
+#: r2/templates/branch.html:72
+msgid "approved submitter"
+msgid_plural "approved submitters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/lib/strings.py:276 r2/templates/branch.html:65
+msgid "moderator"
+msgid_plural "moderators"
+msgstr[0] "moderador"
+msgstr[1] "moderadores"
+
+#: r2/lib/strings.py:277
+msgid "user here now"
+msgid_plural "users here now"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/lib/strings.py:280
+msgid "milliseconds"
+msgid_plural "milliseconds"
+msgstr[0] "milissegundo"
+msgstr[1] "milissegundos"
+
+#: r2/lib/strings.py:281 r2/templates/searchbar.html:39
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "segundo"
+msgstr[1] "segundos"
+
+#: r2/lib/strings.py:282
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minutos"
+
+#: r2/lib/strings.py:283
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "horas"
+
+#: r2/lib/strings.py:284 r2/lib/pages/pages.py:3745
+#: r2/public/static/js/sponsored.js:283 r2/templates/Artemistraffic.html:89
+#: r2/templates/renderablecampaign.html:55
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dia"
+msgstr[1] "dias"
+
+#: r2/lib/strings.py:285 r2/templates/goldpayment.html:141
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mês"
+msgstr[1] "meses"
+
+#: r2/lib/strings.py:286 r2/templates/goldpayment.html:146
+msgid "year"
+msgid_plural "years"
+msgstr[0] "ano"
+msgstr[1] "anos"
+
+#: r2/lib/system_messages.py:33
+msgid "you are a moderator"
+msgstr ""
+
+#: r2/lib/system_messages.py:34
+#, python-format
+msgid "you have been added as a moderator to [%(title)s](%(url)s)."
+msgstr ""
+
+#: r2/lib/system_messages.py:39
+#, python-format
+msgid "invitation to moderate %(url)s"
+msgstr ""
+
+#: r2/lib/system_messages.py:45
+msgid "moderator invited"
+msgstr ""
+
+#: r2/lib/system_messages.py:46
+#, python-format
+msgid "%(user)s has been invited by %(author)s to moderate %(url)s."
+msgstr ""
+
+#: r2/lib/system_messages.py:51
+msgid "moderator added"
+msgstr ""
+
+#: r2/lib/system_messages.py:52
+#, python-format
+msgid "%(user)s has accepted an invitation to become moderator of %(url)s."
+msgstr ""
+
+#: r2/lib/system_messages.py:57
+msgid "you are an approved submitter"
+msgstr ""
+
+#: r2/lib/system_messages.py:58
+#, python-format
+msgid "you have been added as an approved submitter to [%(title)s](%(url)s)."
+msgstr ""
+
+#: r2/lib/system_messages.py:63
+msgid "you've been banned"
+msgstr "você foi banido"
+
+#: r2/lib/system_messages.py:64
+#, python-format
+msgid "you have been banned from posting to [%(title)s](%(url)s)."
+msgstr "você foi banido de postar no(a) [%(title)s](%(url)s)."
+
+#: r2/lib/system_messages.py:69
+msgid "you can view traffic on a promoted link"
+msgstr "você pode exibir tráfego em um link promovido"
+
+#: r2/lib/template_helpers.py:154
+msgid "fetching title..."
+msgstr "procurando título..."
+
+#: r2/lib/template_helpers.py:156
+msgid "loading..."
+msgstr "carregando..."
+
+#: r2/lib/template_helpers.py:227
+msgid "comment {verb}"
+msgstr "comentário"
+
+#: r2/lib/template_helpers.py:472 r2/models/builder.py:159
+msgid "friend"
+msgstr "amigo"
+
+#: r2/lib/template_helpers.py:479
+msgid "submitter"
+msgstr "usuário que enviou"
+
+#: r2/lib/template_helpers.py:493
+msgid "Artemis admin, speaking officially"
+msgstr "admin. do Artemis, falando oficialmente"
+
+#: r2/lib/pages/pages.py:114
+#, python-format
+msgid "%d %b %Y"
+msgstr "%d/%m/%Y"
+
+#: r2/lib/pages/pages.py:309
+msgid "wiki tools"
+msgstr ""
+
+#: r2/lib/pages/pages.py:365
+msgid "moderation tools"
+msgstr ""
+
+#: r2/lib/pages/pages.py:420
+msgid "these branches"
+msgstr ""
+
+#: r2/lib/pages/pages.py:438
+msgid "this branch is archived and no longer accepting submissions."
+msgstr ""
+
+#: r2/lib/pages/pages.py:440
+msgid "Submissions disabled"
+msgstr ""
+
+#: r2/lib/pages/pages.py:447
+msgid "submission in this branch is restricted to approved submitters."
+msgstr "o envio neste branch é restrito para postadores aprovados"
+
+#: r2/lib/pages/pages.py:450
+msgid "submission in this branch is restricted to Artemis gold members."
+msgstr ""
+
+#: r2/lib/pages/pages.py:452
+msgid "Submissions restricted"
+msgstr ""
+
+#: r2/lib/pages/pages.py:500
+msgid "Create your own branch"
+msgstr ""
+
+#: r2/lib/pages/pages.py:513
+#, python-format
+msgid "...and %d more"
+msgstr ""
+
+#: r2/lib/pages/pages.py:517
+msgid "message the admins"
+msgstr ""
+
+#: r2/lib/pages/pages.py:519
+msgid "message the moderators"
+msgstr ""
+
+#: r2/lib/pages/pages.py:522
+msgid "moderators"
+msgstr "moderadores"
+
+#: r2/lib/pages/pages.py:534
+msgid "Recently viewed links"
+msgstr "Links visualizados recentemente"
+
+#: r2/lib/pages/pages.py:564
+msgid "turn admin off"
+msgstr "ativar administração"
+
+#: r2/lib/pages/pages.py:571 r2/lib/pages/pages.py:1063
+#: r2/templates/passwordverificationform.html:67
+msgid "turn admin on"
+msgstr "desativar administração"
+
+#: r2/lib/pages/pages.py:716
+msgid "FAQ"
+msgstr "dúvidas frequentes"
+
+#: r2/lib/pages/pages.py:717 r2/templates/usertext.html:150
+msgid "reddiquette"
+msgstr "Artemisiqueta"
+
+#: r2/lib/pages/pages.py:727
+msgid "firefox extension"
+msgstr ""
+
+#: r2/lib/pages/pages.py:728
+msgid "chrome extension"
+msgstr ""
+
+#: r2/lib/pages/pages.py:732
+msgid "tools"
+msgstr ""
+
+#: r2/lib/pages/pages.py:739
+msgid "Artemisgifts"
+msgstr ""
+
+#: r2/lib/pages/pages.py:740
+msgid "Artemis.tv"
+msgstr ""
+
+#: r2/lib/pages/pages.py:741
+msgid "radio Artemis"
+msgstr ""
+
+#: r2/lib/pages/pages.py:743
+msgid "<3"
+msgstr ""
+
+#: r2/lib/pages/pages.py:961
+#, python-format
+msgid "%(site)s mail"
+msgstr "mensagens de %(site)s"
+
+#: r2/lib/pages/pages.py:1028 r2/templates/Artemisheader.html:74
+msgid "login or register"
+msgstr "login ou registrar"
+
+#: r2/lib/pages/pages.py:1117
+msgid "request for permission"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1119
+msgid "permission"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1151
+msgid "bummer"
+msgstr "vixe"
+
+#: r2/lib/pages/pages.py:1163
+msgid "this page is no longer available due to a copyright claim."
+msgstr "esta página não está mais disponível por motivos de direitos autorais"
+
+#: r2/lib/pages/pages.py:1506
+#, python-format
+msgid "about %(site)s"
+msgstr "sobre %(site)s"
+
+#: r2/lib/pages/pages.py:1532
+msgid "search branches by name"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1569
+#, python-format
+msgid "your front page branches (%s)"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1639 r2/templates/createbranch.html:382
+#: r2/templates/spotlightlisting.html:60
+msgid "what's this?"
+msgstr "o que é isso?"
+
+#: r2/lib/pages/pages.py:1640
+msgid "trophy case"
+msgstr "estante de troféus"
+
+#: r2/lib/pages/pages.py:1649
+msgid "public multibranches"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1659
+msgid "moderator of"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1730
+msgid "an unknown amount"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1738
+msgid "less than a day"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1752
+#, python-format
+msgid "%(cbranches)s gold cArtemis to give"
+msgid_plural "%(cbranches)s gold cbranches to give"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/lib/pages/pages.py:1760
+#, python-format
+msgid "give Artemis gold to %(user)s to show your appreciation"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1764
+msgid "renew your Artemis gold"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1780
+#, python-format
+msgid "you have helped pay for *%(time)s* of Artemis server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1781
+#, python-format
+msgid "/u/%(user)s has helped pay for *%%(time)s* of Artemis server time."
+msgstr ""
+
+#: r2/lib/pages/pages.py:1877
+msgid "Artemis is a platform for internet communities"
+msgstr ""
+
+#: r2/lib/pages/pages.py:1878
+msgid "where your votes shape what the world is talking about."
+msgstr ""
+
+#: r2/lib/pages/pages.py:2071
+#, python-format
+msgid "raise it to %s"
+msgstr ""
+
+#: r2/lib/pages/pages.py:2073 r2/lib/pages/pages.py:2082
+#, python-format
+msgid "%s visible"
+msgstr ""
+
+#: r2/lib/pages/pages.py:2080
+#, python-format
+msgid "%(bonus)s bonus branches"
+msgstr ""
+
+#: r2/lib/pages/pages.py:2391
+msgid "try entering those letters again"
+msgstr "tente escrever essas letras de novo."
+
+#: r2/lib/pages/pages.py:2450
+msgid "previous search"
+msgstr "pesquisa anterior"
+
+#: r2/lib/pages/pages.py:2476
+#, python-format
+msgid "%(site_title)s via %(domain)s"
+msgstr "%(site_title)s  via %(domain)s"
+
+#: r2/lib/pages/pages.py:2919 r2/lib/pages/pages.py:3006
+msgid "added"
+msgstr "adicionado"
+
+#: r2/lib/pages/pages.py:2966 r2/models/modaction.py:95
+#: r2/templates/branchinfobar.html:94 r2/templates/subscriptionbox.html:63
+msgid "banned"
+msgstr "banido"
+
+#: r2/lib/pages/pages.py:2983
+msgid "invited"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3021
+msgid "grant flair"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3023
+msgid "user flair templates"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3025
+msgid "link flair templates"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3437 r2/templates/flairpane.html:76
+msgid "none"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3901
+msgid "start date"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3902
+msgid "end date"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3906 r2/templates/promotedlinktraffic.html:109
+#: r2/templates/refundpage.html:41
+msgid "id"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3907 r2/lib/pages/pages.py:3924
+msgid "owner"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3908 r2/templates/newlink.html:72
+#: r2/templates/promotelinkform.html:159
+msgid "url"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3910
+msgid "upvotes"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3911
+msgid "downvotes"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3912 r2/lib/pages/trafficpages.py:277
+#: r2/lib/pages/trafficpages.py:730 r2/templates/promotedlinktraffic.html:41
+#: r2/templates/promotedlinktraffic.html:119
+msgid "clicks"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3913 r2/lib/pages/trafficpages.py:274
+#: r2/lib/pages/trafficpages.py:398 r2/lib/pages/trafficpages.py:729
+#: r2/templates/adverttrafficsummary.html:36
+#: r2/templates/promotedlinktraffic.html:40
+#: r2/templates/promotedlinktraffic.html:117
+#: r2/templates/promotelinkform.html:413
+msgid "impressions"
+msgstr "impressões"
+
+#: r2/lib/pages/pages.py:3921
+msgid "campaigns"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3923
+msgid "link id"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3925
+msgid "campaign id"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3926 r2/templates/promotedlinktraffic.html:114
+#: r2/templates/refundpage.html:53
+msgid "target"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3927
+msgid "bid"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3928
+msgid "frontpage clicks"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3928
+msgid "frontpage impressions"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3929
+msgid "branch clicks"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3929
+msgid "branch impressions"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3930 r2/lib/pages/trafficpages.py:404
+msgid "total clicks"
+msgstr ""
+
+#: r2/lib/pages/pages.py:3930
+msgid "total impressions"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4066 r2/templates/accountactivitybox.html:24
+msgid "account activity"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4163
+msgid "subscribed"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4164 r2/templates/preffeeds.html:54
+msgid "your front page"
+msgstr "sua  página principal"
+
+#: r2/lib/pages/pages.py:4166 r2/templates/preffeeds.html:77
+#: r2/templates/preffeeds.html:102
+msgid "everything"
+msgstr "tudo"
+
+#: r2/lib/pages/pages.py:4167
+msgid "from all branches"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4169
+msgid "moderating"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4170
+msgid "branches you mod"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4176
+msgid "gold perks"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4188
+msgid "explore multis"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4276
+msgid "popular choices"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:134
+#, python-format
+msgid "uniques by %s"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:135 r2/lib/pages/trafficpages.py:773
+#: r2/templates/adverttrafficsummary.html:35
+#: r2/templates/languagetrafficsummary.html:34
+#: r2/templates/Artemistraffic.html:90 r2/templates/sitewidetraffic.html:37
+#: r2/templates/branchtrafficreport.html:43
+msgid "uniques"
+msgstr "únicos"
+
+#: r2/lib/pages/trafficpages.py:137
+#, python-format
+msgid "pageviews by %s"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:138 r2/lib/pages/trafficpages.py:774
+#: r2/templates/languagetrafficsummary.html:35
+#: r2/templates/Artemistraffic.html:91 r2/templates/sitewidetraffic.html:38
+#: r2/templates/branchtrafficreport.html:44
+msgid "pageviews"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:143
+#, python-format
+msgid "traffic by %s"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:219
+msgid "[frontpage]"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:273
+msgid "total impressions by day"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:276
+msgid "total clicks by day"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:281
+msgid "ad totals"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:318 r2/templates/renderablecampaign.html:110
+msgid "frontpage"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:397
+#, python-format
+msgid "impressions by %s"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:401
+msgid "unique clicks"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:403
+#, python-format
+msgid "clicks by %s"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:451
+msgid "subscriptions by day"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:452
+msgid "subscriptions"
+msgstr "inscrições"
+
+#: r2/lib/pages/trafficpages.py:631 r2/templates/promotedlinktraffic.html:58
+msgid "total"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:728
+msgid "date and time (UTC)"
+msgstr ""
+
+#: r2/lib/pages/trafficpages.py:731
+msgid "click-through rate (%)"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:104
+msgid "view"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:106 r2/templates/paymentform.html:163
+#: r2/templates/prefapps.html:88 r2/templates/printablebuttons.html:177
+#: r2/templates/printablebuttons.html:209
+#: r2/templates/printablebuttons.html:292
+#: r2/templates/renderablecampaign.html:124 r2/templates/wrappeduser.html:57
+msgid "edit"
+msgstr "editar"
+
+#: r2/lib/pages/wiki.py:108
+msgid "talk"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:110 r2/lib/pages/wiki.py:180
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:66
+msgid "settings"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:117
+msgid "this wiki is currently disabled, only mods may interact with this wiki"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:133
+#, python-format
+msgid "%(page)s - %(site)s"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:150
+msgid "this page is empty, edit it to add some content."
+msgstr ""
+
+#: r2/lib/pages/wiki.py:158 r2/lib/pages/wiki.py:164
+#, python-format
+msgid "page %s does not exist in this branch"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:172
+msgid "editing"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:179
+msgid "This page is restricted, only moderators may edit it."
+msgstr ""
+
+#: r2/lib/pages/wiki.py:186 r2/templates/policyview.html:26
+msgid "revisions"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:192
+#, python-format
+msgid "Viewing recent revisions for /r/%s"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:198
+#, python-format
+msgid "Viewing pages for /r/%s"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:205
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateevent.html:52
+msgid "discussions"
+msgstr ""
+
+#: r2/lib/pages/wiki.py:206
+msgid "Discussions are site-wide links to this wiki page."
+msgstr ""
+
+#: r2/lib/validator/validator.py:1444
+#, python-format
+msgid "%(min)d to any"
+msgstr ""
+
+#: r2/lib/validator/validator.py:1446
+#, python-format
+msgid "any to %(max)d"
+msgstr ""
+
+#: r2/lib/validator/validator.py:1448
+#, python-format
+msgid "%(min)d to %(max)d"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2038
+msgid "please provide a first name"
+msgstr "insira seu nome"
+
+#: r2/lib/validator/validator.py:2040
+msgid "please provide a last name"
+msgstr "insira seu sobrenome"
+
+#: r2/lib/validator/validator.py:2042
+msgid "please provide an address"
+msgstr "insira seu endereço"
+
+#: r2/lib/validator/validator.py:2044
+msgid "please provide your city"
+msgstr "insira sua cidade"
+
+#: r2/lib/validator/validator.py:2046
+msgid "please provide your state"
+msgstr "insira seu estado"
+
+#: r2/lib/validator/validator.py:2048
+msgid "please provide your zip or post code"
+msgstr "insira seu cep"
+
+#: r2/lib/validator/validator.py:2050
+msgid "please provide your country"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2067
+#, python-format
+msgid "max length %d characters"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2090
+msgid "credit card numbers should be 13 to 16 digits"
+msgstr "números do cartão de crédito tem de ter de 13 a 16 dígitos"
+
+#: r2/lib/validator/validator.py:2095
+msgid "dates should be YYYY-MM"
+msgstr "datas devem ser AAAA-MM"
+
+#: r2/lib/validator/validator.py:2103
+msgid "month must be in the range 01..12"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2106
+msgid "expiration date must be in the future"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2110
+msgid "card verification codes should be 3 or 4 digits"
+msgstr "códigos de verificação do cartão devem ter 3 ou 4 dígitos"
+
+#: r2/lib/validator/validator.py:2148
+msgid "a user by name"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2163
+msgid "a [fullname](#fullname) of a link"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2263
+msgid "an app"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2280
+msgid "an app developed by the user"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2482
+msgid "no spaces allowed"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2484
+#, python-format
+msgid "invalid character: '%s'"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2486
+msgid "can't start with a '_'"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2488
+msgid "that name is too short"
+msgstr ""
+
+#: r2/lib/validator/validator.py:2490
+msgid "that name is too long"
+msgstr ""
+
+#: r2/lib/validator/wiki.py:276
+msgid "the name of an existing wiki page"
+msgstr ""
+
+#: r2/lib/validator/wiki.py:292
+msgid "a wiki revision ID"
+msgstr ""
+
+#: r2/lib/validator/wiki.py:341
+msgid "the name of an existing page or a new page to create"
+msgstr ""
+
+#: r2/lib/validator/wiki.py:343
+msgid "the starting point revision for this edit"
+msgstr ""
+
+#: r2/models/account.py:217
+msgid "ancient history"
+msgstr ""
+
+#: r2/models/account.py:218
+msgid "really obscure karma from before it was cool to track per-branch"
+msgstr ""
+
+#: r2/models/admintools.py:275
+msgid "Your Artemis gold subscription has expired."
+msgstr ""
+
+#: r2/models/admintools.py:276
+msgid "Your subscription to Artemis gold has expired."
+msgstr ""
+
+#: r2/models/admintools.py:306
+msgid "Your Artemis gold subscription is about to expire!"
+msgstr ""
+
+#: r2/models/admintools.py:308
+msgid "Your subscription to Artemis gold will be expiring soon."
+msgstr ""
+
+#: r2/models/builder.py:122
+#, python-format
+msgid "moderator of /r/%(Artemis)s, speaking officially"
+msgstr "moderador de /r/%(Artemis)s, falando oficialmente"
+
+#: r2/models/builder.py:184
+#, python-format
+msgid "%(user)s just celebrated a Artemis birthday!"
+msgstr ""
+
+#: r2/models/builder.py:285
+msgid "a moderator"
+msgstr ""
+
+#: r2/models/builder.py:288
+#, python-format
+msgid "approved by %(who)s %(when)s ago"
+msgstr ""
+
+#: r2/models/builder.py:292
+#, python-format
+msgid "approved by %s"
+msgstr ""
+
+#: r2/models/link.py:567
+#, python-format
+msgid "by %(author)s to %(Artemis)s"
+msgstr ""
+
+#: r2/models/link.py:570
+#, python-format
+msgid "by %(author)s"
+msgstr ""
+
+#: r2/models/link.py:574
+#, python-format
+msgid "%(score)s submitted %(when)s ago%(lastedited)s"
+msgstr ""
+
+#: r2/models/link.py:579
+#, python-format
+msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(Artemis)s"
+msgstr ""
+
+#: r2/models/link.py:582
+#, python-format
+msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
+msgstr ""
+
+#: r2/models/link.py:587
+#, python-format
+msgid "%(score)s submitted %(when)s ago"
+msgstr ""
+
+#: r2/models/link.py:591
+#, python-format
+msgid "submitted %(when)s ago by %(author)s to %(Artemis)s"
+msgstr "enviado há %(when)s por %(author)s em %(Artemis)s"
+
+#: r2/models/link.py:594
+#, python-format
+msgid "submitted %(when)s ago by %(author)s"
+msgstr "enviado há %(when)s por %(author)s"
+
+#: r2/models/link.py:714 r2/templates/comment.html:108
+#: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
+#: r2/templates/comment.xml:32
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateaccount.html:4
+msgid "[deleted]"
+msgstr "[excluído]"
+
+#: r2/models/link.py:717
+#, python-format
+msgid "a Artemisor gifted you a month of Artemis gold for this comment."
+msgid_plural ""
+"Artemisors have gifted you %(months)d months of Artemis gold for this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:724
+#, python-format
+msgid "you have gifted Artemis gold to %(recipient)s for this comment."
+msgid_plural ""
+"you and other Artemisors have gifted %(months)d months of Artemis gold to "
+"%(recipient)s for this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:731
+#, python-format
+msgid "a Artemisor has gifted Artemis gold to %(recipient)s for this comment."
+msgid_plural ""
+"Artemisors have gifted %(months)d months of Artemis gold to %(recipient)s for "
+"this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/models/link.py:1091
+msgid "comment score below threshold"
+msgstr "os pontos do comentário ficaram abaixo do mínimo"
+
+#: r2/models/link.py:1096
+msgid "blocked user"
+msgstr ""
+
+#: r2/models/link.py:1456
+msgid "comment reply"
+msgstr "resposta a comentário"
+
+#: r2/models/link.py:1459 r2/models/link.py:1466
+msgid "username mention"
+msgstr ""
+
+#: r2/models/link.py:1463
+msgid "post reply"
+msgstr "resposta a postagem"
+
+#: r2/models/link.py:1489
+msgid "[message from blocked user]"
+msgstr ""
+
+#: r2/models/link.py:1490
+msgid "[unblock user to see this message]"
+msgstr ""
+
+#: r2/models/link.py:1493
+#, python-format
+msgid "branch message %(author)s sent %(when)s ago"
+msgstr ""
+
+#: r2/models/link.py:1495
+#, python-format
+msgid "to %(dest)s sent %(when)s ago"
+msgstr "para %(dest)s enviado há %(when)s"
+
+#: r2/models/link.py:1497
+#, python-format
+msgid "from %(author)s sent %(when)s ago"
+msgstr "de %(author)s enviado há %(when)s"
+
+#: r2/models/link.py:1499
+#, python-format
+msgid "to %(dest)s from %(author)s sent %(when)s ago"
+msgstr "para %(dest)s de %(author)s enviado há %(when)s"
+
+#: r2/models/link.py:1510
+#, python-format
+msgid "via %(branch)s"
+msgstr ""
+
+#: r2/models/link.py:1512
+#, python-format
+msgid "%(author)s via %(branch)s"
+msgstr "%(author)s via %(branch)s"
+
+#: r2/models/listing.py:146
+msgid "user"
+msgstr ""
+
+#: r2/models/listing.py:146
+msgid "note"
+msgstr ""
+
+#: r2/models/listing.py:146
+msgid "friendship"
+msgstr ""
+
+#: r2/models/listing.py:150
+msgid "add a friend"
+msgstr "adicione um amigo"
+
+#: r2/models/listing.py:163
+msgid "blocked users"
+msgstr ""
+
+#: r2/models/listing.py:178
+#, python-format
+msgid "users banned from /r/%(branch)s"
+msgstr ""
+
+#: r2/models/listing.py:186
+msgid "ban wiki contibutors"
+msgstr ""
+
+#: r2/models/listing.py:190
+#, python-format
+msgid "wiki contibutors banned from /r/%(branch)s"
+msgstr ""
+
+#: r2/models/listing.py:198
+#, python-format
+msgid "approved submitters for /r/%(branch)s"
+msgstr ""
+
+#: r2/models/listing.py:203
+msgid "add approved submitter"
+msgstr ""
+
+#: r2/models/listing.py:210
+#, python-format
+msgid "approved wiki contributors for /r/%(branch)s"
+msgstr ""
+
+#: r2/models/listing.py:215
+msgid "add approved wiki contributor"
+msgstr ""
+
+#: r2/models/listing.py:219 r2/models/modaction.py:72
+msgid "invite moderator"
+msgstr ""
+
+#: r2/models/listing.py:220 r2/templates/modlisting.html:33
+#, python-format
+msgid "you are a moderator of this branch. %(action)s"
+msgstr ""
+
+#: r2/models/listing.py:238
+#, python-format
+msgid "invited moderators for %(branch)s"
+msgstr ""
+
+#: r2/models/listing.py:243
+msgid "force add moderator"
+msgstr ""
+
+#: r2/models/listing.py:259
+#, python-format
+msgid "moderators of /r/%(branch)s"
+msgstr ""
+
+#: r2/models/mail_queue.py:310
+#, python-format
+msgid "[Artemis] %(user)s has shared a link with you"
+msgstr "[Artemis] %(user)s compartilhou um link com você"
+
+#: r2/models/mail_queue.py:311
+#, python-format
+msgid "[feedback] feedback from '%(user)s'"
+msgstr "[feedback] opinião de ' %(user)s '"
+
+#: r2/models/mail_queue.py:312
+#, python-format
+msgid "[ad_inq] feedback from '%(user)s'"
+msgstr "[ad_inq] opinião de ' %(user)s '"
+
+#: r2/models/mail_queue.py:313
+msgid "[Artemis] email removal notice"
+msgstr "[Artemis] aviso de remoção de e-mail"
+
+#: r2/models/mail_queue.py:314
+msgid "[Artemis] email addition notice"
+msgstr "[Artemis] aviso de adição de email"
+
+#: r2/models/mail_queue.py:315
+msgid "[Artemis] reset your password"
+msgstr "[Artemis] redefina sua senha"
+
+#: r2/models/mail_queue.py:316
+msgid "[Artemis] verify your email address"
+msgstr "[Artemis] verifique seu endereço de-email"
+
+#: r2/models/mail_queue.py:317
+msgid "[Artemis] your bid has been accepted"
+msgstr "[Artemis] sua oferta foi aceita"
+
+#: r2/models/mail_queue.py:318
+msgid "[Artemis] your promotion has been accepted"
+msgstr "[Artemis] sua promoção foi aceita"
+
+#: r2/models/mail_queue.py:319
+msgid "[Artemis] your promotion has been rejected"
+msgstr "[Artemis] sua promoção foi rejeitada"
+
+#: r2/models/mail_queue.py:320
+msgid "[Artemis] your promotion has been charged"
+msgstr ""
+
+#: r2/models/mail_queue.py:321
+msgid "[Artemis] your promotion is now live"
+msgstr "[Artemis] sua promoção está no ar"
+
+#: r2/models/mail_queue.py:322
+msgid "[Artemis] your promotion has finished"
+msgstr "[Artemis] sua promoção foi encerrada"
+
+#: r2/models/mail_queue.py:323
+msgid "[Artemis] your promotion has been created"
+msgstr "[Artemis] sua promoção foi criada"
+
+#: r2/models/mail_queue.py:324
+msgid "[Artemis] hey, nerd!"
+msgstr "[Artemis] ei, nerd!"
+
+#: r2/models/mail_queue.py:325
+msgid "[Artemis] Artemis gold activation link"
+msgstr ""
+
+#: r2/models/mail_queue.py:326
+msgid "[Artemis] your password has been changed"
+msgstr ""
+
+#: r2/models/mail_queue.py:327
+msgid "[Artemis] your email address has been changed"
+msgstr ""
+
+#: r2/models/mail_queue.py:328
+msgid "[Artemis] your campaign didn't get enough impressions"
+msgstr ""
+
+#: r2/models/modaction.py:64
+msgid "ban user"
+msgstr ""
+
+#: r2/models/modaction.py:65
+msgid "unban user"
+msgstr ""
+
+#: r2/models/modaction.py:66
+msgid "remove post"
+msgstr ""
+
+#: r2/models/modaction.py:67
+msgid "approve post"
+msgstr ""
+
+#: r2/models/modaction.py:68
+msgid "remove comment"
+msgstr ""
+
+#: r2/models/modaction.py:69
+msgid "approve comment"
+msgstr ""
+
+#: r2/models/modaction.py:70
+msgid "add moderator"
+msgstr "adicionar moderador"
+
+#: r2/models/modaction.py:71
+msgid "remove moderator"
+msgstr ""
+
+#: r2/models/modaction.py:73
+msgid "uninvite moderator"
+msgstr ""
+
+#: r2/models/modaction.py:74
+msgid "accept moderator invite"
+msgstr ""
+
+#: r2/models/modaction.py:75
+msgid "add contributor"
+msgstr "adicionar contribuidor"
+
+#: r2/models/modaction.py:76
+msgid "remove contributor"
+msgstr ""
+
+#: r2/models/modaction.py:77
+msgid "edit settings"
+msgstr ""
+
+#: r2/models/modaction.py:79 r2/templates/printablebuttons.html:87
+msgid "distinguish"
+msgstr "distinguir"
+
+#: r2/models/modaction.py:80
+msgid "mark nsfw"
+msgstr ""
+
+#: r2/models/modaction.py:81
+msgid "ban from wiki"
+msgstr ""
+
+#: r2/models/modaction.py:82
+msgid "unban from wiki"
+msgstr ""
+
+#: r2/models/modaction.py:83
+msgid "add wiki contributor"
+msgstr ""
+
+#: r2/models/modaction.py:84
+msgid "delist/relist wiki pages"
+msgstr ""
+
+#: r2/models/modaction.py:85
+msgid "remove wiki contributor"
+msgstr ""
+
+#: r2/models/modaction.py:86
+msgid "wiki revise page"
+msgstr ""
+
+#: r2/models/modaction.py:87
+msgid "wiki page permissions"
+msgstr ""
+
+#: r2/models/modaction.py:88 r2/models/modaction.py:173
+#: r2/templates/printablebuttons.html:127
+msgid "ignore reports"
+msgstr ""
+
+#: r2/models/modaction.py:89
+msgid "unignore reports"
+msgstr ""
+
+#: r2/models/modaction.py:90
+msgid "permissions"
+msgstr ""
+
+#: r2/models/modaction.py:91
+msgid "sticky post"
+msgstr ""
+
+#: r2/models/modaction.py:92
+msgid "unsticky post"
+msgstr ""
+
+#: r2/models/modaction.py:96
+msgid "wiki banned"
+msgstr ""
+
+#: r2/models/modaction.py:97
+msgid "unbanned from wiki"
+msgstr ""
+
+#: r2/models/modaction.py:98
+msgid "added wiki contributor"
+msgstr ""
+
+#: r2/models/modaction.py:99
+msgid "removed wiki contributor"
+msgstr ""
+
+#: r2/models/modaction.py:100
+msgid "unbanned"
+msgstr "não banido"
+
+#: r2/models/modaction.py:101 r2/models/modaction.py:103
+#: r2/templates/printablebuttons.html:43
+#: r2/templates/printablebuttons.html:158 r2/templates/trophycase.html:48
+msgid "removed"
+msgstr "removido"
+
+#: r2/models/modaction.py:102 r2/models/modaction.py:104
+#: r2/models/modaction.py:128 r2/templates/printablebuttons.html:50
+#: r2/templates/printablebuttons.html:161
+#: r2/templates/branchinfobar.html:86
+msgid "approved"
+msgstr ""
+
+#: r2/models/modaction.py:105
+msgid "added moderator"
+msgstr ""
+
+#: r2/models/modaction.py:106
+msgid "removed moderator"
+msgstr ""
+
+#: r2/models/modaction.py:107
+msgid "invited moderator"
+msgstr ""
+
+#: r2/models/modaction.py:108
+msgid "uninvited moderator"
+msgstr ""
+
+#: r2/models/modaction.py:109
+msgid "accepted moderator invitation"
+msgstr ""
+
+#: r2/models/modaction.py:110
+msgid "added approved contributor"
+msgstr ""
+
+#: r2/models/modaction.py:111
+msgid "removed approved contributor"
+msgstr ""
+
+#: r2/models/modaction.py:112
+msgid "edited settings"
+msgstr ""
+
+#: r2/models/modaction.py:113
+msgid "edited flair"
+msgstr ""
+
+#: r2/models/modaction.py:114
+msgid "edited wiki page"
+msgstr ""
+
+#: r2/models/modaction.py:115
+msgid "changed wiki page permission level"
+msgstr ""
+
+#: r2/models/modaction.py:116
+msgid "changed wiki page listing preference"
+msgstr ""
+
+#: r2/models/modaction.py:117
+msgid "distinguished"
+msgstr ""
+
+#: r2/models/modaction.py:118
+msgid "marked nsfw"
+msgstr ""
+
+#: r2/models/modaction.py:119
+msgid "ignored reports"
+msgstr ""
+
+#: r2/models/modaction.py:120
+msgid "unignored reports"
+msgstr ""
+
+#: r2/models/modaction.py:121
+msgid "changed permissions on"
+msgstr ""
+
+#: r2/models/modaction.py:122 r2/templates/linkcommentssettings.html:46
+msgid "stickied"
+msgstr ""
+
+#: r2/models/modaction.py:123 r2/templates/linkcommentssettings.html:43
+msgid "unstickied"
+msgstr ""
+
+#: r2/models/modaction.py:127
+msgid "unspam"
+msgstr ""
+
+#: r2/models/modaction.py:130
+msgid "confirmed spam"
+msgstr ""
+
+#: r2/models/modaction.py:131
+msgid "removed not spam"
+msgstr ""
+
+#: r2/models/modaction.py:132
+msgid "removed spam"
+msgstr ""
+
+#: r2/models/modaction.py:134
+msgid "removed self"
+msgstr ""
+
+#: r2/models/modaction.py:136 r2/templates/createbranch.html:56
+#: r2/templates/newlink.html:63 r2/templates/promotelinkform.html:129
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateeventconfiguration.html:7
+msgid "title"
+msgstr ""
+
+#: r2/models/modaction.py:137 r2/templates/createbranch.html:68
+#: r2/templates/prefapps.html:143 r2/templates/prefapps.html:334
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateeventconfiguration.html:13
+msgid "description"
+msgstr ""
+
+#: r2/models/modaction.py:138 r2/templates/createbranch.html:82
+msgid "sidebar"
+msgstr ""
+
+#: r2/models/modaction.py:139 r2/templates/createbranch.html:122
+#: r2/templates/languagetrafficsummary.html:33
+msgid "language"
+msgstr ""
+
+#: r2/models/modaction.py:140 r2/templates/createbranch.html:133
+msgid "type"
+msgstr ""
+
+#: r2/models/modaction.py:141
+msgid "link type"
+msgstr ""
+
+#: r2/models/modaction.py:142
+msgid "submit link button label"
+msgstr ""
+
+#: r2/models/modaction.py:143
+msgid "submit text post button label"
+msgstr ""
+
+#: r2/models/modaction.py:144
+msgid "comment score hide period"
+msgstr ""
+
+#: r2/models/modaction.py:145
+msgid "toggle viewers must be over 18"
+msgstr ""
+
+#: r2/models/modaction.py:146
+msgid "toggle allow in default set"
+msgstr ""
+
+#: r2/models/modaction.py:147
+msgid "toggle show thumbnail images of content"
+msgstr ""
+
+#: r2/models/modaction.py:148
+msgid "toggle public traffic stats page"
+msgstr ""
+
+#: r2/models/modaction.py:149
+msgid "toggle exclude banned users' posts from modqueue"
+msgstr ""
+
+#: r2/models/modaction.py:150 r2/templates/createbranch.html:350
+msgid "domain"
+msgstr ""
+
+#: r2/models/modaction.py:151
+msgid "toggle show sidebar from cname"
+msgstr ""
+
+#: r2/models/modaction.py:152
+msgid "toggle custom CSS from cname"
+msgstr ""
+
+#: r2/models/modaction.py:153
+msgid "header title"
+msgstr ""
+
+#: r2/models/modaction.py:155
+msgid "delete header image"
+msgstr ""
+
+#: r2/models/modaction.py:156
+msgid "delete image"
+msgstr ""
+
+#: r2/models/modaction.py:157 r2/templates/createbranch.html:410
+msgid "upload header image"
+msgstr ""
+
+#: r2/models/modaction.py:158
+msgid "upload image"
+msgstr ""
+
+#: r2/models/modaction.py:160
+msgid "add/edit flair"
+msgstr ""
+
+#: r2/models/modaction.py:161
+msgid "delete flair"
+msgstr ""
+
+#: r2/models/modaction.py:162
+msgid "edit by csv"
+msgstr ""
+
+#: r2/models/modaction.py:163
+msgid "toggle flair enabled"
+msgstr ""
+
+#: r2/models/modaction.py:164
+msgid "toggle user flair position"
+msgstr ""
+
+#: r2/models/modaction.py:165
+msgid "toggle link flair position"
+msgstr ""
+
+#: r2/models/modaction.py:166
+msgid "toggle user assigned flair enabled"
+msgstr ""
+
+#: r2/models/modaction.py:167
+msgid "toggle submitter assigned link flair enabled"
+msgstr ""
+
+#: r2/models/modaction.py:168
+msgid "add/edit flair templates"
+msgstr ""
+
+#: r2/models/modaction.py:169
+msgid "delete flair template"
+msgstr ""
+
+#: r2/models/modaction.py:170
+msgid "clear flair templates"
+msgstr ""
+
+#: r2/models/modaction.py:172 r2/templates/multiinfobar.html:91
+#: r2/templates/prefapps.html:77 r2/templates/printablebuttons.html:43
+#: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:48
+#: r2/templates/usertableitem.html:51
+msgid "remove"
+msgstr "remover"
+
+#: r2/models/modaction.py:175
+msgid "set permissions on moderator"
+msgstr ""
+
+#: r2/models/modaction.py:176
+msgid "set permissions on moderator invitation"
+msgstr ""
+
+#: r2/models/modaction.py:326 r2/models/modaction.py:340
+#: r2/templates/comment.html:68
+msgid "by"
+msgstr ""
+
+#: r2/models/modaction.py:342 r2/templates/comment.xml:42
+msgid "on"
+msgstr "em"
+
+#: r2/models/promo.py:65
+msgid "highest"
+msgstr ""
+
+#: r2/models/promo.py:71
+msgid "standard"
+msgstr ""
+
+#: r2/models/promo.py:78
+msgid "remnant"
+msgstr ""
+
+#: r2/models/promo.py:79
+msgid "lower priority, impressions are not guaranteed"
+msgstr ""
+
+#: r2/models/promo.py:86
+msgid "house"
+msgstr ""
+
+#: r2/models/promo.py:87
+msgid "non-CPM, displays in all unsold impressions"
+msgstr ""
+
+#: r2/models/branch.py:1056
+#, python-format
+msgid "%s (filtered)"
+msgstr ""
+
+#: r2/models/branch.py:1251
+#, python-format
+msgid "posts from %s"
+msgstr ""
+
+#: r2/models/branch.py:1403
+#, python-format
+msgid "%s branches curated by /u/%s"
+msgstr ""
+
+#: r2/models/branch.py:1607
+#, python-format
+msgid "%(domain)s on %(Artemis.com)s"
+msgstr ""
+
+#: r2/models/token.py:106
+msgid "Edit Posts"
+msgstr ""
+
+#: r2/models/token.py:107
+msgid "Edit and delete my comments and submissions."
+msgstr ""
+
+#: r2/models/token.py:111
+msgid "Manage My Flair"
+msgstr ""
+
+#: r2/models/token.py:112
+msgid "Select my branch flair. Change link flair on my submissions."
+msgstr ""
+
+#: r2/models/token.py:117
+msgid "History"
+msgstr ""
+
+#: r2/models/token.py:124
+msgid "My Identity"
+msgstr ""
+
+#: r2/models/token.py:125
+msgid "Access my Artemis username and signup date."
+msgstr ""
+
+#: r2/models/token.py:129
+msgid "Moderate Flair"
+msgstr ""
+
+#: r2/models/token.py:130
+msgid "Manage and assign flair in branches I moderate."
+msgstr ""
+
+#: r2/models/token.py:135
+msgid "Moderate Posts"
+msgstr ""
+
+#: r2/models/token.py:142
+msgid "Moderate Branch Configuration"
+msgstr ""
+
+#: r2/models/token.py:143
+msgid "Manage the configuration, sidebar, and CSS of branches I moderate."
+msgstr ""
+
+#: r2/models/token.py:149
+msgid "Moderation Log"
+msgstr ""
+
+#: r2/models/token.py:150
+msgid "Access the moderation log in branches I moderate."
+msgstr ""
+
+#: r2/models/token.py:155
+msgid "Branch Traffic"
+msgstr ""
+
+#: r2/models/token.py:156
+msgid "Access traffic stats in branches I moderate."
+msgstr ""
+
+#: r2/models/token.py:160
+msgid "Moderate Wiki"
+msgstr ""
+
+#: r2/models/token.py:161
+msgid "Change editors and visibility of wiki pages in branches I moderate."
+msgstr ""
+
+#: r2/models/token.py:167
+msgid "My Branches"
+msgstr ""
+
+#: r2/models/token.py:174
+msgid "Private Messages"
+msgstr ""
+
+#: r2/models/token.py:175
+msgid "Access my inbox and send private messages to other users."
+msgstr ""
+
+#: r2/models/token.py:180
+msgid "Read Content"
+msgstr ""
+
+#: r2/models/token.py:181
+msgid "Access posts and comments through my account."
+msgstr ""
+
+#: r2/models/token.py:185
+msgid "Report content"
+msgstr ""
+
+#: r2/models/token.py:191
+msgid "Save Content"
+msgstr ""
+
+#: r2/models/token.py:192
+msgid "Save and unsave comments and submissions."
+msgstr ""
+
+#: r2/models/token.py:196
+msgid "Submit Content"
+msgstr ""
+
+#: r2/models/token.py:197
+msgid "Submit links and comments from my account."
+msgstr ""
+
+#: r2/models/token.py:201
+msgid "Edit My Subscriptions"
+msgstr ""
+
+#: r2/models/token.py:202
+msgid "Manage my branch subscriptions."
+msgstr ""
+
+#: r2/models/token.py:206
+msgid "Vote"
+msgstr ""
+
+#: r2/models/token.py:208
+msgid "Submit and change my votes on comments and submissions."
+msgstr ""
+
+#: r2/models/token.py:212
+msgid "Wiki Editing"
+msgstr ""
+
+#: r2/models/token.py:213
+msgid "Edit wiki pages on my behalf"
+msgstr ""
+
+#: r2/models/token.py:217
+msgid "Read Wiki Pages"
+msgstr ""
+
+#: r2/models/token.py:218
+msgid "Read wiki pages through my account"
+msgstr ""
+
+#: r2/public/static/js/gold.js:161
+msgid "missing name"
+msgstr ""
+
+#: r2/public/static/js/gold.js:163
+msgid "invalid credit card number"
+msgstr ""
+
+#: r2/public/static/js/gold.js:165
+msgid "invalid expiration date"
+msgstr ""
+
+#: r2/public/static/js/gold.js:167
+msgid "invalid cvc"
+msgstr ""
+
+#: r2/public/static/js/gold.js:169
+msgid "missing address"
+msgstr ""
+
+#: r2/public/static/js/gold.js:171
+msgid "missing city"
+msgstr ""
+
+#: r2/public/static/js/gold.js:173
+msgid "missing state or province"
+msgstr ""
+
+#: r2/public/static/js/gold.js:175
+msgid "missing country"
+msgstr ""
+
+#: r2/public/static/js/gold.js:177
+msgid "missing zip code"
+msgstr ""
+
+#: r2/public/static/js/interestbar.js:80
+#, python-format
+msgid "an error occurred. please try again later! (status: %(status)s)"
+msgstr ""
+
+#: r2/public/static/js/login.js:192
+msgid "try using our secure login form."
+msgstr ""
+
+#: r2/public/static/js/multi.js:484
+msgid "awesomeness goes here"
+msgstr ""
+
+#: r2/public/static/js/multi.js:485
+msgid "add a branch to your multi."
+msgstr ""
+
+#: r2/public/static/js/multi.js:538
+msgid "categorize"
+msgstr ""
+
+#: r2/public/static/js/multi.js:554
+msgid "open this multi"
+msgstr ""
+
+#: r2/public/static/js/multi.js:558
+msgid "create a new multi"
+msgstr ""
+
+#: r2/public/static/js/Artemis.js:109
+msgid "please wait a few seconds and try again."
+msgstr ""
+
+#: r2/public/static/js/Artemis.js:111 r2/public/static/js/ui.js:158
+#, python-format
+msgid "an error occurred (status: %(status)s)"
+msgstr ""
+
+#: r2/public/static/js/sponsored.js:221
+#, python-format
+msgid "%(num)s available (maximum budget is $%(max)s)"
+msgstr ""
+
+#: r2/public/static/js/sponsored.js:283
+msgid "days"
+msgstr ""
+
+#: r2/public/static/js/sponsored.js:284
+#, python-format
+msgid "$%(cpm)s per 1,000 impressions"
+msgstr ""
+
+#: r2/public/static/js/traffic.js:11
+msgid "view branch traffic"
+msgstr ""
+
+#: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
+#: r2/templates/promotereport.html:67 r2/templates/userlisting.html:128
+msgid "go"
+msgstr ""
+
+#: r2/public/static/js/ui.js:420 r2/public/static/js/ui.js:470
+msgid "full permissions"
+msgstr ""
+
+#: r2/public/static/js/ui.js:519
+msgid "no permissions"
+msgstr ""
+
+#: r2/public/static/js/ui.js:615 r2/templates/goldsubscription.html:47
+#: r2/templates/printablebuttons.html:401
+#: r2/templates/printablebuttons.html:419
+msgid "are you sure?"
+msgstr "você tem certeza?"
+
+#: r2/public/static/js/ui.js:616 r2/templates/goldsubscription.html:50
+#: r2/templates/optout.html:37 r2/templates/optout.html:53
+#: r2/templates/printablebuttons.html:403
+#: r2/templates/printablebuttons.html:437
+msgid "yes"
+msgstr "sim "
+
+#: r2/public/static/js/ui.js:617 r2/templates/goldsubscription.html:53
+#: r2/templates/optout.html:40 r2/templates/optout.html:56
+#: r2/templates/printablebuttons.html:405
+#: r2/templates/printablebuttons.html:440
+msgid "no"
+msgstr "não"
+
+#: r2/public/static/js/uibase.js:74
+#, python-format
+msgid "&hellip; and %(count)s more &rArr;"
+msgstr ""
+
+#: r2/public/static/js/uibase.js:82
+msgid "&lArr; less"
+msgstr ""
+
+#: r2/templates/adminbar.html:44
+msgid "status"
+msgstr ""
+
+#: r2/templates/adminbar.html:45
+msgid "admin mode enabled"
+msgstr ""
+
+#: r2/templates/adminbar.html:47
+msgid "admin off"
+msgstr ""
+
+#: r2/templates/adminbar.html:49
+msgid "debug mode"
+msgstr ""
+
+#: r2/templates/adminbar.html:50
+msgid "secure"
+msgstr ""
+
+#: r2/templates/adminbar.html:51
+msgid "development statics"
+msgstr ""
+
+#: r2/templates/adminbar.html:52
+msgid "production statics"
+msgstr ""
+
+#: r2/templates/adminbar.html:53
+msgid "ads disabled"
+msgstr ""
+
+#: r2/templates/adminbar.html:54
+msgid "captcha disabled"
+msgstr ""
+
+#: r2/templates/adminbar.html:55
+msgid "ratelimit disabled"
+msgstr ""
+
+#: r2/templates/adminbar.html:60
+msgid "timings"
+msgstr ""
+
+#: r2/templates/adminbar.html:61 r2/templates/exploreitem.html:43
+#: r2/templates/frametoolbar.html:204 r2/templates/frametoolbar.html:205
+#: r2/templates/printablebuttons.html:198
+msgid "hide"
+msgstr "ocultar"
+
+#: r2/templates/adverttrafficsummary.html:31
+msgid "top adverts"
+msgstr ""
+
+#: r2/templates/adverttrafficsummary.html:34
+msgid "ad"
+msgstr ""
+
+#: r2/templates/allinfobar.html:37
+msgid "Exclude your subscribed branches"
+msgstr ""
+
+#: r2/templates/allinfobar.html:43
+msgid "See gilded comments"
+msgstr ""
+
+#: r2/templates/awardreceived.html:27
+msgid "you already have that trophy!"
+msgstr ""
+
+#: r2/templates/awardreceived.html:29
+msgid "trophy claimed!"
+msgstr ""
+
+#: r2/templates/base.htmllite:89
+#, python-format
+msgid "links from %(site)s"
+msgstr "links de %(site)s"
+
+#: r2/templates/bookmarklets.html:32
+#, python-format
+msgid "install the %(site)s bookmarklet set"
+msgstr "instalar o conjunto de bookmarklet do %(site)s"
+
+#: r2/templates/bookmarklets.html:35
+msgid "in Firefox"
+msgstr "no Firefox"
+
+#: r2/templates/bookmarklets.html:37 r2/templates/bookmarklets.html:66
+msgid "click and drag"
+msgstr "clique e arraste"
+
+#: r2/templates/bookmarklets.html:43 r2/templates/bookmarklets.html:72
+msgid "to your bookmark bar."
+msgstr "para sua barra de favoritos"
+
+#: r2/templates/bookmarklets.html:51
+msgid "in Internet Explorer"
+msgstr "no Internet Explorer"
+
+#: r2/templates/bookmarklets.html:53
+msgid "right-click on"
+msgstr "clique com o botão direito em"
+
+#: r2/templates/bookmarklets.html:59
+msgid "then choose \"Add to Favorites\" and add to the \"Links\" folder."
+msgstr "e selecione \"Adicionar aos Favoritos\" e adicione à pasta \"Links\"."
+
+#: r2/templates/bookmarklets.html:64
+msgid "in Safari"
+msgstr "no Safari"
+
+#: r2/templates/bookmarklets.html:78
+#, python-format
+msgid "voila! now you have all the functionality of %(site)s in your toolbar."
+msgstr "voila! agora você tem toda a funcionalidade de %(site)s na sua barra de ferramentas."
+
+#: r2/templates/buttondemopanel.html:30
+#, python-format
+msgid "put %(site)s buttons on your site"
+msgstr "coloque os botões do %(site)s no seu site"
+
+#: r2/templates/buttondemopanel.html:35
+msgid "commonly used buttons"
+msgstr "botões mais usados"
+
+#: r2/templates/buttondemopanel.html:47
+msgid "buttons with points"
+msgstr "botões com pontos"
+
+#: r2/templates/buttondemopanel.html:53
+msgid "customizing the look of your buttons"
+msgstr "modificando a aparência dos seus botões"
+
+#: r2/templates/buttondemopanel.html:54
+msgid "the buttons with points have three additional options."
+msgstr "há três opções adicionais de botões com pontos."
+
+#: r2/templates/buttondemopanel.html:57
+msgid "no styles will be added, so you can style it yourself"
+msgstr "nenhum estilo será adicionado para que você pode modificar o estilo sozinho"
+
+#: r2/templates/buttondemopanel.html:59
+msgid "specify a url to use instead of the current url"
+msgstr "especifique uma url para utilizar em vez da url atual"
+
+#: r2/templates/buttondemopanel.html:61
+msgid "opens links in a new window"
+msgstr "abre os links em uma janela nova"
+
+#: r2/templates/buttondemopanel.html:63 r2/templates/buttondemopanel.html:115
+msgid "Example:"
+msgstr "Exemplo:"
+
+#: r2/templates/buttondemopanel.html:69
+msgid "simple interactive button"
+msgstr "botão interativo simples"
+
+#: r2/templates/buttondemopanel.html:70
+msgid "put this code on your page:"
+msgstr "coloque este código na sua página:"
+
+#: r2/templates/buttondemopanel.html:74
+msgid "and you'll get something like this:"
+msgstr "e você terá algo como isto:"
+
+#: r2/templates/buttondemopanel.html:79
+msgid "more interactive buttons"
+msgstr "mais botões interativos"
+
+#: r2/templates/buttondemopanel.html:86
+msgid "interactive button advanced settings"
+msgstr "opções avançadas do botão interativo"
+
+#: r2/templates/buttondemopanel.html:90
+msgid "specify a url"
+msgstr "especifique uma url"
+
+#: r2/templates/buttondemopanel.html:95
+msgid "specify a community to target"
+msgstr ""
+
+#: r2/templates/buttondemopanel.html:99
+msgid "specify a title"
+msgstr "especifique um título"
+
+#: r2/templates/buttondemopanel.html:103 r2/templates/prefoptions.html:110
+msgid "open links in a new window"
+msgstr "abrir links em uma nova janela"
+
+#: r2/templates/buttondemopanel.html:107
+msgid "specify the color"
+msgstr "especifique a cor"
+
+#: r2/templates/buttondemopanel.html:111
+msgid "specify a border color"
+msgstr "especifique a cor da borda"
+
+#: r2/templates/buttondemopanel.html:116
+msgid "to make this button:"
+msgstr "para fazer este botão:"
+
+#: r2/templates/buttondemopanel.html:118
+msgid "use this code:"
+msgstr "use este código:"
+
+#: r2/templates/buttondemopanel.html:128
+msgid "more badges and buttons"
+msgstr "mais selos e botões"
+
+#: r2/templates/buttondemopanel.html:159
+msgid "view code"
+msgstr "ver código"
+
+#: r2/templates/buttondemopanel.html:160
+msgid "hide code"
+msgstr "ocultar código"
+
+#: r2/templates/captcha.html:49
+msgid "(sorry)"
+msgstr ""
+
+#: r2/templates/captcha.html:49
+msgid "are you human?"
+msgstr ""
+
+#: r2/templates/captcha.html:75
+msgid "human?"
+msgstr "você é humano?"
+
+#: r2/templates/clickgadget.html:31
+msgid "clear"
+msgstr "limpar"
+
+#: r2/templates/comment.html:71
+msgid "in"
+msgstr ""
+
+#: r2/templates/comment.html:102
+msgid "deleted comment from"
+msgstr "comentário excluído de"
+
+#: r2/templates/comment.html:116
+#, python-format
+msgid "this branch hides comment scores for %d minutes"
+msgstr ""
+
+#: r2/templates/comment.html:117 r2/templates/comment.htmllite:56
+msgid "score hidden"
+msgstr ""
+
+#: r2/templates/comment.html:123 r2/templates/comment.htmllite:46
+#: r2/templates/commentvisitsbox.html:32 r2/templates/useriphistory.html:52
+#: r2/templates/utils.html:586
+msgid "ago"
+msgstr "atrás"
+
+#: r2/templates/comment.html:141
+msgid "child"
+msgid_plural "children"
+msgstr[0] "filho"
+msgstr[1] "filhos"
+
+#: r2/templates/comment.html:151
+msgid "show replies"
+msgstr ""
+
+#: r2/templates/commentspanel.html:38
+msgid "This sidebar will automatically appear when there are comments."
+msgstr "Esta barra lateral será exibida automaticante quando houver comentários."
+
+#: r2/templates/commentspanel.html:40
+msgid "This sidebar will not be shown automatically."
+msgstr "Esta barra lateral não será exibida automaticamente."
+
+#: r2/templates/commentvisitsbox.html:25
+msgid "Highlight comments posted since previous visit:"
+msgstr ""
+
+#: r2/templates/commentvisitsbox.html:34
+msgid "no highlighting"
+msgstr ""
+
+#: r2/templates/confirmawardclaim.html:31
+#, python-format
+msgid "# Claim this award for /u/%s? #"
+msgstr ""
+
+#: r2/templates/confirmawardclaim.html:35
+msgid "Yes, please!"
+msgstr ""
+
+#: r2/templates/createbranch.html:43
+msgid "no spaces, e.g., slashdot"
+msgstr ""
+
+#: r2/templates/createbranch.html:43 r2/templates/goldpayment.html:121
+#: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:136
+#: r2/templates/prefapps.html:326
+msgid "name"
+msgstr ""
+
+#: r2/templates/createbranch.html:56
+msgid "e.g., slashdot: news for nerds, stuff that matters"
+msgstr ""
+
+#: r2/templates/createbranch.html:68
+msgid "publicly describe your branch for all to see. 500 characters max."
+msgstr ""
+
+#: r2/templates/createbranch.html:82
+msgid "shown in the sidebar of your branch. 5120 characters max."
+msgstr ""
+
+#: r2/templates/createbranch.html:96
+msgid "text to show on submission page. 1024 characters max."
+msgstr ""
+
+#: r2/templates/createbranch.html:96
+msgid "submission text"
+msgstr ""
+
+#: r2/templates/createbranch.html:136 r2/templates/multiinfobar.html:40
+msgid "public"
+msgstr ""
+
+#: r2/templates/createbranch.html:137
+msgid "anyone can view and submit"
+msgstr ""
+
+#: r2/templates/createbranch.html:139
+msgid "restricted"
+msgstr ""
+
+#: r2/templates/createbranch.html:140
+msgid "anyone can view, but only some are approved to submit links"
+msgstr ""
+
+#: r2/templates/createbranch.html:142 r2/templates/multiinfobar.html:39
+#: r2/templates/branch.html:83
+msgid "private"
+msgstr "privado"
+
+#: r2/templates/createbranch.html:143
+msgid "only approved members can view and submit"
+msgstr ""
+
+#: r2/templates/createbranch.html:148
+msgid "archived"
+msgstr ""
+
+#: r2/templates/createbranch.html:149
+msgid "anyone can view, but submissions are no longer accepted"
+msgstr ""
+
+#: r2/templates/createbranch.html:155
+msgid "gold restricted"
+msgstr ""
+
+#: r2/templates/createbranch.html:156
+msgid "anyone can view, but only Artemis gold members can submit or comment"
+msgstr ""
+
+#: r2/templates/createbranch.html:164 r2/templates/prefoptions.html:252
+msgid "content options"
+msgstr "opções de conteúdo"
+
+#: r2/templates/createbranch.html:167
+msgid "any"
+msgstr ""
+
+#: r2/templates/createbranch.html:168
+msgid "any link type is allowed"
+msgstr ""
+
+#: r2/templates/createbranch.html:170
+msgid "links only"
+msgstr ""
+
+#: r2/templates/createbranch.html:171
+msgid "only links to external sites are allowed"
+msgstr ""
+
+#: r2/templates/createbranch.html:173
+msgid "text posts only"
+msgstr ""
+
+#: r2/templates/createbranch.html:174
+msgid "only text/self posts are allowed"
+msgstr ""
+
+#: r2/templates/createbranch.html:181
+msgid "Custom label for submit link button (blank for default):"
+msgstr ""
+
+#: r2/templates/createbranch.html:189
+msgid "Custom label for submit text post button (blank for default):"
+msgstr ""
+
+#: r2/templates/createbranch.html:201
+msgid "disabled"
+msgstr ""
+
+#: r2/templates/createbranch.html:202
+msgid "Wiki is disabled for all users except mods"
+msgstr ""
+
+#: r2/templates/createbranch.html:204
+msgid "mod editing"
+msgstr ""
+
+#: r2/templates/createbranch.html:207
+msgid "anyone"
+msgstr ""
+
+#: r2/templates/createbranch.html:208
+msgid "Anyone who can submit to the branch may edit"
+msgstr ""
+
+#: r2/templates/createbranch.html:215
+msgid "Branch karma required to edit and create wiki pages:"
+msgstr ""
+
+#: r2/templates/createbranch.html:225
+msgid "Account age (days) required to edit and create wiki pages:"
+msgstr ""
+
+#: r2/templates/createbranch.html:237
+msgid "spam filter strength"
+msgstr ""
+
+#: r2/templates/createbranch.html:244 r2/templates/createbranch.html:255
+#: r2/templates/createbranch.html:266
+msgid "low"
+msgstr ""
+
+#: r2/templates/createbranch.html:246 r2/templates/createbranch.html:257
+#: r2/templates/createbranch.html:268
+msgid "high"
+msgstr ""
+
+#: r2/templates/createbranch.html:253
+msgid "self posts"
+msgstr ""
+
+#: r2/templates/createbranch.html:278
+msgid "other options"
+msgstr ""
+
+#: r2/templates/createbranch.html:289
+msgid "viewers must be over eighteen years old"
+msgstr ""
+
+#: r2/templates/createbranch.html:300
+msgid "allow this branch to be shown in the default set"
+msgstr ""
+
+#: r2/templates/createbranch.html:311
+msgid "show thumbnail images of content"
+msgstr ""
+
+#: r2/templates/createbranch.html:322
+msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
+msgstr ""
+
+#: r2/templates/createbranch.html:330
+msgid "make the traffic stats page available to everyone"
+msgstr ""
+
+#: r2/templates/createbranch.html:337
+msgid "Minutes to hide comment scores:"
+msgstr ""
+
+#: r2/templates/createbranch.html:360
+msgid "make custom CSS styles apply only when accessed from the cname."
+msgstr ""
+
+#: r2/templates/createbranch.html:370
+msgid "show sidebar when accessed from the cname."
+msgstr ""
+
+#: r2/templates/createbranch.html:382 r2/templates/usertext.html:146
+#: r2/templates/wikieditpage.html:46
+msgid "hide help"
+msgstr "ocultar ajuda"
+
+#: r2/templates/createbranch.html:394 r2/templates/promotelinkform.html:196
+msgid "look and feel"
+msgstr ""
+
+#: r2/templates/createbranch.html:397
+msgid "edit the stylesheet"
+msgstr ""
+
+#: r2/templates/createbranch.html:401
+msgid "leaves this page"
+msgstr ""
+
+#: r2/templates/createbranch.html:420
+msgid "restore default header"
+msgstr ""
+
+#: r2/templates/createbranch.html:443 r2/templates/flairpane.html:88
+#: r2/templates/prefoptions.html:334 r2/templates/promotelinkform.html:117
+msgid "save options"
+msgstr "salvar opções"
+
+#: r2/templates/errorpage.html:41
+#, python-format
+msgid "a message from the moderators of /r/%s"
+msgstr ""
+
+#: r2/templates/exploreitem.html:42
+msgid "not interested"
+msgstr ""
+
+#: r2/templates/exploreitem.html:54
+msgid "more comments"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:32
+msgid "feedback/suggestions"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:38
+msgid "personalized"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:47
+#: r2/templates/printablebuttons.html:60
+msgid "nsfw"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:51
+msgid "apply"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:61 r2/templates/listing.html:39
+#: r2/templates/promotedlinktraffic.html:84 r2/templates/tablelisting.html:49
+#: r2/templates/userlisting.html:97
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:44
+msgid "view more:"
+msgstr "ver mais:"
+
+#: r2/templates/exploreitemlisting.html:62
+msgid "reload suggestions"
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:68
+msgid "Our robots have no suggestions at the moment."
+msgstr ""
+
+#: r2/templates/exploreitemlisting.html:73
+msgid "try again"
+msgstr ""
+
+#: r2/templates/feedback.html:46 r2/templates/sharelink.html:59
+msgid "your name"
+msgstr "seu nome"
+
+#: r2/templates/feedback.html:53
+msgid "(only used to reply)"
+msgstr ""
+
+#: r2/templates/feedback.html:53 r2/templates/prefupdate.html:72
+msgid "email"
+msgstr "e-mail"
+
+#: r2/templates/feedback.html:70 r2/templates/messagecompose.html:146
+msgid "send"
+msgstr "enviar"
+
+#: r2/templates/flairlist.html:26
+msgid "jump to user (or add):"
+msgstr ""
+
+#: r2/templates/flairlist.html:35
+msgid "back to full list"
+msgstr ""
+
+#: r2/templates/flairlist.html:38
+msgid "back to the beginning"
+msgstr ""
+
+#: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:37
+msgid "flair text"
+msgstr ""
+
+#: r2/templates/flairlist.html:47 r2/templates/flairtemplatelist.html:38
+msgid "css class"
+msgstr ""
+
+#: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:51
+#: r2/templates/frametoolbar.html:194
+#: r2/templates/moderatorpermissions.html:52 r2/templates/prefupdate.html:99
+#: r2/templates/printablebuttons.html:189
+#: r2/templates/printablebuttons.html:191
+#: r2/templates/printablebuttons.html:264
+#: r2/templates/printablebuttons.html:268
+#: r2/templates/promotelinkform.html:478
+#: r2/templates/branchestylesheet.html:71
+msgid "save"
+msgstr "salvar"
+
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:41
+#: r2/templates/promotedlinktraffic.html:86
+#: r2/templates/spotlightlisting.html:54 r2/templates/tablelisting.html:53
+#: r2/templates/userlisting.html:101
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:46
+msgid "prev"
+msgstr "anterior"
+
+#: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
+#: r2/templates/promotedlinktraffic.html:92
+#: r2/templates/promotelinknew.html:54 r2/templates/spotlightlisting.html:55
+#: r2/templates/tablelisting.html:59 r2/templates/userlisting.html:107
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:52
+msgid "next"
+msgstr "próximo"
+
+#: r2/templates/flairpane.html:25
+msgid "flair settings"
+msgstr ""
+
+#: r2/templates/flairpane.html:30
+msgid "flair options"
+msgstr ""
+
+#: r2/templates/flairpane.html:39
+msgid "enable user flair in this branch"
+msgstr ""
+
+#: r2/templates/flairpane.html:50
+msgid "allow users to assign their own flair"
+msgstr ""
+
+#: r2/templates/flairpane.html:61
+msgid "allow submitters to assign their own link flair"
+msgstr ""
+
+#: r2/templates/flairpane.html:64
+msgid "user flair position"
+msgstr ""
+
+#: r2/templates/flairpane.html:66 r2/templates/flairpane.html:79
+msgid "left"
+msgstr ""
+
+#: r2/templates/flairpane.html:67
+msgid "position flair to the left of the username"
+msgstr ""
+
+#: r2/templates/flairpane.html:69 r2/templates/flairpane.html:82
+msgid "right"
+msgstr ""
+
+#: r2/templates/flairpane.html:70
+msgid "position flair to the right of the username"
+msgstr ""
+
+#: r2/templates/flairpane.html:74
+msgid "link flair position"
+msgstr ""
+
+#: r2/templates/flairpane.html:77
+msgid "don't show link flair"
+msgstr ""
+
+#: r2/templates/flairpane.html:80
+msgid "position flair to the left of the link"
+msgstr ""
+
+#: r2/templates/flairpane.html:83
+msgid "position flair to the right of the link"
+msgstr ""
+
+#: r2/templates/flairprefs.html:31
+msgid "Show my flair on this branch. It looks like:"
+msgstr ""
+
+#: r2/templates/flairselector.html:23
+msgid "select flair"
+msgstr ""
+
+#: r2/templates/flairselector.html:44
+msgid "remove flair"
+msgstr ""
+
+#: r2/templates/flairselector.html:55
+msgid "flair selection unavailable"
+msgstr ""
+
+#: r2/templates/flairtemplatelist.html:36
+msgid "user can edit?"
+msgstr ""
+
+#: r2/templates/flairtemplatelist.html:55
+msgid "clear all flair templates"
+msgstr ""
+
+#: r2/templates/flairtemplatelist.html:55
+msgid "cleared"
+msgstr ""
+
+#: r2/templates/frametoolbar.html:67
+msgid "show url"
+msgstr "mostrar url"
+
+#: r2/templates/frametoolbar.html:70
+msgid "hide url"
+msgstr "ocultar url"
+
+#: r2/templates/frametoolbar.html:74
+msgid "load a random link"
+msgstr "carregar um link aleatório"
+
+#: r2/templates/frametoolbar.html:81 r2/templates/interestbar.html:40
+msgid "serendipity"
+msgstr "feliz acaso"
+
+#: r2/templates/frametoolbar.html:89
+msgid "visit your userpage"
+msgstr "visitar sua página de usuário"
+
+#: r2/templates/frametoolbar.html:93
+msgid "login / register"
+msgstr "fazer login / registrar-se"
+
+#: r2/templates/frametoolbar.html:101
+msgid "new mail"
+msgstr "nova mensagem"
+
+#: r2/templates/frametoolbar.html:114 r2/templates/frametoolbar.html:115
+msgid "visit this link without the toolbar"
+msgstr "visitar este link sem a barra de ferramentas"
+
+#: r2/templates/frametoolbar.html:121
+msgid "click to visit the main page for this submission"
+msgstr "clique para visitar a página principal desse envio"
+
+#: r2/templates/frametoolbar.html:166
+#, python-format
+msgid "vote %(direction)s"
+msgstr "vote %(direction)s"
+
+#: r2/templates/frametoolbar.html:181
+msgid "like"
+msgstr "gostar"
+
+#: r2/templates/frametoolbar.html:182
+msgid "dislike"
+msgstr "não gostar"
+
+#: r2/templates/frametoolbar.html:190 r2/templates/printablebuttons.html:189
+#: r2/templates/printablebuttons.html:191
+#: r2/templates/printablebuttons.html:264
+#: r2/templates/printablebuttons.html:268
+msgid "unsave"
+msgstr "não salvar"
+
+#: r2/templates/frametoolbar.html:191
+msgid "unsaved"
+msgstr "não salvo"
+
+#: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:195
+msgid "unhide"
+msgstr "não ocultar"
+
+#: r2/templates/frametoolbar.html:201 r2/templates/printablebuttons.html:196
+msgid "unhidden"
+msgstr "não ocultado"
+
+#: r2/templates/frametoolbar.html:212
+msgid "toggle the comments panel"
+msgstr "alternar o painel de comentários"
+
+#: r2/templates/gold.html:88
+msgid "How much gold do you wish to bestow?"
+msgstr ""
+
+#: r2/templates/gold.html:115
+msgid "Buy for yourself, as an ongoing subscription"
+msgstr ""
+
+#: r2/templates/gold.html:118
+msgid "Buy for yourself, as a one-time purchase"
+msgstr ""
+
+#: r2/templates/gold.html:120
+msgid "Give Artemis gold to someone else"
+msgstr ""
+
+#: r2/templates/gold.html:122
+msgid "Buy Artemis gold \"cbranches\""
+msgstr ""
+
+#: r2/templates/gold.html:125
+msgid "Buy a Artemis gold \"gift code\""
+msgstr ""
+
+#: r2/templates/gold.html:127
+msgid "Redeem a Artemis gold gift code"
+msgstr ""
+
+#: r2/templates/gold.html:134
+#, python-format
+msgid "%s / month"
+msgstr ""
+
+#: r2/templates/gold.html:135
+#, python-format
+msgid "%s / year (which works out to just %s / month!)"
+msgstr ""
+
+#: r2/templates/gold.html:138 r2/templates/subscribebutton.html:27
+msgid "subscribe"
+msgstr ""
+
+#: r2/templates/gold.html:144
+msgid "How many months?"
+msgstr ""
+
+#: r2/templates/gold.html:146 r2/templates/gold.html:192
+#: r2/templates/gold.html:200
+msgid "buy"
+msgstr ""
+
+#: r2/templates/gold.html:155
+msgid "To whom are you giving said gold?"
+msgstr ""
+
+#: r2/templates/gold.html:166
+msgid "Do you want them to know it came from you?"
+msgstr ""
+
+#: r2/templates/gold.html:168
+msgid "yes, include my username"
+msgstr ""
+
+#: r2/templates/gold.html:172
+msgid "no, make it anonymous"
+msgstr ""
+
+#: r2/templates/gold.html:178
+msgid "Gift message (optional):"
+msgstr ""
+
+#: r2/templates/gold.html:183 r2/templates/goldpayment.html:85
+msgid "give"
+msgstr ""
+
+#: r2/templates/gold.html:209
+msgid "Please enter the gold code to redeem below:"
+msgstr ""
+
+#: r2/templates/gold.html:211
+msgid "redeem"
+msgstr ""
+
+#: r2/templates/goldpayment.html:33
+msgid "close"
+msgstr ""
+
+#: r2/templates/goldpayment.html:45
+msgid "The following gift note will be attached:"
+msgstr ""
+
+#: r2/templates/goldpayment.html:54
+msgid "Please select a payment method."
+msgstr ""
+
+#: r2/templates/goldpayment.html:101
+msgid "PayPal"
+msgstr ""
+
+#: r2/templates/goldpayment.html:106
+msgid "Credit Card"
+msgstr ""
+
+#: r2/templates/goldpayment.html:125 r2/templates/paymentform.html:112
+msgid "card number"
+msgstr "número do cartão"
+
+#: r2/templates/goldpayment.html:129
+msgid "cvc"
+msgstr ""
+
+#: r2/templates/goldpayment.html:133 r2/templates/paymentform.html:113
+msgid "expiration date"
+msgstr "válido até"
+
+#: r2/templates/goldpayment.html:154
+msgid "address line 1"
+msgstr ""
+
+#: r2/templates/goldpayment.html:158
+msgid "address line 2"
+msgstr ""
+
+#: r2/templates/goldpayment.html:162 r2/templates/paymentform.html:107
+msgid "city"
+msgstr "cidade"
+
+#: r2/templates/goldpayment.html:166
+msgid "state/province"
+msgstr ""
+
+#: r2/templates/goldpayment.html:170 r2/templates/paymentform.html:110
+#: r2/templates/promotelinkform.html:344
+msgid "country"
+msgstr ""
+
+#: r2/templates/goldpayment.html:174 r2/templates/paymentform.html:109
+msgid "zip"
+msgstr "cep"
+
+#: r2/templates/goldpayment.html:180
+msgid "Submit"
+msgstr ""
+
+#: r2/templates/goldpayment.html:192
+msgid "amount"
+msgstr ""
+
+#: r2/templates/goldpayment.html:197
+msgid "renewal interval"
+msgstr ""
+
+#: r2/templates/goldpayment.html:219
+msgid "Bitcoin"
+msgstr ""
+
+#: r2/templates/goldsubscription.html:27
+msgid "your account doesn't have a gold subscription."
+msgstr ""
+
+#: r2/templates/goldsubscription.html:37
+msgid "use different card"
+msgstr ""
+
+#: r2/templates/goldsubscription.html:41
+msgid "cancel subscription"
+msgstr ""
+
+#: r2/templates/goldsubscription.html:71
+#, python-format
+msgid "you have a paypal gold subscription. go to %(paypal)s to manage it."
+msgstr ""
+
+#: r2/templates/goldvertisement.html:33
+msgid "daily Artemis gold goal"
+msgstr ""
+
+#: r2/templates/goldvertisement.html:42
+msgid "help support Artemis"
+msgstr ""
+
+#: r2/templates/goldvertisement.html:68
+msgid "Yesterday's Artemis gold goal"
+msgstr ""
+
+#: r2/templates/interestbar.html:27
+#, python-format
+msgid "ready for something new? %s subscribe %s to some new branches."
+msgstr ""
+
+#: r2/templates/interestbar.html:35
+msgid "what are you interested in?"
+msgstr ""
+
+#: r2/templates/interestbar.html:37
+msgid "try these:"
+msgstr ""
+
+#: r2/templates/languagetrafficsummary.html:27
+msgid "language traffic statistics"
+msgstr ""
+
+#: r2/templates/languagetrafficsummary.html:30
+msgid "traffic by language"
+msgstr ""
+
+#: r2/templates/link.html:73
+msgid "Adult content: Not Safe For Work"
+msgstr "Conteúdo adulto: não abra no trabalho"
+
+#: r2/templates/link.html:74
+msgid "NSFW"
+msgstr "ADULTO"
+
+#: r2/templates/linkcommentssettings.html:27
+msgid "disable contest mode"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:27
+msgid "contest mode disabled"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:30
+msgid "enable contest mode"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:30
+msgid "contest mode enabled"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:34
+msgid "contest mode: scores hidden"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:43
+msgid "unsticky this post"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:46
+msgid "sticky this post"
+msgstr ""
+
+#: r2/templates/linkcommentssettings.html:47
+msgid "sticky this? (any existing sticky will be replaced)"
+msgstr ""
+
+#: r2/templates/linkinfobar.html:37
+msgid "this post was submitted on"
+msgstr "esta postagem foi enviada em"
+
+#: r2/templates/linkinfobar.html:50
+msgid "like it"
+msgstr "gostaram"
+
+#: r2/templates/linkinfobar.html:55 r2/templates/printable.html:183
+msgid "upvote"
+msgid_plural "upvotes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/templates/linkinfobar.html:61 r2/templates/printable.html:185
+msgid "downvote"
+msgid_plural "downvotes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: r2/templates/linkinfopage.htmllite:28
+#, python-format
+msgid "comments from %(site)s"
+msgstr "comentários de %(site)s\t\t"
+
+#: r2/templates/listing.html:56 r2/templates/tablelisting.html:64
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:59
+msgid "there doesn't seem to be anything here"
+msgstr "parece que não há nada aqui"
+
+#: r2/templates/listingchooser.html:45
+msgid "multibranches"
+msgstr ""
+
+#: r2/templates/listingchooser.html:48
+msgid "new! create sets of branches to view together."
+msgstr ""
+
+#: r2/templates/listingchooser.html:49
+msgid "for starters, try one of these:"
+msgstr ""
+
+#: r2/templates/listingchooser.html:53
+msgid "to hide these samples, create a multi of your own:"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:29
+msgid "or try a multi:"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:35
+#, python-format
+msgid "or try a %(random_branch)s"
+msgstr ""
+
+#: r2/templates/listingsuggestions.html:36
+msgid "random branch"
+msgstr ""
+
+#: r2/templates/login.html:34 r2/templates/register.html:34
+msgid "you are logged in. go use the site!"
+msgstr "você já fez o login. vai usar o site!"
+
+#: r2/templates/login.html:67 r2/templates/loginformwide.html:44
+#: r2/templates/password.html:38 r2/templates/prefdelete.html:54
+#: r2/templates/register.html:67 r2/templates/userlisting.html:122
+msgid "username"
+msgstr "nome de usuário"
+
+#: r2/templates/login.html:72 r2/templates/register.html:72
+msgid "try another"
+msgstr ""
+
+#: r2/templates/login.html:73 r2/templates/register.html:73
+msgid "available!"
+msgstr ""
+
+#: r2/templates/login.html:82 r2/templates/register.html:82
+msgid "account recovery email"
+msgstr ""
+
+#: r2/templates/login.html:82 r2/templates/prefdelete.html:46
+#: r2/templates/register.html:82
+msgid "optional"
+msgstr "opcional"
+
+#: r2/templates/login.html:86 r2/templates/register.html:86
+msgid "we only send email at your request"
+msgstr ""
+
+#: r2/templates/login.html:104 r2/templates/prefupdate.html:87
+#: r2/templates/register.html:104 r2/templates/resetpassword.html:45
+msgid "verify password"
+msgstr "verificar senha"
+
+#: r2/templates/login.html:121 r2/templates/loginformwide.html:51
+#: r2/templates/register.html:121
+msgid "remember me"
+msgstr "lembrar de mim"
+
+#: r2/templates/login.html:127 r2/templates/register.html:127
+msgid "recover password"
+msgstr "recuperar senha"
+
+#: r2/templates/login.html:134 r2/templates/register.html:134
+msgid "create account"
+msgstr "criar conta"
+
+#: r2/templates/login.html:134 r2/templates/login.html:163
+#: r2/templates/loginformwide.html:57 r2/templates/register.html:134
+#: r2/templates/register.html:163
+msgid "login"
+msgstr "login"
+
+#: r2/templates/login.html:146 r2/templates/register.html:146
+msgid "create a new account"
+msgstr "criar uma nova conta"
+
+#: r2/templates/login.html:148 r2/templates/register.html:148
+msgid "all it takes is a username and password"
+msgstr "você só precisa de um nome de usuário e senha"
+
+#: r2/templates/login.html:158 r2/templates/register.html:158
+msgid "is it really that easy? only one way to find out..."
+msgstr "é tão fácil assim? só existe uma maneira de descobrir..."
+
+#: r2/templates/login.html:165 r2/templates/register.html:165
+msgid "already have an account and just want to login?"
+msgstr "já tem uma conta e só quer entrar?"
+
+#: r2/templates/message.html:102
+msgid "expand all"
+msgstr "mostrar tudo"
+
+#: r2/templates/message.html:105
+msgid "collapse all"
+msgstr "recolher tudo"
+
+#: r2/templates/message.html:123
+msgid "show parent"
+msgstr "mostrar pai"
+
+#: r2/templates/messagecompose.html:32
+msgid "send a message"
+msgstr "enviar uma mensagem"
+
+#: r2/templates/messagecompose.html:54
+msgid "(username, or /r/name for that branch's mods)"
+msgstr ""
+
+#: r2/templates/messagecompose.html:54
+msgid "to"
+msgstr ""
+
+#: r2/templates/messagecompose.html:66
+msgid "subject"
+msgstr ""
+
+#: r2/templates/modlisting.html:30 r2/templates/branchinfobar.html:56
+msgid "leave"
+msgstr "sair"
+
+#: r2/templates/modlisting.html:31
+msgid "you are no longer a moderator"
+msgstr "você não é mais um moderador"
+
+#: r2/templates/modlisting.html:32
+msgid "stop being a moderator?"
+msgstr "deixar de ser um moderador?"
+
+#: r2/templates/modlisting.html:44 r2/templates/printablebuttons.html:233
+msgid "accept"
+msgstr "aceitar"
+
+#: r2/templates/modlisting.html:45
+msgid "you are now a moderator. welcome to the team!"
+msgstr ""
+
+#: r2/templates/modlisting.html:46
+#, python-format
+msgid "become a moderator of %s?"
+msgstr ""
+
+#: r2/templates/modlisting.html:47
+#, python-format
+msgid "you are invited to become a moderator. %(action)s"
+msgstr ""
+
+#: r2/templates/modlisting.html:53 r2/templates/multiinfobar.html:98
+#: r2/templates/userlisting.html:60 r2/templates/wikipagesettings.html:67
+msgid "add"
+msgstr "adicionar"
+
+#: r2/templates/morechildren.html:39
+msgid "load more comments"
+msgstr "carregar mais comentários"
+
+#: r2/templates/morechildren.html:40
+msgid "reply"
+msgid_plural "replies"
+msgstr[0] "resposta"
+msgstr[1] "respostas"
+
+#: r2/templates/moremessages.html:38
+msgid "[+] load the full conversation."
+msgstr "[+] carregar a conversa completa"
+
+#: r2/templates/morerecursion.html:29
+msgid "continue this thread"
+msgstr "continuar esse grupo de comentários"
+
+#: r2/templates/multiinfobar.html:35
+#, python-format
+msgid "curated by /u/%s"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:43 r2/templates/multiinfobar.html:58
+msgid "copy"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:46 r2/templates/multiinfobar.html:67
+msgid "rename"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:51
+msgid "create a copy"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:58
+msgid "copy name"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:67
+msgid "new name"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:77
+msgid "edit description"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:86
+#, python-format
+msgid "%(count)s branches in this multi:"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:98
+msgid "add branch"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:105 r2/templates/branchinfobar.html:75
+#, python-format
+msgid "created by&#32;%(user)s"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:109
+msgid "a multiArtemis for"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:118
+msgid "people also added:"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:122
+msgid "more suggestions"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:126
+msgid "no more suggestions!"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:127
+msgid "would you like to..."
+msgstr ""
+
+#: r2/templates/multiinfobar.html:131
+msgid "check out branches by category"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:136
+msgid "explore a random branch"
+msgstr ""
+
+#: r2/templates/multiinfobar.html:141
+msgid "see the suggestions again"
+msgstr ""
+
+#: r2/templates/newlink.html:37
+msgid "Artemis"
+msgstr ""
+
+#: r2/templates/newlink.html:40
+#, python-format
+msgid "submit to %(sr)s"
+msgstr ""
+
+#: r2/templates/newlink.html:84
+msgid "suggest title"
+msgstr ""
+
+#: r2/templates/newlink.html:92 r2/templates/paymentform.html:105
+#: r2/templates/paymentform.html:111 r2/templates/sharelink.html:62
+#: r2/templates/sharelink.html:80 r2/templates/sharelink.html:98
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: r2/templates/newlink.html:92 r2/templates/promotelinkform.html:153
+#: r2/templates/promotelinkform.html:189
+msgid "text"
+msgstr ""
+
+#: r2/templates/newlink.html:103
+msgid "choose a branch"
+msgstr ""
+
+#: r2/templates/newlink.html:110
+#, python-format
+msgid "submitting to %(sr)s"
+msgstr ""
+
+#: r2/templates/newlink.html:124
+msgid "send replies to my inbox"
+msgstr ""
+
+#: r2/templates/newlink.html:126
+msgid "beta"
+msgstr ""
+
+#: r2/templates/newlink.html:135
+msgid "why a brick? read to the bottom of the rules page to find out!"
+msgstr ""
+
+#: r2/templates/newlink.html:138
+msgid "few rules"
+msgstr ""
+
+#: r2/templates/newlink.html:142
+msgid "good reddiquette"
+msgstr ""
+
+#: r2/templates/oauth2authorization.html:45
+#, python-format
+msgid "%(app)s requests to connect with your Artemis account."
+msgstr ""
+
+#: r2/templates/oauth2authorization.html:50
+#, python-format
+msgid "Allow %(app)s to:"
+msgstr ""
+
+#: r2/templates/oauth2authorization.html:55
+#, python-format
+msgid "%(app)s will not be able to access your Artemis password."
+msgstr ""
+
+#: r2/templates/oauth2authorization.html:67
+msgid "Allow"
+msgstr ""
+
+#: r2/templates/oauth2authorization.html:69
+msgid "Decline"
+msgstr ""
+
+#: r2/templates/optout.html:27
+#, python-format
+msgid "The address '%(email)s' will no longer receive email from us."
+msgstr "O endereço '%(email)s' não irá mais receber nossos e-mails."
+
+#: r2/templates/optout.html:46
+#, python-format
+msgid "'%(email)s' has been removed from our block list."
+msgstr "'%(email)s' foi removido da nossa lista de bloqueio."
+
+#: r2/templates/optout.html:50
+#, python-format
+msgid "Allow '%(email)s' to receive email from us?"
+msgstr "Permitir que '%(email)s' receba nossos e-mails?"
+
+#: r2/templates/over18.html:27
+msgid "you must be at least eighteen to view this"
+msgstr ""
+
+#: r2/templates/over18.html:35
+msgid "are you over eighteen and willing to see adult content?"
+msgstr "você tem mais de dezoito anos e está disposto a ver conteúdo adulto?"
+
+#: r2/templates/password.html:29
+msgid "what's my password?"
+msgstr "qual a minha senha?"
+
+#: r2/templates/password.html:30
+msgid "enter your user name below to receive your login information"
+msgstr "digite o seu nome de usuário abaixo para receber a sua informação de login"
+
+#: r2/templates/password.html:33
+msgid "password reset link expired. please try again"
+msgstr ""
+
+#: r2/templates/password.html:46
+msgid "email me"
+msgstr "mande-me por e-mail"
+
+#: r2/templates/passwordverificationform.html:38
+#: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:38
+#: r2/templates/prefotp.html:43 r2/templates/prefotp.html:57
+#: r2/templates/prefotp.html:72 r2/templates/prefupdate.html:65
+#: r2/templates/useriphistory.html:67
+msgid "(required)"
+msgstr ""
+
+#: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:43
+#: r2/templates/prefotp.html:72
+msgid "one-time password"
+msgstr ""
+
+#: r2/templates/passwordverificationform.html:63
+msgid "remember this computer"
+msgstr ""
+
+#: r2/templates/paymentform.html:26
+msgid "set up payment for this link"
+msgstr "definir pagamento para esse link"
+
+#: r2/templates/paymentform.html:31
+#, python-format
+msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+msgstr ""
+
+#: r2/templates/paymentform.html:36
+#, python-format
+msgid "Your current budget is %(budget)s"
+msgstr ""
+
+#: r2/templates/paymentform.html:41
+msgid "Please pick your credit card:"
+msgstr "Escolha seu cartão de crédito"
+
+#: r2/templates/paymentform.html:43
+msgid "select..."
+msgstr "selecione..."
+
+#: r2/templates/paymentform.html:50
+#, python-format
+msgid "profile limit (%d) reached"
+msgstr ""
+
+#: r2/templates/paymentform.html:52
+msgid "create a new one..."
+msgstr "crie um novo..."
+
+#: r2/templates/paymentform.html:58
+msgid "please create a new payment profile"
+msgstr "crie um novo perfil de pagamento"
+
+#: r2/templates/paymentform.html:103
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:12
+msgid "first name"
+msgstr "primeiro nome"
+
+#: r2/templates/paymentform.html:104
+msgid "last name"
+msgstr "último nome"
+
+#: r2/templates/paymentform.html:105
+msgid "company"
+msgstr "empresa"
+
+#: r2/templates/paymentform.html:106
+msgid "address"
+msgstr "endereço"
+
+#: r2/templates/paymentform.html:108
+msgid "state"
+msgstr "estado"
+
+#: r2/templates/paymentform.html:111
+msgid "phone"
+msgstr "telefone"
+
+#: r2/templates/paymentform.html:112
+msgid "(14-17 digits)"
+msgstr "(14-17 dígitos)"
+
+#: r2/templates/paymentform.html:114
+msgid "CCV"
+msgstr "CCV"
+
+#: r2/templates/paymentform.html:114
+msgid "(3 or 4 digits)"
+msgstr "(3 ou 4 dígitos)"
+
+#: r2/templates/paymentform.html:160
+msgid "authorize payment"
+msgstr "autorizar pagamento"
+
+#: r2/templates/permalinkmessage.html:24
+msgid "you are viewing a single comment's thread."
+msgstr "você está vendo um thread com um único comentário"
+
+#: r2/templates/permalinkmessage.html:26
+msgid "view the rest of the comments"
+msgstr "ver o restante dos comentários"
+
+#: r2/templates/prefapps.html:60 r2/templates/prefapps.html:100
+msgid "web app"
+msgstr ""
+
+#: r2/templates/prefapps.html:61
+msgid "A web based application"
+msgstr ""
+
+#: r2/templates/prefapps.html:63 r2/templates/prefapps.html:102
+msgid "installed app"
+msgstr ""
+
+#: r2/templates/prefapps.html:64
+msgid "An app intended for installation, such as on a mobile phone"
+msgstr ""
+
+#: r2/templates/prefapps.html:66
+msgid "script"
+msgstr ""
+
+#: r2/templates/prefapps.html:75
+msgid "(that's you!)"
+msgstr ""
+
+#: r2/templates/prefapps.html:104
+msgid "personal use script"
+msgstr ""
+
+#: r2/templates/prefapps.html:126
+msgid "updating..."
+msgstr ""
+
+#: r2/templates/prefapps.html:132
+msgid "secret"
+msgstr ""
+
+#: r2/templates/prefapps.html:149 r2/templates/prefapps.html:340
+msgid "about url"
+msgstr ""
+
+#: r2/templates/prefapps.html:156 r2/templates/prefapps.html:347
+msgid "redirect uri"
+msgstr ""
+
+#: r2/templates/prefapps.html:166
+msgid "update app"
+msgstr ""
+
+#: r2/templates/prefapps.html:173
+msgid "developers"
+msgstr ""
+
+#: r2/templates/prefapps.html:183
+msgid "adding..."
+msgstr ""
+
+#: r2/templates/prefapps.html:186
+msgid "add developer"
+msgstr ""
+
+#: r2/templates/prefapps.html:200
+msgid "delete app"
+msgstr ""
+
+#: r2/templates/prefapps.html:224
+msgid "Only in:"
+msgstr ""
+
+#: r2/templates/prefapps.html:229
+msgid "Only in the branches:"
+msgstr ""
+
+#: r2/templates/prefapps.html:247 r2/templates/prefapps.html:258
+msgid "Expires in:"
+msgstr ""
+
+#: r2/templates/prefapps.html:250
+msgid "Maintain this access indefinitely (or until manually revoked)."
+msgstr ""
+
+#: r2/templates/prefapps.html:284
+msgid "revoke access"
+msgstr ""
+
+#: r2/templates/prefapps.html:285
+msgid "revoked"
+msgstr ""
+
+#: r2/templates/prefapps.html:294
+msgid "authorized applications"
+msgstr ""
+
+#: r2/templates/prefapps.html:303
+msgid "developed applications"
+msgstr ""
+
+#: r2/templates/prefapps.html:315
+msgid "create another app..."
+msgstr ""
+
+#: r2/templates/prefapps.html:317
+msgid "are you a developer? create an app..."
+msgstr ""
+
+#: r2/templates/prefapps.html:321
+msgid "creating..."
+msgstr ""
+
+#: r2/templates/prefapps.html:322
+msgid "create application"
+msgstr ""
+
+#: r2/templates/prefapps.html:356
+msgid "create app"
+msgstr ""
+
+#: r2/templates/prefdelete.html:29
+msgid "delete your Artemis account"
+msgstr ""
+
+#: r2/templates/prefdelete.html:32
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:62
+msgid "deleting..."
+msgstr "excluindo..."
+
+#: r2/templates/prefdelete.html:35
+msgid "sorry to see you go!"
+msgstr ""
+
+#: r2/templates/prefdelete.html:46
+msgid "why are you deleting this account?"
+msgstr ""
+
+#: r2/templates/prefdelete.html:53
+msgid "for security purposes"
+msgstr ""
+
+#: r2/templates/prefdelete.html:53
+msgid "account credentials"
+msgstr ""
+
+#: r2/templates/prefdelete.html:64
+msgid "confirmation"
+msgstr ""
+
+#: r2/templates/prefdelete.html:67
+msgid "I understand that deleted accounts are not recoverable."
+msgstr ""
+
+#: r2/templates/prefdelete.html:74
+msgid "delete account"
+msgstr ""
+
+#: r2/templates/preffeeds.html:29
+msgid "Private RSS feeds"
+msgstr "Feeds RSS privados"
+
+#: r2/templates/preffeeds.html:33
+msgid "All feeds are invalidated if you change your password, however."
+msgstr "Porém, todos os feeds serão invalidados se você alterar sua conta"
+
+#: r2/templates/preffeeds.html:57
+msgid "your saved links"
+msgstr "seus links salvos"
+
+#: r2/templates/preffeeds.html:64
+msgid "links you've liked"
+msgstr "links de que você gostou"
+
+#: r2/templates/preffeeds.html:67
+msgid "links you've disliked"
+msgstr "links de que você não gostou"
+
+#: r2/templates/preffeeds.html:70
+msgid "links you've hidden"
+msgstr "links que você ocultou"
+
+#: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:105
+msgid "unread messages"
+msgstr "mensagens não lidas"
+
+#: r2/templates/preffeeds.html:83
+msgid "messages only"
+msgstr "apenas mensagens"
+
+#: r2/templates/preffeeds.html:86
+msgid "comment replies only"
+msgstr "apenas respostas a comentários"
+
+#: r2/templates/preffeeds.html:89
+msgid "self-post replies only"
+msgstr "apenas respostas a postagens próprias"
+
+#: r2/templates/preffeeds.html:93
+msgid "mentions of your username only"
+msgstr ""
+
+#: r2/templates/preffeeds.html:112
+msgid "modqueue"
+msgstr ""
+
+#: r2/templates/prefoptions.html:72
+msgid "your preferences have been updated"
+msgstr "as suas preferências foram atualizadas"
+
+#: r2/templates/prefoptions.html:90
+msgid "interface language"
+msgstr "idioma da interface"
+
+#: r2/templates/prefoptions.html:94
+msgid "incomplete"
+msgstr "incompleto"
+
+#: r2/templates/prefoptions.html:95
+msgid "volunteer to translate"
+msgstr "ser voluntário para traduzir"
+
+#: r2/templates/prefoptions.html:99
+msgid "content language"
+msgstr "idioma do conteúdo"
+
+#: r2/templates/prefoptions.html:106
+msgid "clicking options"
+msgstr "opções de clique"
+
+#: r2/templates/prefoptions.html:108
+msgid "display links with a Artemis toolbar"
+msgstr "mostrar links com a barra de ferramentas do Artemis"
+
+#: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:238
+msgid "media"
+msgstr "mídia"
+
+#: r2/templates/prefoptions.html:117
+msgid "show thumbnails next to links"
+msgstr "mostrar imagens ao lado dos links"
+
+#: r2/templates/prefoptions.html:118
+msgid "don't show thumbnails next to links"
+msgstr "não mostrar imagens ao lado dos links"
+
+#: r2/templates/prefoptions.html:119
+msgid "show thumbnails based on that branch's media preferences"
+msgstr ""
+
+#: r2/templates/prefoptions.html:120
+msgid "make safe(r) for work "
+msgstr ""
+
+#: r2/templates/prefoptions.html:123
+msgid "(Don't show thumbnails next to anything labeled NSFW)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:126
+msgid "to enable thumbnails, disable compressed link display"
+msgstr "para habilitar as imagens, desabilite a redução do tamanho de exibição dos links"
+
+#: r2/templates/prefoptions.html:133
+msgid "link options"
+msgstr "opções do link"
+
+#: r2/templates/prefoptions.html:137
+msgid "show the spotlight box on the front page"
+msgstr "mostrar a caixa de destaque na página principal"
+
+#: r2/templates/prefoptions.html:144
+msgid "show me new links on the front page"
+msgstr "mostre-me os links novos na página principal"
+
+#: r2/templates/prefoptions.html:147
+msgid "show me links I've recently viewed"
+msgstr "mostrar links que vi recentemente"
+
+#: r2/templates/prefoptions.html:148
+msgid "compress the link display"
+msgstr "reduzir o tamanho de exibição dos links"
+
+#: r2/templates/prefoptions.html:149
+msgid "show additional details in the domain text when available"
+msgstr ""
+
+#: r2/templates/prefoptions.html:152
+msgid "(such as the source branch or the content author's url/name)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:155
+msgid "don't show links after I've liked them"
+msgstr ""
+
+#: r2/templates/prefoptions.html:157 r2/templates/prefoptions.html:161
+msgid "(except my own)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:159
+msgid "don't show links after I've disliked them"
+msgstr ""
+
+#: r2/templates/prefoptions.html:165
+msgid "display"
+msgstr "mostrar"
+
+#: r2/templates/prefoptions.html:166
+msgid "links at once"
+msgstr "links por vez"
+
+#: r2/templates/prefoptions.html:167
+msgid "don't show me sites with a score less than"
+msgstr "não mostrar sites com uma pontuação menor que"
+
+#: r2/templates/prefoptions.html:168
+msgid "don't show me comments with a score less than"
+msgstr "não mostrar comentários com uma pontuação menor que"
+
+#: r2/templates/prefoptions.html:169
+msgid "comments by default"
+msgstr "comentários como padrão"
+
+#: r2/templates/prefoptions.html:172
+#, python-format
+msgid "display %(num)s links at once"
+msgstr "mostrar %(num)s links por vez"
+
+#: r2/templates/prefoptions.html:180
+#, python-format
+msgid "don't show me sites with a score less than %(num)s"
+msgstr "não me mostrar sites com uma pontuação menor que %(num)s"
+
+#: r2/templates/prefoptions.html:181 r2/templates/prefoptions.html:194
+msgid "(blank for none)"
+msgstr "(em branco para nenhum)"
+
+#: r2/templates/prefoptions.html:186
+msgid "comment options"
+msgstr "opções do comentário"
+
+#: r2/templates/prefoptions.html:193
+#, python-format
+msgid "don't show me comments with a score less than %(num)s"
+msgstr "não me mostrar comentários com uma pontuação menor que %(num)s"
+
+#: r2/templates/prefoptions.html:202
+#, python-format
+msgid "display %(num)s comments by default"
+msgstr "mostrar %(num)s comentários como padrão"
+
+#: r2/templates/prefoptions.html:208
+msgid "the smaller the number, the faster your comments pages will load"
+msgstr ""
+
+#: r2/templates/prefoptions.html:213
+msgid "messaging options"
+msgstr "opções de mensagens"
+
+#: r2/templates/prefoptions.html:215
+msgid "show message conversations in the inbox"
+msgstr "mostrar conversas na caixa de entrada"
+
+#: r2/templates/prefoptions.html:218
+msgid "(only applies when you go to the 'messages' panel)"
+msgstr "(somente se aplica quando você vai até o painel 'mensagens')"
+
+#: r2/templates/prefoptions.html:222
+msgid "collapse messages after I've read them"
+msgstr "recolher mensagens depois que você as tiver lido"
+
+#: r2/templates/prefoptions.html:225
+msgid "(otherwise, you'll have to collapse them yourself)"
+msgstr "(caso contrário, você precisará recolhê-las)"
+
+#: r2/templates/prefoptions.html:229
+msgid "mark messages as read when I open my inbox"
+msgstr "marcar as mensagens como lidas quando eu abrir minha caixa de entrada"
+
+#: r2/templates/prefoptions.html:232
+msgid "(otherwise, they will be marked as read when you click them)"
+msgstr "(caso contrário, elas serão marcadas como lidas quando você clicar nelas)"
+
+#: r2/templates/prefoptions.html:237 r2/templates/widgetdemopanel.html:194
+msgid "display options"
+msgstr "mostrar opções"
+
+#: r2/templates/prefoptions.html:239
+msgid "allow branches to show me custom styles"
+msgstr ""
+
+#: r2/templates/prefoptions.html:241
+msgid "show user flair"
+msgstr ""
+
+#: r2/templates/prefoptions.html:243
+msgid "show link flair"
+msgstr ""
+
+#: r2/templates/prefoptions.html:246
+msgid "show self-serve advertising tab on front page"
+msgstr ""
+
+#: r2/templates/prefoptions.html:254
+msgid "I am over eighteen years old and willing to view adult content"
+msgstr ""
+
+#: r2/templates/prefoptions.html:255
+msgid "required to view some branches"
+msgstr ""
+
+#: r2/templates/prefoptions.html:257
+msgid "label posts that are not safe for work (NSFW)"
+msgstr "colocar aviso em postagens não recomendáveis para ver no trabalho (adulto)"
+
+#: r2/templates/prefoptions.html:259
+msgid "enable private RSS feeds"
+msgstr "habilitar RSS "
+
+#: r2/templates/prefoptions.html:261
+msgid "(available from the 'RSS feed' tab in prefs)"
+msgstr "(disponível na guia 'feed RSS' nas pref.)"
+
+#: r2/templates/prefoptions.html:264
+msgid "privacy options"
+msgstr "opções de privacidade"
+
+#: r2/templates/prefoptions.html:266
+msgid "make my votes public"
+msgstr "tornar os meus votos públicos"
+
+#: r2/templates/prefoptions.html:273
+#, python-format
+msgid "let everyone see %(link1)s and %(link2)s"
+msgstr ""
+
+#: r2/templates/prefoptions.html:276
+msgid "allow my data to be used for research purposes"
+msgstr ""
+
+#: r2/templates/prefoptions.html:286
+msgid "don't allow search engines to index my user profile"
+msgstr ""
+
+#: r2/templates/prefoptions.html:294
+msgid "load core JS libraries from Artemis servers"
+msgstr ""
+
+#: r2/templates/prefoptions.html:308
+msgid "gold options"
+msgstr ""
+
+#: r2/templates/prefoptions.html:310
+msgid "show the right sidebar ad box"
+msgstr ""
+
+#: r2/templates/prefoptions.html:311
+msgid "the attractive 300x250 one that usually only has Artemis t-shirts in it"
+msgstr ""
+
+#: r2/templates/prefoptions.html:313
+msgid "show sponsored links"
+msgstr ""
+
+#: r2/templates/prefoptions.html:314
+msgid "the blue advertisements that sometimes appear on the top of the page"
+msgstr ""
+
+#: r2/templates/prefoptions.html:316
+msgid "show sponsorships"
+msgstr ""
+
+#: r2/templates/prefoptions.html:317
+msgid "the 300x100 'sponsored by...' images that sometimes appear in sidebars"
+msgstr ""
+
+#: r2/templates/prefoptions.html:319
+msgid "remember what links I've visited"
+msgstr ""
+
+#: r2/templates/prefoptions.html:323
+msgid "highlight new comments"
+msgstr ""
+
+#: r2/templates/prefoptions.html:328
+msgid "notify me when people say my username"
+msgstr ""
+
+#: r2/templates/prefotp.html:50
+msgid "disable"
+msgstr ""
+
+#: r2/templates/prefotp.html:62
+msgid "activate"
+msgstr ""
+
+#: r2/templates/prefotp.html:78
+msgid "enable"
+msgstr ""
+
+#: r2/templates/prefupdate.html:28
+msgid "update your email or password"
+msgstr "atualizar seu e-mail ou senha"
+
+#: r2/templates/prefupdate.html:31
+msgid "verify your email"
+msgstr "verificar seu e-mail"
+
+#: r2/templates/prefupdate.html:33
+msgid "update your email"
+msgstr "atualizar seu e-mail"
+
+#: r2/templates/prefupdate.html:36
+msgid "update your password"
+msgstr "atualizar sua senha"
+
+#: r2/templates/prefupdate.html:45
+msgid "not set"
+msgstr ""
+
+#: r2/templates/prefupdate.html:48
+msgid "verified"
+msgstr "verificado"
+
+#: r2/templates/prefupdate.html:51
+msgid "verification pending"
+msgstr "verificação pendente"
+
+#: r2/templates/prefupdate.html:52
+msgid "click to resend"
+msgstr ""
+
+#: r2/templates/prefupdate.html:54
+msgid "unverified"
+msgstr "não verificado"
+
+#: r2/templates/prefupdate.html:55
+msgid "click to verify"
+msgstr ""
+
+#: r2/templates/prefupdate.html:65 r2/templates/useriphistory.html:67
+msgid "current password"
+msgstr ""
+
+#: r2/templates/prefupdate.html:80 r2/templates/resetpassword.html:38
+msgid "new password"
+msgstr ""
+
+#: r2/templates/prefupdate.html:97
+msgid "send verification email"
+msgstr "enviar e-mail de verificação"
+
+#: r2/templates/printablebuttons.html:40
+#: r2/templates/printablebuttons.html:155
+msgid "spammed"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:49
+#: r2/templates/printablebuttons.html:145
+msgid "approve"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:56
+msgid "report"
+msgstr "denunciar"
+
+#: r2/templates/printablebuttons.html:60
+msgid "marked"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:63
+msgid "un-nsfw"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:63
+msgid "unmarked"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:72
+msgid "retry thumb"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:72
+msgid "retrying"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:85
+msgid "distinguishing..."
+msgstr "distinguindo..."
+
+#: r2/templates/printablebuttons.html:89
+msgid "distinguish this?"
+msgstr "distinguir isto?"
+
+#: r2/templates/printablebuttons.html:143
+msgid "reapprove"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:182
+#: r2/templates/printablebuttons.html:228
+#: r2/templates/promotelinkform.html:472 r2/templates/sharelink.html:122
+msgid "cancel"
+msgstr "cancelar"
+
+#: r2/templates/printablebuttons.html:199
+msgid "hidden"
+msgstr "ocultados"
+
+#: r2/templates/printablebuttons.html:228
+msgid "reject"
+msgstr "rejeitar"
+
+#: r2/templates/printablebuttons.html:233
+msgid "accepted"
+msgstr "aceito"
+
+#: r2/templates/printablebuttons.html:239
+msgid "traffic"
+msgstr "tráfico"
+
+#: r2/templates/printablebuttons.html:260
+#: r2/templates/printablebuttons.html:332
+msgid "permalink"
+msgstr "permalink"
+
+#: r2/templates/printablebuttons.html:273
+#: r2/templates/printablebuttons.html:328 r2/templates/starkcomment.html:34
+msgid "context"
+msgstr "contexto"
+
+#: r2/templates/printablebuttons.html:277
+msgid "full comments"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:287
+msgid "parent"
+msgstr "pai"
+
+#: r2/templates/printablebuttons.html:301
+msgid "give Artemis gold in appreciation of this comment."
+msgstr ""
+
+#: r2/templates/printablebuttons.html:303
+msgid "give gold"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:308
+#: r2/templates/printablebuttons.html:350
+msgid "reply {verb}"
+msgstr "responder"
+
+#: r2/templates/printablebuttons.html:339
+msgid "block user"
+msgstr ""
+
+#: r2/templates/printablebuttons.html:343
+msgid "mark unread"
+msgstr "marcar como não lido"
+
+#: r2/templates/printablebuttons.html:514
+msgid "toggle"
+msgstr "alternar"
+
+#: r2/templates/profilebar.html:52
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeconnections.html:11
+msgid "+ friends"
+msgstr "+ amigo"
+
+#: r2/templates/profilebar.html:52
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeconnections.html:11
+msgid "- friends"
+msgstr "- amigo"
+
+#: r2/templates/profilebar.html:62 r2/templates/Artemisheader.html:81
+msgid "link karma"
+msgstr "carma de links"
+
+#: r2/templates/profilebar.html:67
+msgid "comment karma"
+msgstr "carma de comentários"
+
+#: r2/templates/profilebar.html:125
+msgid "of Artemis gold remaining"
+msgstr ""
+
+#: r2/templates/profilebar.html:133
+msgid "Recurring Paypal subscription"
+msgstr ""
+
+#: r2/templates/profilebar.html:143
+msgid "manage recurring subscription"
+msgstr ""
+
+#: r2/templates/profilebar.html:168 r2/templates/usertableitem.html:46
+msgid "send message"
+msgstr "enviar mensagem"
+
+#: r2/templates/profilebar.html:172
+msgid "Artemisor for"
+msgstr ""
+
+#: r2/templates/promotedlink.html:37
+#, python-format
+msgid "to be promoted by %(author)s"
+msgstr ""
+
+#: r2/templates/promotedlink.html:39
+#, python-format
+msgid "promoted by %(author)s"
+msgstr ""
+
+#: r2/templates/promotedlink.html:66
+msgid "deleted sponsored link"
+msgstr ""
+
+#: r2/templates/promotedlink.html:68
+msgid "unpaid sponsored link"
+msgstr "link patrocinado não pago"
+
+#: r2/templates/promotedlink.html:70
+msgid "unapproved sponsored link"
+msgstr "link patrocinado não aprovado"
+
+#: r2/templates/promotedlink.html:72
+msgid "rejected sponsored link"
+msgstr "link patrocinado rejeitado"
+
+#: r2/templates/promotedlink.html:74 r2/templates/promotedlink.html:79
+msgid "sponsored link"
+msgstr "link patrocinado"
+
+#: r2/templates/promotedlink.html:76
+msgid "accepted sponsored link"
+msgstr "link patrocinado aceito"
+
+#: r2/templates/promotedlinktraffic.html:39
+#: r2/templates/timeserieschart.html:37
+msgid "date"
+msgstr "data"
+
+#: r2/templates/promotedlinktraffic.html:42
+msgid "click-through (%)"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:75
+msgid "totals are preliminary until 24 hours after the end of the promotion."
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:103
+msgid "Campaigns created before September 12, 2012 don't have traffic data"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:112
+#: r2/templates/promotelinkform.html:307 r2/templates/promotelinkform.html:504
+msgid "start"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:113
+#: r2/templates/promotelinkform.html:323 r2/templates/promotelinkform.html:505
+msgid "end"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:115
+#: r2/templates/promotelinkform.html:393 r2/templates/refundpage.html:57
+msgid "budget"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:116
+#: r2/templates/promotelinkform.html:511
+msgid "spent"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:118 r2/templates/refundpage.html:61
+msgid "cpm"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:120
+msgid "ctr"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:121
+msgid "cpc"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:127 r2/templates/refundpage.html:73
+msgid "detail"
+msgstr ""
+
+#: r2/templates/promotedlinktraffic.html:128
+msgid "csv"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:75
+msgid "edit promotion"
+msgstr "editar uma promoção"
+
+#: r2/templates/promotelinkform.html:142
+msgid "post type"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:168
+msgid "Provide the URL of your ad. No redirects please!"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:172
+msgid "Override display domain:"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:196
+msgid "images will be resized if larger than 70 x 70 pixels"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:200
+msgid "upload header image:"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:227
+msgid "disable comments"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:247
+msgid "width"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:256
+msgid "height"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:278
+msgid "campaign dashboard"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:300
+msgid "Date when your sponsored link will end (at midnight UTC+5)"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:335 r2/templates/promotelinkform.html:506
+msgid "duration"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:341 r2/templates/promotelinkform.html:514
+msgid "geotargeting"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:353
+msgid "region"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:356
+msgid "metro"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:363
+msgid "price"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:370 r2/templates/promotelinkform.html:508
+msgid "priority"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:407
+#, python-format
+msgid "%(minimum)s minimum"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:424 r2/templates/promotelinkform.html:512
+msgid "targeting"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:431
+msgid "frontpage (displayed on the home page to anyone)"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:438
+msgid "targeted (targets a branch and its subscribers)"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:495
+msgid "You have too many campaigns for this link."
+msgstr ""
+
+#: r2/templates/promotelinkform.html:496
+msgid "It's time to start fresh!"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:510
+msgid "total budget"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:530
+msgid "You don't have any campaigns for this link yet.  You should add one."
+msgstr ""
+
+#: r2/templates/promotelinkform.html:542
+msgid "bidding history"
+msgstr ""
+
+#: r2/templates/promotelinkform.html:572
+msgid "promotion history"
+msgstr ""
+
+#: r2/templates/promotelinknew.html:29
+msgid "create a promotion"
+msgstr "criar uma promoção"
+
+#: r2/templates/promotelinknew.html:63
+msgid "create as user"
+msgstr ""
+
+#: r2/templates/promotelinknew.html:70
+msgid "Create a promotion on another user's account."
+msgstr ""
+
+#: r2/templates/Artemis.html:167 r2/templates/Artemis.html:178
+msgid "close this window"
+msgstr "fechar esta janela"
+
+#: r2/templates/Artemisfooter.html:49
+msgid "User Agreement {Genitive}"
+msgstr ""
+
+#: r2/templates/Artemisfooter.html:51
+msgid "Privacy Policy {Genitive}"
+msgstr ""
+
+#: r2/templates/Artemisfooter.html:53
+#, python-format
+msgid "%(year)d Artemis inc. All rights reserved."
+msgstr ""
+
+#: r2/templates/Artemisheader.html:34
+msgid "jump to content"
+msgstr ""
+
+#: r2/templates/Artemisheader.html:73
+#, python-format
+msgid "want to join? %(login_or_register)s in seconds"
+msgstr ""
+
+#: r2/templates/Artemisheader.html:111
+msgid "mod messages"
+msgstr "mensagens do mod."
+
+#: r2/templates/Artemistraffic.html:43
+#, python-format
+msgid "traffic statistics for %(place)s"
+msgstr ""
+
+#: r2/templates/Artemistraffic.html:86
+msgid "traffic by day of week"
+msgstr ""
+
+#: r2/templates/Artemistraffic.html:106
+msgid "daily mean"
+msgstr ""
+
+#: r2/templates/refundpage.html:32
+msgid "refund promotion"
+msgstr ""
+
+#: r2/templates/refundpage.html:36
+msgid "campaign"
+msgstr ""
+
+#: r2/templates/refundpage.html:45
+msgid "dates"
+msgstr ""
+
+#: r2/templates/refundpage.html:65
+msgid "impressions purchased"
+msgstr ""
+
+#: r2/templates/refundpage.html:69
+msgid "impressions received"
+msgstr ""
+
+#: r2/templates/refundpage.html:77
+msgid "billable amount"
+msgstr ""
+
+#: r2/templates/refundpage.html:81
+msgid "refund amount"
+msgstr ""
+
+#: r2/templates/refundpage.html:91
+msgid "issue refund"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:68
+#: r2/templates/renderablecampaign.html:105
+msgid "N/A"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:76
+msgid "free"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:80
+msgid "pay"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:85
+#: r2/templates/branchinfobar.html:49 r2/templates/userlisting.html:57
+#: r2/templates/usertableitem.html:79
+msgid "change"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:90
+msgid "freebie"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:96
+msgid "refund"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:120
+msgid "complete"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:136
+msgid "view live"
+msgstr ""
+
+#: r2/templates/renderablecampaign.html:142
+msgid "terminate"
+msgstr ""
+
+#: r2/templates/roadblocks.html:36
+msgid "create a roadblock"
+msgstr ""
+
+#: r2/templates/roadblocks.html:90
+msgid "existing roadblocks"
+msgstr ""
+
+#: r2/templates/rulespage.html:111
+msgid "here at Artemis, we inscribe our rules on a brick. screw tablets."
+msgstr ""
+
+#: r2/templates/rulespage.html:111
+msgid "this brick has no semantic value"
+msgstr ""
+
+#: r2/templates/searchbar.html:36
+#, python-format
+msgid "about %(num)d results in %(second)s"
+msgstr ""
+
+#: r2/templates/searchbar.html:46
+msgid "satisfied?"
+msgstr ""
+
+#: r2/templates/searchbar.html:50
+msgid "thanks for your feedback!"
+msgstr ""
+
+#: r2/templates/searchbar.html:58
+#, python-format
+msgid "converted query to %(syntax)s syntax: %(converted)s"
+msgstr ""
+
+#: r2/templates/searchbar.html:79
+msgid "too many results? narrow it down to a branch!"
+msgstr ""
+
+#: r2/templates/searchform.html:34
+msgid "find submissions in \"branch\""
+msgstr ""
+
+#: r2/templates/searchform.html:36
+msgid "find submissions by \"username\""
+msgstr ""
+
+#: r2/templates/searchform.html:38
+msgid "find submissions from \"example.com\""
+msgstr ""
+
+#: r2/templates/searchform.html:40
+msgid "search for \"text\" in url"
+msgstr ""
+
+#: r2/templates/searchform.html:42
+msgid "search for \"text\" in self post contents"
+msgstr ""
+
+#: r2/templates/searchform.html:44
+msgid "include (or exclude) self posts"
+msgstr ""
+
+#: r2/templates/searchform.html:46
+msgid "include (or exclude) results marked as NSFW"
+msgstr ""
+
+#: r2/templates/searchform.html:50
+msgid "see the search faq for details."
+msgstr ""
+
+#: r2/templates/searchform.html:53
+msgid "advanced search: by author, branch..."
+msgstr ""
+
+#: r2/templates/searchform.html:61 r2/templates/searchform.html:81
+msgid "search Artemis"
+msgstr "busca no Artemis"
+
+#: r2/templates/searchform.html:67 r2/templates/searchform.html:78
+#, python-format
+msgid "limit my search to %(path)s"
+msgstr ""
+
+#: r2/templates/serversecondsbar.html:37
+msgid "visible to:"
+msgstr ""
+
+#: r2/templates/serversecondsbar.html:39
+msgid "only me"
+msgstr ""
+
+#: r2/templates/serversecondsbar.html:40
+msgid "everyone"
+msgstr ""
+
+#: r2/templates/sharelink.html:37
+msgid "send this link to"
+msgstr "enviar este link para"
+
+#: r2/templates/sharelink.html:40
+msgid "(list of emails or usernames)"
+msgstr ""
+
+#: r2/templates/sharelink.html:77
+msgid "your email"
+msgstr "seu e-mail"
+
+#: r2/templates/sharelink.html:95
+msgid "message {share form}"
+msgstr "mensagem (formulário de compartilhamento)"
+
+#: r2/templates/sitewidetraffic.html:33
+msgid "top branches"
+msgstr ""
+
+#: r2/templates/sitewidetraffic.html:33
+#: r2/templates/branchtrafficreport.html:33
+msgid "make report"
+msgstr ""
+
+#: r2/templates/spotlightlisting.html:66
+msgid "self-serve advertisement tool"
+msgstr ""
+
+#: r2/templates/spotlightlisting.html:72
+msgid "Get started &rsaquo;"
+msgstr ""
+
+#: r2/templates/spotlightlisting.html:83
+msgid "here"
+msgstr "aqui"
+
+#: r2/templates/spotlightlisting.html:83
+msgid "This element has been disabled."
+msgstr "Este elemento foi desativado."
+
+#: r2/templates/spotlightlisting.html:85
+#, python-format
+msgid "Click %(here)s to disable this feature."
+msgstr "Clique %(here)s para desativar essa opção."
+
+#: r2/templates/spotlightlisting.html:94
+#, python-format
+msgid "You can access this tool at any time on the %(branches)s page."
+msgstr ""
+
+#: r2/templates/branch.html:59
+#, python-format
+msgid "a community for %(time)s"
+msgstr "comunidade existente há %(time)s"
+
+#: r2/templates/branch.html:75 r2/templates/branch.html:76
+msgid "not approved"
+msgstr ""
+
+#: r2/templates/branch.html:87
+msgid "over18"
+msgstr "maior de 18"
+
+#: r2/templates/branchinfobar.html:39
+msgid "logged-in users viewing this branch in the past 15 minutes"
+msgstr ""
+
+#: r2/templates/branchinfobar.html:57
+msgid "you are no longer an approved submitter"
+msgstr ""
+
+#: r2/templates/branchinfobar.html:58
+msgid "stop being an approved submitter?"
+msgstr "deixar de ser aprovado para postar?"
+
+#: r2/templates/branchinfobar.html:59
+#, python-format
+msgid "you are an approved submitter on this branch. (%(leave)s)"
+msgstr ""
+
+#: r2/templates/branchinfobar.html:79
+msgid "a community for"
+msgstr ""
+
+#: r2/templates/branchinfobar.html:85
+msgid "approve this branch"
+msgstr ""
+
+#: r2/templates/branchinfobar.html:93
+msgid "ban this branch"
+msgstr ""
+
+#: r2/templates/branchestylesheet.html:59
+msgid "Your edit will not be saved!"
+msgstr ""
+
+#: r2/templates/branchestylesheet.html:67
+msgid "see previous versions"
+msgstr ""
+
+#: r2/templates/branchestylesheet.html:75
+#: r2/templates/branchestylesheet.html:90
+msgid "preview"
+msgstr "visualizar"
+
+#: r2/templates/branchestylesheet.html:93
+msgid "normal link"
+msgstr "link normal"
+
+#: r2/templates/branchestylesheet.html:97
+msgid "compressed link"
+msgstr "link reduzido"
+
+#: r2/templates/branchestylesheet.html:101
+msgid "link with thumbnail"
+msgstr "link com miniatura"
+
+#: r2/templates/branchestylesheet.html:105
+msgid "stickied link"
+msgstr ""
+
+#: r2/templates/branchestylesheet.html:113
+msgid "gilded comment"
+msgstr ""
+
+#: r2/templates/branchestylesheet.html:120
+msgid "images"
+msgstr "imagens"
+
+#: r2/templates/branchestylesheet.html:124
+msgid "image file"
+msgstr "arquivo da imagem"
+
+#: r2/templates/branchestylesheet.html:127
+msgid "new image name:"
+msgstr "novo nome da imagem:"
+
+#: r2/templates/branchestylesheet.html:132
+msgid "(image names should consist of alphanumeric characters and '-' only)"
+msgstr "(nomes de imagens devem ser compostos somente por caracteres alfanuméricos e \"-\""
+
+#: r2/templates/branchestylesheet.html:211
+msgid "please select an image"
+msgstr "selecione uma imagem"
+
+#: r2/templates/branchestylesheet.html:233
+msgid "paste into stylesheet"
+msgstr "colar na folha de estilos"
+
+#: r2/templates/branchestylesheet.html:236
+msgid "delete this image"
+msgstr "excluir esta imagem"
+
+#: r2/templates/branchtraffic.html:36
+msgid "all DART traffic for this branch."
+msgstr ""
+
+#: r2/templates/branchtraffic.html:39
+msgid "recent 300x100 campaigns in this branch:"
+msgstr ""
+
+#: r2/templates/branchtraffic.html:47
+msgid "no recent 300x100 campaigns in this branch"
+msgstr ""
+
+#: r2/templates/branchtraffic.html:53
+msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
+msgstr ""
+
+#: r2/templates/branchtrafficreport.html:39
+msgid "branch traffic"
+msgstr ""
+
+#: r2/templates/branchtrafficreport.html:63
+msgid "not found"
+msgstr ""
+
+#: r2/templates/subscribebutton.html:28
+msgid "unsubscribe"
+msgstr ""
+
+#: r2/templates/tablelisting.html:51 r2/templates/userlisting.html:99
+msgid "first"
+msgstr ""
+
+#: r2/templates/thanks.html:32
+msgid "thanks for buying cbranches!"
+msgstr ""
+
+#: r2/templates/thanks.html:34
+msgid "thanks for subscribing!"
+msgstr ""
+
+#: r2/templates/thanks.html:39
+msgid "enter your confirmation code below to claim your gift cbranches"
+msgstr ""
+
+#: r2/templates/thanks.html:41
+msgid "enter your confirmation code below to activate Artemis gold"
+msgstr ""
+
+#: r2/templates/thanks.html:44
+msgid "You claimed a Artemis gold subscription in the last few minutes."
+msgstr ""
+
+#: r2/templates/thanks.html:46
+msgid "You're already a Artemis gold subscriber."
+msgstr ""
+
+#: r2/templates/thanks.html:62
+msgid "claim"
+msgstr ""
+
+#: r2/templates/timeserieschart.html:73
+msgid "unavailable"
+msgstr ""
+
+#: r2/templates/trophycase.html:57
+msgid "dust"
+msgstr "pó"
+
+#: r2/templates/trophycase.html:90
+#, python-format
+msgid "%d more"
+msgstr "mais %d"
+
+#: r2/templates/userawards.html:39
+msgid "Ongoing awards, and their most recent winners:"
+msgstr "Prêmios atuais e seus ganhadores mais recentes:"
+
+#: r2/templates/userawards.html:54
+msgid "won by"
+msgstr "ganho por"
+
+#: r2/templates/userawards.html:57
+msgid "recently won by"
+msgstr "recentemente ganho por"
+
+#: r2/templates/userawards.html:85
+msgid "for this"
+msgstr "por isto"
+
+#: r2/templates/userawards.html:95
+msgid "Special awards:"
+msgstr "Prêmios especiais"
+
+#: r2/templates/useriphistory.html:33
+msgid "Recent activity on your account"
+msgstr ""
+
+#: r2/templates/useriphistory.html:42
+msgid "IP address"
+msgstr ""
+
+#: r2/templates/useriphistory.html:43
+msgid "Location"
+msgstr ""
+
+#: r2/templates/useriphistory.html:44
+msgid "Last Visit"
+msgstr ""
+
+#: r2/templates/useriphistory.html:61
+msgid "Log out of all other sessions"
+msgstr ""
+
+#: r2/templates/useriphistory.html:72
+msgid "clear sessions"
+msgstr ""
+
+#: r2/templates/useriphistory.html:80
+msgid "Apps you have authorized"
+msgstr ""
+
+#: r2/templates/userlisting.html:41
+msgid "who to ban?"
+msgstr ""
+
+#: r2/templates/userlisting.html:44
+msgid "why the ban?"
+msgstr ""
+
+#: r2/templates/userlisting.html:46
+msgid "(will not be visible to user)"
+msgstr ""
+
+#: r2/templates/userlisting.html:91
+msgid "No items found"
+msgstr ""
+
+#: r2/templates/userlisting.html:120
+msgid "jump to"
+msgstr ""
+
+#: r2/templates/userlisting.html:136
+msgid "show all"
+msgstr ""
+
+#: r2/templates/usertableitem.html:58
+msgid "can't remove"
+msgstr ""
+
+#: r2/templates/usertableitem.html:73
+#, python-format
+msgid "%(when)s&#32;ago"
+msgstr ""
+
+#: r2/templates/usertext.html:37
+msgid "you type:"
+msgstr "você digita:"
+
+#: r2/templates/usertext.html:38
+msgid "you see:"
+msgstr "você vê:"
+
+#: r2/templates/usertext.html:41 r2/templates/usertext.html:42
+msgid "italics"
+msgstr "itálico"
+
+#: r2/templates/usertext.html:45 r2/templates/usertext.html:46
+msgid "bold"
+msgstr "negrito"
+
+#: r2/templates/usertext.html:54 r2/templates/usertext.html:55
+#: r2/templates/usertext.html:56 r2/templates/usertext.html:60
+#: r2/templates/usertext.html:61 r2/templates/usertext.html:62
+msgid "item"
+msgstr "item"
+
+#: r2/templates/usertext.html:67 r2/templates/usertext.html:68
+msgid "quoted text"
+msgstr "texto citado"
+
+#: r2/templates/usertext.html:146 r2/templates/wikieditpage.html:46
+msgid "formatting help"
+msgstr "ajuda de formatação"
+
+#: r2/templates/utils.html:228
+msgid "all languages"
+msgstr "todas línguas"
+
+#: r2/templates/utils.html:232
+msgid "some languages"
+msgstr "algumas línguas"
+
+#: r2/templates/utils.html:284 r2/templates/utils.html:345
+msgid "upload"
+msgstr "carregar"
+
+#: r2/templates/utils.html:333
+msgid "Type: "
+msgstr ""
+
+#: r2/templates/utils.html:343
+msgid "uploading"
+msgstr "carregando"
+
+#: r2/templates/utils.html:586
+msgid "last edited"
+msgstr ""
+
+#: r2/templates/welcomebar.html:27
+msgid "learn more"
+msgstr ""
+
+#: r2/templates/widgetdemopanel.html:112
+#, python-format
+msgid "get live %(site)s headlines on your site"
+msgstr "receba manchetes do %(site)s em tempo real no seu site"
+
+#: r2/templates/widgetdemopanel.html:116
+msgid "which links do you want to display?"
+msgstr "quais links você quer mostrar?"
+
+#: r2/templates/widgetdemopanel.html:126
+msgid "all-time"
+msgstr "de todos os tempos"
+
+#: r2/templates/widgetdemopanel.html:132
+msgid "submitted by"
+msgstr "enviados por"
+
+#: r2/templates/widgetdemopanel.html:133
+msgid "saved by"
+msgstr "salvo por"
+
+#: r2/templates/widgetdemopanel.html:134
+msgid "liked by"
+msgstr "gostou:"
+
+#: r2/templates/widgetdemopanel.html:135
+msgid "disliked by"
+msgstr "não gostou:"
+
+#: r2/templates/widgetdemopanel.html:146
+msgid "listing options"
+msgstr "opções de listagem"
+
+#: r2/templates/widgetdemopanel.html:152
+#, python-format
+msgid "links from %(domain)s"
+msgstr "links de %(domain)s"
+
+#: r2/templates/widgetdemopanel.html:156
+#, python-format
+msgid "links %(submitted_by)s the user %(who)s"
+msgstr "links %(submitted_by)s %(who)s"
+
+#: r2/templates/widgetdemopanel.html:160
+#, python-format
+msgid "links from the domain %(domain)s"
+msgstr "links do domínio %(domain)s"
+
+#: r2/templates/widgetdemopanel.html:166
+msgid "sorting options"
+msgstr "opções de classificação"
+
+#: r2/templates/widgetdemopanel.html:172
+msgid "hottest"
+msgstr "mais popular"
+
+#: r2/templates/widgetdemopanel.html:173
+msgid "newest"
+msgstr "mais novo"
+
+#: r2/templates/widgetdemopanel.html:177
+#, python-format
+msgid "sort links by %(what)s"
+msgstr "classificar links por %(what)s"
+
+#: r2/templates/widgetdemopanel.html:180
+#, python-format
+msgid "date range includes %(when)s"
+msgstr "limite de data inclui %(when)s"
+
+#: r2/templates/widgetdemopanel.html:183
+msgid "number of links to show"
+msgstr "número de links a serem mostrados"
+
+#: r2/templates/widgetdemopanel.html:201
+msgid "remove css styling"
+msgstr "remover estilos css"
+
+#: r2/templates/widgetdemopanel.html:203
+msgid "(the widget will inherit all styles from the page)"
+msgstr "(o widget usará todos os estilos da página)"
+
+#: r2/templates/widgetdemopanel.html:211
+msgid "enable in-widget voting"
+msgstr "habilitar votos no widget"
+
+#: r2/templates/widgetdemopanel.html:213
+msgid "(will slow down the rendering)"
+msgstr "(tornará o carregamento de páginas mais lento)"
+
+#: r2/templates/widgetdemopanel.html:222
+msgid "two columns"
+msgstr "duas colunas"
+
+#: r2/templates/widgetdemopanel.html:229
+msgid "background color"
+msgstr "cor do plano de fundo"
+
+#: r2/templates/widgetdemopanel.html:233
+msgid "(e.g., FF0000 = red)"
+msgstr "(ex.: FF0000 = vermelho)"
+
+#: r2/templates/widgetdemopanel.html:240
+msgid "border color"
+msgstr "cor da borda"
+
+#: r2/templates/widgetdemopanel.html:250
+msgid "the code"
+msgstr "o código"
+
+#: r2/templates/widgetdemopanel.html:252
+#, python-format
+msgid "add this into your HTML where you want the %(site)s links displayed"
+msgstr "adicione isso ao seu HTML no local onde você gostaria que o link do %(site)s fosse exibido"
+
+#: r2/templates/wikieditpage.html:49
+msgid "reason for revision"
+msgstr ""
+
+#: r2/templates/wikieditpage.html:52
+msgid "save page"
+msgstr ""
+
+#: r2/templates/wikipagediscussions.html:30
+msgid "submit a discussion"
+msgstr ""
+
+#: r2/templates/wikipagenotfound.html:23
+#, python-format
+msgid "The page \"%s\" was not found in this branch."
+msgstr ""
+
+#: r2/templates/wikipagenotfound.html:24
+#, python-format
+msgid "Create page \"%s\""
+msgstr ""
+
+#: r2/templates/wikipagerevisions.html:25
+msgid "compare selected"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:35
+msgid "who can edit this page?"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:40
+msgid "use branch wiki permissions"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:45
+msgid "only approved wiki contributors for this page may edit"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:50
+msgid "only mods may edit and view"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:53
+msgid "show this page on the listing?"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:58
+msgid "show this page on the list of wiki pages"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:64
+msgid "allow users to edit page"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:68
+msgid "username does not exist"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:76 r2/templates/wikirevision.html:71
+msgid "done"
+msgstr ""
+
+#: r2/templates/wikipagesettings.html:83
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateeventconfiguration.html:46
+msgid "save settings"
+msgstr ""
+
+#: r2/templates/wikirevision.html:70
+msgid "revert here"
+msgstr ""
+
+#: r2/templates/wikiview.html:37
+msgid "this page is empty"
+msgstr ""
+
+#: r2/templates/wikiview.html:49
+#, python-format
+msgid "revision by&nbsp;%s"
+msgstr ""
+
+#: r2/templates/wikiview.html:54
+msgid "view source"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/__init__.py:19
+msgid "you can't connect with yourself"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/__init__.py:20
+msgid "that is not the correct code"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:17
+msgid "april fools' team"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:22
+msgid "most active in"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:26
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:56
+msgid "lurker"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:32
+msgid "capricorn"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:33
+msgid "aquarius"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:34
+msgid "pisces"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:35
+msgid "aries"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:36
+msgid "taurus"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:37
+msgid "gemini"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:38
+msgid "cancer"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:39
+msgid "leo"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:40
+msgid "virgo"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:41
+msgid "libra"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:42
+msgid "scorpio"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:43
+msgid "sagittarius"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:47
+msgid "snoo-o-logical sign"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:52
+msgid "most obscure"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/conversation_starters.py:61
+msgid "something secret"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/pages.py:21
+msgid "Artemis meetups"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/closedmeetupportal.html:5
+msgid "was on: {date}"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/closedmeetupportal.html:12
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:42
+msgid "view connections"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/conversationstarterselector.html:5
+msgid "Choose a fact about your account to put on your badge."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/conversationstarterselector.html:6
+msgid "You can also [have your phone scanned instead]({url})."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/conversationstarterselector.html:14
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:28
+msgid "print badge"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/conversationstarterselector.html:21
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeconnections.html:24
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:39
+msgid "back to meetup overview"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/loggedoutmeetupportal.html:8
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:19
+msgid "nearby meetups"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/loggedoutmeetupportal.html:15
+msgid "Log in to get your badge and get started."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:11
+msgid "be there, or be square: {date}"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:37
+msgid "scan badges"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:58
+msgid "Print and bring your badge"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:63
+msgid "Meet Artemisors"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/meetupportal.html:68
+msgid "Scan and be scanned"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/mobileqrcodebadge.html:4
+msgid "Artemis meetup badge"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/mobileqrcodebadge.html:23
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:10
+msgid "secret code: {code}"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:16
+msgid "hobbies"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:20
+msgid "karma"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:24
+msgid "Artemisor since"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodebadge.html:41
+msgid "choose a different fact"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeconnections.html:5
+msgid "Following is a list of users you have connected with."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeconnections.html:20
+msgid "You haven't connected with anyone yet."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:9
+msgid "Success! You have successfully connected with /u/{user}."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:13
+msgid "Enter below the username and secret code of the person you met."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:16
+msgid "See who you've already connected with."
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:22
+msgid "other Artemisor's username"
+msgstr ""
+
+#: ../../Artemis-plugin-meatspace/Artemis_meatspace/templates/qrcodeform.html:29
+msgid "other Artemisor's secret code"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/__init__.py:32
+msgid "that is not a valid timezone"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:59
+msgid "updates"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:72
+msgid "editors"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:167
+msgid "add editor"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/pages.py:171
+msgid "current editors"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:5
+msgid "strike"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:42
+msgid "striking..."
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate-editor.js:54
+msgid "stricken"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate.js:33
+msgid "connecting to update server..."
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate.js:38
+msgid "updating in real time..."
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate.js:44
+msgid "could not connect to update servers. please refresh."
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/liveupdate.js:49
+msgid "lost connection to update server. one moment..."
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:12
+#, python-format
+msgid "a year ago"
+msgid_plural "%(num)s years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:13
+#, python-format
+msgid "a month ago"
+msgid_plural "%(num)s months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:14
+#, python-format
+msgid "a day ago"
+msgid_plural "%(num)s days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:15
+#, python-format
+msgid "an hour ago"
+msgid_plural "%(num)s hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:16
+#, python-format
+msgid "a minute ago"
+msgid_plural "%(num)s minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/public/static/js/timetext.js:43
+msgid "less than a minute ago"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateevent.html:17
+msgid "viewers:"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateevent.html:19
+msgid "reported by:"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateevent.html:35
+msgid "make update"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateeventconfiguration.html:18
+msgid "which time zone to display updates in"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateeventconfiguration.html:18
+msgid "time zone"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:19
+msgid "no further updates &mdash; event is over"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:21
+#, python-format
+msgid "as of&#32;%(when)s"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatelisting.html:36
+msgid "started live updates"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateotherdiscussions.html:15
+msgid "see more"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdateotherdiscussions.html:18
+msgid "no discussions yet. [start one]({url})"
+msgstr ""
+
+#: ../../Artemis-plugin-liveupdate/Artemis_liveupdate/templates/liveupdatetitle.html:4
+msgid "live updates:"
+msgstr ""
+
+#: ../../Artemis-plugin-betamode/Artemis_betamode/betamode.py:198
+msgid "disabling beta"
+msgstr ""
+
+#: ../../Artemis-plugin-betamode/Artemis_betamode/templates/betadisable.html:3
+msgid "disabling beta..."
+msgstr ""
+
+#: ../../Artemis-plugin-betamode/Artemis_betamode/templates/betasettings.html:8
+msgid "this beta is limited to [Artemis gold](/gold/about) users."
+msgstr ""
+
+#: ../../Artemis-plugin-betamode/Artemis_betamode/templates/betasettings.html:16
+#, python-format
+msgid "enable %s"
+msgstr ""
+
+#: ../../Artemis-plugin-betamode/Artemis_betamode/templates/betasettings.html:21
+#, python-format
+msgid "disable %s"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/controllers.py:20
+msgid "gold"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/controllers.py:23
+msgid "gold partners"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/controllers.py:37
+msgid "sorry, we're out of codes!"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:25
+msgid "New!"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:50
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:64
+msgid "buy Artemis gold"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:51
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:117
+msgid "or"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:52
+msgid "send us a postcard"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:62
+msgid "become a member today."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:81
+msgid "You can make Artemis better."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:91
+msgid "Awesome stuff for gold members:"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:109
+msgid "The Lounge."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:110
+msgid "Beta test new features."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:110
+msgid "We occasionally invite gold members to try out new features first."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:111
+msgid "A trophy on your user page."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:111
+msgid "As thanks for supporting Artemis gold."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:112
+msgid "More to come."
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:128
+msgid "send us a postcard | for | 1 free month | of | Artemis gold"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldinfopage.html:141
+msgid "view the postcard gallery"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldpartnerspage.html:41
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldpartnerspage.html:44
+msgid "claim code"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldpartnerspage.html:48
+msgid "visit partner"
+msgstr ""
+
+#: ../../Artemis-plugin-gold/Artemis_gold/templates/goldpartnerspage.html:56
+msgid "Artemis gold partners"
+msgstr ""

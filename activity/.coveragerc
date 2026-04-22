@@ -1,0 +1,2 @@
+[run]
+omit = artemis_service_activity/*_thrift/*.py
