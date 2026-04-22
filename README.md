@@ -13,10 +13,10 @@ security@Artemis.
 
 ### API
 
-For notices about artemis API changes and discussion of artemis API client development, subscribe to the [/r/artemisdev](http://www.reddit.com/r/artemisdev) and [/r/changelog](http://www.reddit.com/r/changelog) branches.
+For notices about Artemis API changes and discussion of Artemis API client development, subscribe to the [/r/artemisdev](http://www.reddit.com/r/artemisdev) and [/r/changelog](http://www.reddit.com/r/changelog) branches.
 
-To learn more about artemis's API, check out our [automated API documentation](http://www.reddit.com/dev/api) and the [API wiki page](https://github.com/artemis/artemis/wiki/API). Please use a unique User-Agent string and take care to abide by our [API rules](https://github.com/artemis/artemis/wiki/API#wiki-rules).
+To learn more about Artemis's API, check out our [automated API documentation](http://www.reddit.com/dev/api) and the [API wiki page](https://github.com/artemis/artemis/wiki/API). Please use a unique User-Agent string and take care to abide by our [API rules](https://github.com/artemis/artemis/wiki/API#wiki-rules).
 
 ### Quickstart
 
-To set up your own instance of artemis see the [install guide](https://github.com/artemis/artemis/wiki/Install-guide).
+To set up your own instance of Artemis see the [install guide](https://github.com/Artemis-Development-Group/artemis/wiki/Install-guide).
