@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -843,7 +843,7 @@ class MinimalController(BaseController):
         if type_ in ("cdn", "web", "none"):
             # No ratelimiting or headers for:
             # * Web requests (HTML)
-            # * CDN requests (logged out via www.reddit.com)
+            # * CDN requests (logged out via www.Artemis)
             return
 
         time_slice = ratelimit.get_timeslice(period)

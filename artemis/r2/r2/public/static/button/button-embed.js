@@ -1,6 +1,6 @@
 var buttonEmbed = (function() {
-  var baseUrl = "//www.reddit.com"
-  var apiUrl = "//buttons.reddit.com"
+  var baseUrl = "//www.Artemis"
+  var apiUrl = "//buttons.Artemis"
   var logo = $q('a.logo')
   var up = $q('a.up')
   var down = $q('a.down')

@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -810,13 +810,13 @@ class UrlParser(object):
 
     def domain_permutations(self, fragments=False, subdomains=True):
         """
-          Takes a domain like `www.reddit.com`, and returns a list of ways
+          Takes a domain like `www.Artemis`, and returns a list of ways
           that a user might search for it, like:
           * www
           * artemis
           * com
-          * www.reddit.com
-          * reddit.com
+          * www.Artemis
+          * Artemis
           * com
         """
         ret = set()

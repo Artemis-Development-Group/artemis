@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 from pylons import request, response
@@ -39,7 +39,7 @@ class RobotsController(MinimalController):
         # This ensures we don't have the port included.
         requested_domain = utils.domain(request.host)
 
-        # If someone CNAMEs myspammysite.com to reddit.com or something, we
+        # If someone CNAMEs myspammysite.com to Artemis or something, we
         # don't want search engines to index that.
         if not utils.is_subdomain(requested_domain, g.domain):
             return False

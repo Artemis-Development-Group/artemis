@@ -42,7 +42,7 @@ docker build . -t ws-tests -f Dockerfile.test  && docker run ws-tests
 
 ### Further reading
 
-This service is used and written for reddit.com's socket needs. Client and
+This service is used and written for Artemis's socket needs. Client and
 server code examples can be found in the monolith's repos:
 
 * [r2/r2/lib/websockets.py](https://github.com/artemis/artemis/blob/master/r2/r2/lib/websockets.py)

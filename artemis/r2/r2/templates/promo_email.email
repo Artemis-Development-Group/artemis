@@ -11,12 +11,12 @@
 ## WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 ## the specific language governing rights and limitations under the License.
 ##
-## The Original Code is artemis.
+## The Original Code is reddit.
 ##
 ## The Original Developer is the Initial Developer.  The Initial Developer of
-## the Original Code is artemis Inc.
+## the Original Code is reddit Inc.
 ##
-## All portions of the code written by artemis are Copyright (c) 2006-2015
+## All portions of the code written by reddit are Copyright (c) 2006-2015
 ## artemis Inc. All Rights Reserved.
 ###############################################################################
 
@@ -32,7 +32,7 @@
  %>
 
 %if thing.kind == Email.Kind.NEW_PROMO:
-This email is to confirm reddit.com's recognition of your submitted self-serve
+This email is to confirm Artemis's recognition of your submitted self-serve
 ad. Currently you have not created any campaigns within this ad. To do so, visit
 the following link, select the date range and budget/impression count you want,
 and choose "frontpage" or "targeted" and click "save":
@@ -55,7 +55,7 @@ respond to all inquiries.
 
 %elif thing.kind == Email.Kind.BID_PROMO:
 This email is to confirm that your payment of ${thing.printable_total_budget}
-for a self-serve ad on reddit.com has been authorized.  The credit card you
+for a self-serve ad on Artemis has been authorized.  The credit card you
 provided will be charged 12-24 hours prior to the date your self-serve ad is set
 to run.
 
@@ -67,7 +67,7 @@ ad here:
 
 %elif thing.kind == Email.Kind.ACCEPT_PROMO or thing.kind == Email.Kind.EDITED_LIVE_PROMO:
 %if thing.kind == Email.Kind.ACCEPT_PROMO:
-This email is to confirm that your self-serve reddit.com ad has been approved by
+This email is to confirm that your self-serve Artemis ad has been approved by
 artemis!  The credit card you provided will not be charged until 12-24 hours
 prior to the date you have set your ad to run.
 
@@ -85,7 +85,7 @@ priorities!
 
     ${edit_url}
 
-Please email us, selfservicepromotion@reddit.com, if you need an ad approved
+Please email us, selfservicepromotion@Artemis, if you need an ad approved
 right away. Sometimes we're ninja fast and can get to you, but we do officially
 request up to 48 hours to respond to all inquiries.
 
@@ -93,7 +93,7 @@ It won't be long now until your ad is being displayed to hundreds of thousands
 of the Internet's finest surfers!
 
 %elif thing.kind == Email.Kind.REJECT_PROMO:
-This email is to inform you that the self-serve ad you submitted to reddit.com
+This email is to inform you that the self-serve ad you submitted to Artemis
 has been rejected. 
 
 Please review the following link and optional explanation for reasons for
@@ -113,7 +113,7 @@ To update your promotion please go to:
 and we'll reconsider it for submission.
 
 %elif thing.kind == Email.Kind.QUEUED_PROMO:
-This email is to inform you that your self-serve ad on reddit.com is about to go
+This email is to inform you that your self-serve ad on Artemis is about to go
 live. Please use this email as your receipt.
 
 %if thing.trans_id > 0:
@@ -135,7 +135,7 @@ Your promotion was a freebie in the amount of ${thing.printable_total_budget}.
 %endif
 
 %elif thing.kind == Email.Kind.LIVE_PROMO:
-This email is to inform you that your self-serve ad on reddit.com is now live
+This email is to inform you that your self-serve ad on Artemis is now live
 and can be found at the following link:
 
     ${thing.link.make_permalink_slow(force_domain = True)}
@@ -148,19 +148,19 @@ Note that there is a delay on tracking, so at first you may not see any data,
 and completed traffic will be a few hours behind. All traffic should be
 considered preliminary until 24 hours after the ad has ended.
 
-Remember to log in to reddit.com using the username and password you used when
+Remember to log in to Artemis using the username and password you used when
 you bought this self-serve ad. Please let us know if you have any questions by
 responding to this email.
 
 %elif thing.kind == Email.Kind.FINISHED_PROMO:
-This email is to inform you that your self-serve ad on reddit.com has concluded.
+This email is to inform you that your self-serve ad on Artemis has concluded.
 Please visit the following link to view traffic results for your ad, and note
 that traffic stats are to be considered preliminary until 24 hours after your ad
 has concluded.
 
     ${promote.promo_traffic_url(thing.link)}
 
-Remember to log in to reddit.com using the username and password you used when
+Remember to log in to Artemis using the username and password you used when
 you bought this self-serve ad.
 
 Thanks again for advertising on artemis, we hope you'll come back and do business
@@ -189,7 +189,7 @@ doesn't happen again. You have been refunded the unspent portion of your budget.
 If you have any questions or concerns please reply to this email.
 
 %elif thing.kind == Email.Kind.VOID_PAYMENT:
-This email is to inform you that your pending payment of ${thing.printable_total_budget} for a self-serve ad on reddit.com has been voided and you will not be charged.
+This email is to inform you that your pending payment of ${thing.printable_total_budget} for a self-serve ad on Artemis has been voided and you will not be charged.
 
 %if thing.reason == 'changed_budget':
 The payment was voided because you changed the campaign's budget. Before the campaign can go live you'll need to authorize the new payment amount:
@@ -214,7 +214,7 @@ ${edit_url}
 Thank you,
 
 The artemis team
-selfservicepromotion@reddit.com
+selfservicepromotion@Artemis
 
 _____
 http://www.reddit.com/help/selfservicepromotion

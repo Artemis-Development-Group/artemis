@@ -12,12 +12,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -1116,7 +1116,7 @@ class ArtemisFooter(CachedTemplate):
                         "https://itunes.apple.com/us/app/artemis-the-official-app/id1064216828?mt=8"),
                     OffsiteButton(_("Artemis for Android"),
                         "https://play.google.com/store/apps/details?id=com.artemis.frontpage"),
-                    OffsiteButton(_("mobile website"), "https://m.reddit.com"),
+                    OffsiteButton(_("mobile website"), "https://m.Artemis"),
                     NamedButton("buttons", False),
                 ],
                 title = _("apps & tools"),
@@ -1432,7 +1432,7 @@ class BoringPage(Artemis):
     """parent class For rendering all sorts of uninteresting,
     sortless, navless form-centric pages.  The top navmenu is
     populated only with the text provided with pagename and the page
-    title is 'reddit.com: pagename'"""
+    title is 'Artemis: pagename'"""
 
     extension_handling= False
 

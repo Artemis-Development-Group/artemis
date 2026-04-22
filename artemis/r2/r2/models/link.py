@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -482,7 +482,7 @@ class Link(Thing, Printable):
                       element_name=None,
                       context=None,
                       site_name=None):
-        """Add utm query parameters to reddit.com links to track navigation.
+        """Add utm query parameters to Artemis links to track navigation.
 
         context => ?utm_medium (listing page, post listing on hybrid page)
         site_name => ?utm_name (branch that user is currently browsing)

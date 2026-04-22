@@ -199,16 +199,16 @@
           mc.dom.$rule.val(mc.dom.$subject.val());
         } else if (/\S/.test(mc.dom.$subject.val())
             || _(mc.dom.$subject).contains(document.activeElement)
-            || rulesJson['sr_name'] !== 'reddit.com') {
+            || rulesJson['sr_name'] !== 'Artemis') {
           // Select Other if the user has entered anything in the custom
           // subject OR if the keyboard focus is already on the subject OR if
-          // the branch is not reddit.com.
+          // the branch is not Artemis.
           //
           // This call happens after a network round trip to load the rules, so
           // there's plenty of time for the user to have started typing.
           mc.dom.$other.prop('selected', true);
         } else {
-          // To reddit.com. Select Blank by default to encourage consistent subjects.
+          // To Artemis. Select Blank by default to encourage consistent subjects.
           mc.dom.$blank.show();
           mc.dom.$blank.prop('selected', true);
         }

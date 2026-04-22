@@ -13,12 +13,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 import unittest
@@ -57,7 +57,7 @@ class TestIsArtemisURL(ArtemisTestCase):
         # XXX: This is technically a legal relative URL, are there any UAs
         # stupid enough to treat this as absolute?
         self.assertIsSafeArtemisUrl("path_relative_subpath.com")
-        # "blog.reddit.com" is not a artemis URL.
+        # "blog.Artemis" is not a artemis URL.
         self.assertIsNotSafeArtemisUrl("http://blog.%s/" % g.domain)
         self.assertIsNotSafeArtemisUrl("http://foo.blog.%s/" % g.domain)
 
@@ -100,7 +100,7 @@ class TestIsArtemisURL(ArtemisTestCase):
         # Webkit and co like to treat backslashes as equivalent to slashes in
         # different places, maybe to make OCD Windows users happy.
         self.assertIsNotSafeArtemisUrl(r"/\example.com/")
-        # On chrome this goes to example.com, not a subdomain of reddit.com!
+        # On chrome this goes to example.com, not a subdomain of Artemis!
         self.assertIsNotSafeArtemisUrl(
             r"http://\\example.com\a.%s/foo" % g.domain
         )
@@ -142,7 +142,7 @@ class TestIsArtemisURL(ArtemisTestCase):
 class TestSwitchSubdomainByExtension(ArtemisTestCase):
     def setUp(self):
         self.patch_g(
-            domain='reddit.com',
+            domain='Artemis',
             domain_prefix='www',
         )
 

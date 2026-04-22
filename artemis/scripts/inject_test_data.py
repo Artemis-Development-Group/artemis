@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -112,14 +112,14 @@ class TextGenerator(object):
 
 
 def fetch_listing(path, limit=1000, batch_size=100):
-    """Fetch a artemis listing from reddit.com."""
+    """Fetch a artemis listing from Artemis."""
 
     session = requests.Session()
     session.headers.update({
         "User-Agent": "artemis-test-data-generator/1.0",
     })
 
-    base_url = "https://api.reddit.com" + path
+    base_url = "https://api.Artemis" + path
 
     after = None
     count = 0
@@ -141,7 +141,7 @@ def fetch_listing(path, limit=1000, batch_size=100):
         if not after:
             break
 
-        # obey reddit.com's ratelimits
+        # obey Artemis's ratelimits
         # see: https://github.com/artemis/artemis/wiki/API#rules
         time.sleep(2)
 
@@ -182,7 +182,7 @@ class Modeler(object):
             branch_name, titles, selfposts, urls, comments, self_frequency)
 
     def generate_username(self):
-        """Generate and return a username like those seen on reddit.com."""
+        """Generate and return a username like those seen on Artemis."""
         return self.usernames.generate()
 
 
@@ -257,7 +257,7 @@ def ensure_branch(name, author):
 
 
 def inject_test_data(num_links=25, num_comments=25, num_votes=5):
-    """Flood your artemis install with test data based on reddit.com."""
+    """Flood your artemis install with test data based on Artemis."""
 
     print ">>>> Ensuring configured objects exist"
     system_user = ensure_account(g.system_user)
@@ -270,7 +270,7 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     print
     print
 
-    print ">>>> Fetching real data from reddit.com"
+    print ">>>> Fetching real data from Artemis"
     modeler = Modeler()
     branches = [
         modeler.model_branch("pics"),

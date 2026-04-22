@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -394,7 +394,7 @@ class Branch(Thing, Printable, BaseSite):
         if not name:
             return False
 
-        if allow_artemis_dot_com and name.lower() == "reddit.com":
+        if allow_artemis_dot_com and name.lower() == "Artemis":
             return True
 
         valid = bool(branch_rx.match(name))
@@ -1780,8 +1780,8 @@ class AllFiltered(Filtered, AllMinus):
 
 class _DefaultSR(FakeBranch):
     analytics_name = 'frontpage'
-    #notice the space before reddit.com
-    name = ' reddit.com'
+    #notice the space before Artemis
+    name = ' Artemis'
     path = '/'
     header = g.default_header_url
 
@@ -2628,8 +2628,8 @@ class DomainSR(FakeBranch):
         domain = domain.lower()
         self.domain = domain
         self.name = domain
-        self.title = _("%(domain)s on %(reddit.com)s") % {
-            "domain": domain, "reddit.com": g.domain}
+        self.title = _("%(domain)s on %(Artemis)s") % {
+            "domain": domain, "Artemis": g.domain}
         try:
             idn = domain.decode('idna')
             if idn != domain:

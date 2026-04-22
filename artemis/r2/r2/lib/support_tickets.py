@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -36,7 +36,7 @@ def create_support_ticket(subject,
                           product=None,
                           ):
     requester_id = None
-    if requester_email == 'contact@reddit.com':
+    if requester_email == 'contact@Artemis':
         requester_id = g.live_config['ticket_contact_user_id']
         
     custom_fields = []

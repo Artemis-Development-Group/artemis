@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -299,7 +299,7 @@ class BranchJsonTemplate(ThingJsonTemplate):
         "created_utc",
         # Canonically-cased branch name
         "name",
-        # Canonical branch URL, relative to reddit.com
+        # Canonical branch URL, relative to Artemis
         "path",
         # Text shown on the access denied page
         "public_description",

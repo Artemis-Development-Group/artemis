@@ -11,12 +11,12 @@
 # WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
 # the specific language governing rights and limitations under the License.
 #
-# The Original Code is artemis.
+# The Original Code is reddit.
 #
 # The Original Developer is the Initial Developer.  The Initial Developer of
-# the Original Code is artemis Inc.
+# the Original Code is reddit Inc.
 #
-# All portions of the code written by artemis are Copyright (c) 2006-2015 artemis
+# All portions of the code written by reddit are Copyright (c) 2006-2015 artemis
 # Inc. All Rights Reserved.
 ###############################################################################
 
@@ -91,8 +91,8 @@ modactions = {
     "config/submit_text": "Updated submission text",
 }
 
-# Page "index" in the branch "reddit.com" and a seperator of "\t" becomes:
-#   "reddit.com\tindex"
+# Page "index" in the branch "Artemis" and a seperator of "\t" becomes:
+#   "Artemis\tindex"
 def wiki_id(sr, page):
     return ('%s%s%s' % (sr, PAGE_ID_SEP, page)).lower()
 

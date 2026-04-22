@@ -4,7 +4,7 @@ Like all pieces of software, artemis has bugs &ndash; and it always will. Some
 of them will take the form of security vulnerabilities.
 
 If you find a security vulnerability in artemis, please privately report it to
-[security@reddit.com](mailto:security@reddit.com). We'll get back to you ASAP,
+[security@Artemis](mailto:security@Artemis). We'll get back to you ASAP,
 usually within 24 hours.
 
 Once the issue is fixed, if you provide your artemis username, we'll credit your

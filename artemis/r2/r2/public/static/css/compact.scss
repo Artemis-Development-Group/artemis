@@ -24,7 +24,7 @@ $static: "../compact/";
 
 
 body {
-    background: rgb(197,204,211);
+    background: #1a1a1a;
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     width: 100%; height: 100%;
@@ -34,10 +34,10 @@ p {
     margin: 0; padding: 0;
 }
 a {
-    color: #517191; 
+    color: #7aafd4; 
 }
 a:visited {
-    color: #4F565B;
+    color: #5a8aaa;
 }
 textarea {
     font-family: inherit;
@@ -84,7 +84,7 @@ textarea {
     width: auto;
     text-shadow: 0px 1px 1px rgba(255,255,255,.1), 0px -1px 1px rgba(0,0,0,.4);
     border: 1px solid #517191;
-    @include box-shadow(inset 0px 1px 0px hsla(0,0%,100%,.75), 0px 1px 1px rgba(255,255,255,.6), 0px -1px 1px rgba(0,0,0,.1) );
+    @include box-shadow(inset 0px 1px 0px hsla(0,0%,100%,.75), 0px 1px 1px rgba(30,30,30,.9), 0px -1px 1px rgba(0,0,0,.1) );
 }
 .button:active, .button[selected], .button.active,
 /*Vote toolbar styles*/.button.upmod, .button.downmod
@@ -119,7 +119,7 @@ button.button {
    width: auto;
    text-shadow: 0px 1px 1px rgba(255,255,255,.1), 0px -1px 1px rgba(0,0,0,.4);
    border: 1px solid #517191;
-   @include box-shadow( "0px 1px 1px rgba(255,255,255,.6), 0px -1px 1px rgba(0,0,0,.1) ");
+   @include box-shadow( "0px 1px 1px rgba(30,30,30,.9), 0px -1px 1px rgba(0,0,0,.1) ");
 }
 .small_button:active, .small_button[selected], .small_button.active {
     @include vertical_gradient(#7E8994, #80A2C4);
@@ -311,8 +311,8 @@ button.button {
 
 /*Toolbar*/
 #topbar {
-    @include vertical_gradient(#CEE3F8, #A8C4E0);
-    border-bottom: 1px solid #7599BD; border-top: 1px solid #DCEAF7;
+    @include vertical_gradient(#1e2a38, #152030);
+    border-bottom: 1px solid #0a1520; border-top: 1px solid #253040;
     @include box-sizing(border-box);
     padding: 0px 10px; //Left and right padding
     height: 40px;
@@ -339,7 +339,7 @@ button.button {
     }
 
     & > h1 {
-        color: #444;
+        color: #ddd;
         font-size: 18px;
         font-weight: bold;
         text-align: center;
@@ -425,7 +425,7 @@ body[orient="landscape"] > #topbar > h1 {
 #top_menu {
     position: absolute;
     right: 5px; top: 44px;
-    background-color: white;
+    background-color: #1e1e1e;
     border: 1px solid rgba(27,47,94,.4); border-top: 0px;
     -webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px;
     -webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px;
@@ -443,7 +443,7 @@ body[orient="landscape"] > #topbar > h1 {
 }
 #top_menu > .menuitem a {
     text-decoration: none;
-    color: #222;
+    color: #ddd;
     font-weight: bold;
 }
 
@@ -456,8 +456,8 @@ body[orient="landscape"] > #topbar > h1 {
 .subtoolbar {
     @include box-sizing(border-box);
     height: 32px;
-    @include vertical_gradient(white, #ccc);
-    border-bottom: 1px solid #bbb;
+    @include vertical_gradient(#2a2a2a, #1a1a1a);
+    border-bottom: 1px solid #333;
     padding: 6px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -472,7 +472,7 @@ body[orient="landscape"] > #topbar > h1 {
     overflow: hidden;
 }
 .subtoolbar > ul > li a {
-    color: rgb(76, 86, 108);
+    color: #9ab;
     font-weight: bold;
     text-decoration: none;
     font-size: 12px; line-height: 20px;
@@ -519,12 +519,12 @@ body[orient="landscape"] > #topbar > h1 {
 /*Links*/
 .link {
     min-height: 70px;
-    border-bottom: 1px solid #999; 
-    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #444; 
+    border-top: 1px solid #333;
     padding: 5px 5px;
     padding-bottom: 0px; 
     @include box-sizing(border-box);
-    background: rgba(255,255,255,.6);
+    background: rgba(30,30,30,.9);
     position: relative;
     overflow: hidden;
 }
@@ -532,14 +532,14 @@ body[orient="landscape"] > #topbar > h1 {
     border-top: none;
 }
 .link:nth-child(odd) {
-    background: rgba(206, 227, 248, .5);
+    background: rgba(40,40,40,.9);
 }
 /* Voting stuff */
 .link > .rank {
     float: left;
     margin-top: 17px;
     font-size: 12px;
-    color: #aaa;
+    color: #666;
 }
 .link > .midcol {
     float: left;
@@ -617,8 +617,8 @@ body[orient="landscape"] > #topbar > h1 {
 
 .link a { 
     text-decoration: none;
-    color: #517191;
-    color: #369;
+    color: #7aafd4;
+    color: #5b9dc9;
 }
 
 .link  p.title {
@@ -630,7 +630,7 @@ body[orient="landscape"] > #topbar > h1 {
 }
 .link  p.title > a {
     text-overflow: ellipsis; overflow: hidden;
-    color: #25A; 
+    color: #6ab; 
 }
 .link.stickied p.title > a {
     color: #228822;
@@ -654,7 +654,7 @@ body[orient="landscape"] > #topbar > h1 {
     padding: 0;
     padding-top: 2px; 
     font-size: 10px;
-    color: #333;
+    color: #ccc;
 }
 
 .link .tagline > span { 
@@ -690,7 +690,7 @@ body[orient="landscape"] > #topbar > h1 {
     margin: 5px 0; 
     margin-bottom: 30px;
     border: 1px solid #999;
-    background: #ddd;
+    background: #2a2a2a;
     padding: 5px;
     @include border-radius(8px);
     font-size: 11px;
@@ -740,7 +740,7 @@ body[orient="landscape"] > #topbar > h1 {
 }
 /* Comment styles */
 .commentarea > h1 {
-    color: rgb(76,86,108);
+    color: #9ab;
     font-size: 17px;
     margin: 10px 10px 5px;
     border-bottom: 1px solid rgba(0,0,0,.2);
@@ -750,15 +750,15 @@ body[orient="landscape"] > #topbar > h1 {
 	display: none; /*TODO: Make dropdown menu*/
 }
 .commentarea > .main-form-title {
-    color: rgb(76,86,108);
+    color: #9ab;
     font-size: 17px;
     font-weight: bold;
     margin: 0 10px;
 }
 .commentarea > .usertext {
-    background: white;
+    background: #1e1e1e;
     margin:  0 10px 5px;
-    border: 1px solid rgb(217,217,217);
+    border: 1px solid #444;
     @include border-radius(8px)
 }
 .commentarea > .usertext textarea {
@@ -768,7 +768,7 @@ body[orient="landscape"] > #topbar > h1 {
     border: none;
     @include box-sizing(border-box);
     @include border-radius(8px);
-    border-bottom: 1px solid rgb(217,217,217);
+    border-bottom: 1px solid #444;
 
 }
 .cancel,
@@ -810,7 +810,7 @@ padding: 5px;
 .markhelp tbody {
 }
 .markhelp  th {
-    background: rgb(217,217,217);
+    background: #444;
 }
 .markhelp th:first-child {
     -webkit-border-top-left-radius: 8px; 
@@ -826,7 +826,7 @@ padding: 5px;
     background: rgba(0,0,100,.1);
 }
 .markhelp td {
-    border: 1px solid rgb(217,217,217);
+    border: 1px solid #444;
     padding: 5px;
 }
 .markhelp tr:last-child td:first-child {
@@ -842,7 +842,7 @@ padding: 5px;
 /*Cloned comment reply */
 .usertext textarea {
     margin: 0; padding: 5px;
-    border: 1px solid rgb(217,217,217);
+    border: 1px solid #444;
     width: 100%;
     min-height: 100px;
     @include border-radius(5px);
@@ -854,8 +854,8 @@ padding: 5px;
 
 /**Actual comments*/
 .comment {
-    background: white;
-    border: 1px solid rgb(217,217,217);
+    background: #1e1e1e;
+    border: 1px solid #444;
     margin: 10px;
     @include border-radius(8px)
 }
@@ -939,9 +939,9 @@ body.post-under-6h-old .gilded-icon {
 
 /** messages and inbox */
 .message {
-    background: white;
+    background: #1e1e1e;
     position: relative; 
-    border: 1px solid rgb(217,217,217);
+    border: 1px solid #444;
     margin: 10px;
     @include border-radius(8px);
     padding: 5px;
@@ -953,7 +953,7 @@ body.post-under-6h-old .gilded-icon {
 }
 
 .message.unread {
-    background-color: #FFFFAA;
+    background-color: #3a3a00;
 }
 
 .message .correspondent {
@@ -988,7 +988,7 @@ body.post-under-6h-old .gilded-icon {
 .message .subject {
     font-weight: bold;
 	 font-size: 13px;
-	 border-bottom: 1px solid rgb(217,217,217);
+	 border-bottom: 1px solid #444;
 	 padding: 5px; overflow: hidden; 
 }
 
@@ -1007,7 +1007,7 @@ body.post-under-6h-old .gilded-icon {
 }
 
 .branch { 
-    background-color: white;
+    background-color: #1e1e1e;
     @include border-radius(5px);
     margin: 5px; 
 }
@@ -1026,7 +1026,7 @@ body.post-under-6h-old .gilded-icon {
     font-size: small;
     font-weight: bold;
     text-overflow: ellipsis; overflow: hidden;
-    color: #25A; 
+    color: #6ab; 
     text-decoration: none;
 }
 .branch .title a.domain { 
@@ -1093,8 +1093,8 @@ body.post-under-6h-old .gilded-icon {
 
 /* Compose */
 #compose-message {
-	background: white;
-	border: 1px solid rgb(217,217,217); border-top: 0px;
+	background: #1e1e1e;
+	border: 1px solid #444; border-top: 0px;
 	margin: 10px; margin-top: 0;
 	padding: 10px;
 	-webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px;
@@ -1173,7 +1173,7 @@ body.post-under-6h-old .gilded-icon {
   from {-webkit-transform:scale(0.75) rotate(0deg);}
   to {-webkit-transform:scale(0.75) rotate(360deg);}
 } 
-.loading { width: 100%; background-color: white; text-align: center; }
+.loading { width: 100%; background-color: #1e1e1e; text-align: center; }
 .loading img {
 	-webkit-animation-name: rotateThis;
   -webkit-animation-duration: .5s;
@@ -1192,8 +1192,8 @@ body.post-under-6h-old .gilded-icon {
 
 /* Login and Register */
 #login_login, #login_reg {
-    background: white;
-    border: 1px solid rgb(217,217,217);
+    background: #1e1e1e;
+    border: 1px solid #444;
     margin: 10px;
     -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px;
     -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px;
@@ -1266,7 +1266,7 @@ body.post-under-6h-old .gilded-icon {
     top: 75px;
     left: 0;
     @include border-radius(30px);
-    background-color: white;
+    background-color: #1e1e1e;
     text-align: left;
     z-index: 1001;
     padding: 10px;
@@ -1287,7 +1287,7 @@ body.post-under-6h-old .gilded-icon {
 
 /* Submit links */
 #newlink {
-	background: white;
+	background: #1e1e1e;
 	border: 1px solid hsl(0, 0%, 85%);
 	margin: 10px;
 	-webkit-border-bottom-left-radius: 8px;	-webkit-border-bottom-right-radius: 8px;
@@ -1464,7 +1464,7 @@ body.post-under-6h-old .gilded-icon {
     width: 100%;
     max-width: 280px;
     padding: 10px;
-    background-color: white;
+    background-color: #1e1e1e;
     @include border-radius(10px);
     margin: 10px auto; 
 }
@@ -1512,7 +1512,7 @@ a.author { margin-right: 0.5em; }
     }
     padding: 0px 2px;
     display: inline-block;
-    background: whiteSmoke;
+    background: #2a2a2a;
     color: hsl(0, 0%, 33%);
     border: 1px solid hsl(0, 0%, 87%);
     font-size: 9px;
@@ -1530,7 +1530,7 @@ a.author { margin-right: 0.5em; }
 }
 
 .mobile-web-redirect-bar {
-    background: white;
+    background: #1e1e1e;
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 14px;
