@@ -1,5 +1,5 @@
 # Artemis
-Artemis is a Windows modding forum forked from Reddit R2.
+Artemis is a Windows modding forum forked from Reddit R2's interface and using Lemmy's backend.
 
 
 # Original Reddit archived notice
