@@ -38,7 +38,24 @@ from token import *
 from modaction import *
 from promo import *
 
+# Lemmy backend models - incorporated from Lemmy source code
+from lemmy_person import *
+from lemmy_community import *
+from lemmy_post import *
+from lemmy_comment import *
+from lemmy_instance import *
+from lemmy_private_message import *
+from lemmy_site import *
+from lemmy_report import *
+from lemmy_notification import *
+from lemmy_federation import *
+from lemmy_language import *
+from lemmy_emoji import *
+from lemmy_image import *
+from lemmy_auth import *
+from lemmy_oauth import *
+from lemmy_misc import *
+
 # r2.models.builder will import other models, so pulling its classes/vars into
-# r2.models needs to be done last to ensure that the models it depends
-# on are already loaded.
+# r2.models needs to be done last to ensure that the models it depends on are already loaded.
 from builder import *

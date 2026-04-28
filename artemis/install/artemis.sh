@@ -108,6 +108,9 @@ $RUNDIR/install_zookeeper.sh
 # install services (rabbitmq, postgres, memcached, etc.)
 $RUNDIR/install_services.sh
 
+# install rust (needed for Lemmy backend)
+$RUNDIR/install_rust.sh
+
 ###############################################################################
 # Install the artemis source repositories
 ###############################################################################
@@ -142,6 +145,19 @@ clone_artemis_repo i18n artemis/artemis-i18n
 clone_artemis_service_repo websockets
 clone_artemis_service_repo activity
 
+# clone or link lemmy backend
+if [ ! -d $ARTEMIS_SRC/artemis-lemmy ]; then
+    if [ -d /var/home/guesty/Documents/Coding\ Projects/artemis/artemis-lemmy ]; then
+        # link to the existing lemmy source
+        sudo -u $ARTEMIS_USER ln -sf /var/home/guesty/Documents/Coding\ Projects/artemis/artemis-lemmy $ARTEMIS_SRC/artemis-lemmy
+        echo "Linked existing Lemmy source"
+    else
+        # clone lemmy source
+        sudo -u $ARTEMIS_USER git clone https://github.com/LemmyNet/lemmy.git $ARTEMIS_SRC/artemis-lemmy
+        echo "Cloned Lemmy source"
+    fi
+fi
+
 ###############################################################################
 # Configure Services
 ###############################################################################
@@ -157,6 +173,9 @@ $RUNDIR/setup_mcrouter.sh
 
 # Configure RabbitMQ
 $RUNDIR/setup_rabbitmq.sh
+
+# Setup Lemmy backend
+$RUNDIR/setup_lemmy.sh
 
 ###############################################################################
 # Install and configure the artemis code
@@ -176,6 +195,9 @@ for plugin in $ARTEMIS_AVAILABLE_PLUGINS; do
 done
 install_artemis_repo websockets
 install_artemis_repo activity
+
+# install lemmy backend
+$RUNDIR/install_lemmy.sh
 
 # generate binary translation files from source
 sudo -u $ARTEMIS_USER make -C $ARTEMIS_SRC/i18n clean all
@@ -262,6 +284,21 @@ helper-script /usr/local/bin/artemis-restart <<ARTEMISRESTART
 #!/bin/bash
 initctl emit artemis-restart TARGET=${1:-all}
 ARTEMISRESTART
+
+helper-script /usr/local/bin/lemmy-start <<LEMMYSTART
+#!/bin/bash
+initctl emit artemis-lemmy-start
+LEMMYSTART
+
+helper-script /usr/local/bin/lemmy-stop <<LEMMYSTOP
+#!/bin/bash
+initctl emit artemis-lemmy-stop
+LEMMYSTOP
+
+helper-script /usr/local/bin/lemmy-restart <<LEMMYRESTART
+#!/bin/bash
+initctl emit artemis-restart TARGET=lemmy
+LEMMYRESTART
 
 helper-script /usr/local/bin/artemis-flush <<ARTEMISFLUSH
 #!/bin/bash
@@ -445,6 +482,11 @@ frontend frontend
     acl is-click path_beg /click
     use_backend pixel if is-pixel || is-click
 
+    # send lemmy api requests to lemmy backend
+    acl is-lemmy-api path_beg /api/ v3/
+    acl is-lemmy-api path_beg /lemmy/
+    use_backend lemmy if is-lemmy-api
+
     default_backend artemis
 
 backend artemis
@@ -481,6 +523,15 @@ backend pixel
     balance roundrobin
 
     server nginx localhost:8082 maxconn 20
+
+backend lemmy
+    mode http
+    timeout connect 4000
+    timeout server 30000
+    timeout queue 60000
+    balance roundrobin
+
+    server lemmy localhost:8536 maxconn 30
 HAPROXY
 
 # this will start it even if currently stopped
@@ -529,6 +580,53 @@ UPSTART_ACTIVITY
 fi
 
 service artemis-activity restart
+
+###############################################################################
+# lemmy backend service
+###############################################################################
+
+if [ ! -f /etc/init/artemis-lemmy.conf ]; then
+    cat > /etc/init/artemis-lemmy.conf << UPSTART_LEMMY
+description "lemmy backend service"
+
+stop on runlevel [!2345] or artemis-restart all or artemis-restart lemmy
+start on runlevel [2345] or artemis-restart all or artemis-restart lemmy
+
+respawn
+respawn limit 10 5
+kill timeout 15
+
+env LEMMY_CONFIG=/etc/lemmy/config.hjson
+
+exec /usr/local/bin/lemmy-server -c \$LEMMY_CONFIG
+UPSTART_LEMMY
+fi
+
+# create lemmy config if it doesn't exist
+if [ ! -f /etc/lemmy/config.hjson ]; then
+    mkdir -p /etc/lemmy
+    cat > /etc/lemmy/config.hjson <<LEMMY_CONFIG
+{
+  database: {
+    uri: "postgres://lemmy:password@localhost:5432/lemmy"
+  }
+  hostname: "localhost"
+  bind: "127.0.0.1:8536"
+  tls: {
+    enabled: false
+  }
+  setup: {
+    admin_username: "admin"
+    admin_password: "password"
+    admin_email: "admin@example.com"
+    site_name: "Artemis Lemmy"
+  }
+}
+LEMMY_CONFIG
+    chown -R $ARTEMIS_USER:$ARTEMIS_GROUP /etc/lemmy
+fi
+
+service artemis-lemmy restart
 
 ###############################################################################
 # geoip service
