@@ -10,4 +10,4 @@ To make changes not in the /r2/r2/public/static folder, you will need to rebuild
 
 # Disclaimer
 
-We do not make any claims about the security or reliability of this software and we are not liable if you get hacked. Portions of this code and assets are (C) 2005-2015 reddit Inc.
+We do not make any claims about the security or reliability of this software and we are not liable if you get hacked. Portions of this code and assets are (C) 2005-2015 reddit Inc. If you find a vulnerability or you have something else to tell us, please contact artemis@cocaine.ninja for assistance or ethical disclosure.
