@@ -1,29 +1,13 @@
 # Artemis
-Artemis is a Windows modding forum forked from Reddit R2's interface and using Lemmy's backend.
 
+Artemis is an OIC social media network forked from Reddit R2. We plan to switch the backend over to Lemmy soon.
 
-# Original Reddit archived notice
----
+# Installation
 
-## This repository is archived.
+You will need Ubuntu 14.04 Trusty Tahr (nothing older, nothing newer). We recommend you use a Docker image of Trusty Tahr running on a modern system to avoid any security vulnerabilities that might stem from running such an old system in production. Download the source, make the /home/src folder, dump all the stuff from this repo in that folder, run artemis/install-artemis.sh as superuser, and then change the artemis/r2/run.ini symlink to point at development.ini instead of production.ini (if you're only devving). After that set up your hosts to make artemis.local point to your running server, and navigate to that URL in your browser, congrats, you have Artemis up and working.
 
-This repository is archived and will not receive any updates or accept issues or pull requests.
+To make changes not in the /r2/r2/public/static folder, you will need to rebuild. Run `sudo make` in /r2/ after you've made your modifications, and then run `sudo artemis-restart`.
 
-To report bugs in Reddit please make a post in [/r/bugs](http://www.reddit.com/r/bugs).
+# Disclaimer
 
-If you have found a bug that can in some way compromise the security of the
-site or its users, please exercise [responsible
-disclosure](http://www.reddit.com/wiki/whitehat) and e-mail
-security@reddit.com.
-
----
-
-### API
-
-For notices about Artemis API changes and discussion of Artemis API client development, subscribe to the [/r/artemisdev](http://www.reddit.com/r/artemisdev) and [/r/changelog](http://www.reddit.com/r/changelog) branches.
-
-To learn more about Artemis's API, check out our [automated API documentation](http://www.reddit.com/dev/api) and the [API wiki page](https://github.com/artemis/artemis/wiki/API). Please use a unique User-Agent string and take care to abide by our [API rules](https://github.com/artemis/artemis/wiki/API#wiki-rules).
-
-### Quickstart
-
-To set up your own instance of Artemis see the [install guide](https://github.com/Artemis-Development-Group/artemis/wiki/Install-guide).
+We do not make any claims about the security or reliability of this software and we are not liable if you get hacked. Portions of this code and assets are (C) 2005-2015 reddit Inc.
