@@ -1,8 +1,8 @@
 # Artemis
 
-<img width="1691" height="978" alt="image" src="https://github.com/user-attachments/assets/7ee34ab9-fd45-4d7b-bceb-2cf24611f9f5" />
-
 Artemis is an OIC social media network forked from Reddit R2. We plan to switch the backend over to Lemmy soon.
+
+<img width="1691" height="978" alt="image" src="https://github.com/user-attachments/assets/7ee34ab9-fd45-4d7b-bceb-2cf24611f9f5" />
 
 # Installation
 
